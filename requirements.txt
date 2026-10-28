@@ -1,0 +1,9 @@
+# Minimum planned dependencies for image processing + classical ML.
+# Pin versions and add tests after the dataset/method feasibility gate.
+numpy
+opencv-python
+scikit-image
+scikit-learn
+matplotlib
+Pillow
+pytest
