@@ -18,3 +18,7 @@ Tugas akhir mata kuliah **Pengolahan Citra Digital (PCD)**.
 - `tests/` — pengujian otomatis.
 - `configs/` — konfigurasi ROI, kelas, dan parameter eksperimen.
 - `data/` — petunjuk data lokal; **dataset besar tidak disimpan di Git**.
+
+## Dataset Bantul
+
+[Rilis sumber CCTV Bantul 15 November 2026](data/bantul-20261115/README.md) memuat tautan Drive, checksum paket, hasil akuisisi dan batasan. Dataset besar disimpan di Drive. Status rilis: bahan mentah dan anotasi percobaan; belum dataset training final.

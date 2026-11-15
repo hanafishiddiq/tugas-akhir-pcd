@@ -1,0 +1,1255 @@
+{
+  "created_at": "2026-11-15T15:56:49+0700",
+  "archives": [
+    {
+      "file": "00_kurasi_awal_01.zip",
+      "bytes": 63086084,
+      "sha256": "01361ca493007d1f5d7a428768799f0772a229211a2771c056eb7c690bb3ffe5",
+      "md5": "04b990002c022640f3a883a633f75596",
+      "members": 42
+    },
+    {
+      "file": "01_anotasi_percobaan26_01.zip",
+      "bytes": 91840595,
+      "sha256": "44e0d95501915c44a2587cb8f19c4e21d0a57b784724694c41721fea214ea939",
+      "md5": "9f4802c9ef219b123313d42dd39c7ac4",
+      "members": 94
+    },
+    {
+      "file": "01_anotasi_percobaan26_02.zip",
+      "bytes": 91662413,
+      "sha256": "fe6cb8ff827bb9bbdc1fad8bdfaf7a54472954dc2e4a5d154d821f9a67b45caf",
+      "md5": "39592acd44624e6b3f74aac7d5141bcf",
+      "members": 130
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_01.zip",
+      "bytes": 94280017,
+      "sha256": "e9f20e88aca6fd3c43968d9e5cca03245edf388413551c2dbadbe7488c31b1af",
+      "md5": "1d7decfaf1b992e426ed4987b9e37fed",
+      "members": 758
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_02.zip",
+      "bytes": 93995710,
+      "sha256": "a3ab3067d89fc05a225bf9ed70c0d00d63aa4e94b54048799eb29102e972783b",
+      "md5": "5cefa07adf01da0fbb854f06ee3666b1",
+      "members": 535
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_03.zip",
+      "bytes": 94287836,
+      "sha256": "28fc5f6beb8dc845de504b0c481023f95c5b8034bcf99885a57a07f22abb74c6",
+      "md5": "3554f089d0dc31cdd89535f71b8a1f3c",
+      "members": 112
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_04.zip",
+      "bytes": 93986529,
+      "sha256": "bae248e1291b950439ae6a94db011aa03a98dd8d7aef9a763eddedd16bacdebf",
+      "md5": "b5aeb11883a4e2c222ff366475d23805",
+      "members": 111
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_05.zip",
+      "bytes": 94352110,
+      "sha256": "520664a02e2d6182a322d46f7e2af7e7f50e9f31cc0eeea5e97abfad96c40167",
+      "md5": "ffbc786a46d3e63e26f89459073c7940",
+      "members": 520
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_06.zip",
+      "bytes": 94186407,
+      "sha256": "7245fe70047be7b604a5948968e06ffa3c5a00e70437c1ebb82cdb1791f578bd",
+      "md5": "04386e9ad9bb6ea1b62d9e590aec9051",
+      "members": 267
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_07.zip",
+      "bytes": 94319276,
+      "sha256": "0387dd9f248333481149db8bc73cea85d61b69e4c940c3efe5d508a00a7b2f85",
+      "md5": "4ebe0e22fb1041a1803920d167d2e60a",
+      "members": 880
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_08.zip",
+      "bytes": 94234448,
+      "sha256": "c602b53c9d7053b55dd3504cc96222500aadc91118a92020e1a22bada64a7427",
+      "md5": "af3c89bdb8f97a945021793bbf6963e0",
+      "members": 267
+    },
+    {
+      "file": "02_120menit_indeks_pratinjau_09.zip",
+      "bytes": 42463153,
+      "sha256": "38b8311c3f5b131010addb1b1f2570e4ef4a3a00046687a3055ceec41b6a5fcb",
+      "md5": "751a29b09a8be127869e59b372824a92",
+      "members": 131
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_01.zip",
+      "bytes": 93929702,
+      "sha256": "dda33c49bd3e26cb35cc27acbbf7a75251d9e82aed47dce7406f9f093ae4ca09",
+      "md5": "e115755f95f7d038bcb9d461a014d8cb",
+      "members": 108
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_02.zip",
+      "bytes": 94190754,
+      "sha256": "d5349ee85d302d6e7771828207a770381b990cf5ade4e3ae3a3edb33919a8f1f",
+      "md5": "8e0561bc53e86b75077eb6a41d0b6580",
+      "members": 107
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_03.zip",
+      "bytes": 93808898,
+      "sha256": "bfc15d5530229efd22982ce0a8cb048b07b4dfacab91d39cb538c5094b8bf8fb",
+      "md5": "6a36f0b5b68ae56627bef442122c5e72",
+      "members": 109
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_04.zip",
+      "bytes": 93978714,
+      "sha256": "69d890d82c46feb4c1040342b98041389eeeefcd4b046e7917713598bc1c9b7e",
+      "md5": "8ee0d42910ce144ca23ecf8b25601a0e",
+      "members": 112
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_05.zip",
+      "bytes": 93700878,
+      "sha256": "2544336d3c3521dbc65fa130212ade07a84213ce84c2ed2e904cdd3494286f34",
+      "md5": "e92d1893f5b3644da1d70cd1a0e6b8df",
+      "members": 110
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_06.zip",
+      "bytes": 94035706,
+      "sha256": "e21886341bd0e71c652cac92d50909d7a1072de00320e9568ffe80924af8f404",
+      "md5": "bc83135cf2f5773653ea40fe9712b3e0",
+      "members": 110
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_07.zip",
+      "bytes": 94204798,
+      "sha256": "7a66f23f04f38134643c14e0ec8b4429202e9e8455d94f1194e5fcfe0a35d671",
+      "md5": "60fd5e768c83689fc3f3a5ab30543fe4",
+      "members": 111
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_08.zip",
+      "bytes": 93934266,
+      "sha256": "1cafa308fb37ba2b151b245f681c545d39a5d8c4f99150b6f3b1ef86f83fc450",
+      "md5": "f1555f5976d31ad960a4259b4001e1e2",
+      "members": 111
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_09.zip",
+      "bytes": 93620414,
+      "sha256": "4196461231d54281aaa887c96fa7ce48128664760045087b5512a357be653cb6",
+      "md5": "c9b51742064b9d7e818ffa44d82870f9",
+      "members": 110
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_10.zip",
+      "bytes": 93786606,
+      "sha256": "2ed60be0b9c5d4d3052c2557598dcb60cd028c8f783ddb95ec0802ee4204ac10",
+      "md5": "252111be8e534f721f20cf1203645433",
+      "members": 110
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_11.zip",
+      "bytes": 93653314,
+      "sha256": "a9c5970788fc8f3e7b15a609830e019467e9d3e5dd3e94b4a2536b687b0778fc",
+      "md5": "6e3bfbad16684a28fca40b7052abc619",
+      "members": 110
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_12.zip",
+      "bytes": 93640450,
+      "sha256": "fa8104002137e259be2ffd3183c5b266c6f4f8c4ef11b016422efa38c86fb612",
+      "md5": "013a48a45b357d6a60b06da61637c0ca",
+      "members": 109
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_13.zip",
+      "bytes": 94169990,
+      "sha256": "e92fe43f1a23cbc5b9ac92323ddca76282526747c97dc9f8cdfc5ab80cb732d5",
+      "md5": "7a21dc71cd53aea32dc26ad910c25b8e",
+      "members": 113
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_14.zip",
+      "bytes": 93749354,
+      "sha256": "62c655e47e03af2ff20d5fc7e1f265d837cc47905092524ce8a0a2a455c5768b",
+      "md5": "6bcefa60dd4a9fcd4148a51141abe161",
+      "members": 112
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_15.zip",
+      "bytes": 94290042,
+      "sha256": "484019fb483a3490f1cf625116680afd263efe6539822ae21c5fa4c55e38e037",
+      "md5": "a5b274845b017d4982622f24912e4184",
+      "members": 112
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_16.zip",
+      "bytes": 93966978,
+      "sha256": "853dd169c3230bd671208139d58d1124236fff05dad42e578b0889ee88323b01",
+      "md5": "1704884d834539a9ac63cfca50deda3d",
+      "members": 111
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_17.zip",
+      "bytes": 94072902,
+      "sha256": "065ea46bd23c6e23f6143e661666b33f359ce00d4661144e39ed16907a9d8f7a",
+      "md5": "3435bb88031fc58ddfa8a8a69a96dbee",
+      "members": 112
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_18.zip",
+      "bytes": 93893094,
+      "sha256": "d29f21321d342c6b5e83bd859933badf5186b0ac37d6285a869896a8b8067190",
+      "md5": "c8ac29af838bf66d62cc837443643072",
+      "members": 111
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_19.zip",
+      "bytes": 93880014,
+      "sha256": "0275721bae32f22c8159aac57147539ba7af4b5df0a7907b1fec71041116dea8",
+      "md5": "d930ff5db2e22959a869b3058f9c87c7",
+      "members": 112
+    },
+    {
+      "file": "03_120menit_01_paseban_selatan_20.zip",
+      "bytes": 68811198,
+      "sha256": "206bddf5e41c27cab941efb80fe157c967ae04ce393dda1a83c6ab682e789a4d",
+      "md5": "bee9a207d22edf84ff068bd1bdf0daf6",
+      "members": 82
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_01.zip",
+      "bytes": 93681250,
+      "sha256": "04de2cf56b7e82db7598481a5deafe1a1f756797dca7d1406511a3a3e99628ab",
+      "md5": "098db8da35ecd7b69b16112abdebcfb0",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_02.zip",
+      "bytes": 93612630,
+      "sha256": "92c4f7d8e6ef4564dcfca357119d013ac8eed9e55586f3254bf59e0a5f0b1ca3",
+      "md5": "6bdc73c1fd17c2d345e25b1c92207529",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_03.zip",
+      "bytes": 94045030,
+      "sha256": "d50f28b8cd1810c720f694414ccf9c896292721ff3c4a742e68c4a5744434ff5",
+      "md5": "5d11fc7aacbada997e547462fb8398e7",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_04.zip",
+      "bytes": 94203514,
+      "sha256": "e4527dc8cbb2ebe81c4f1109ed0a20a7b2c5efc80c85e3ee259b838cb179c3f3",
+      "md5": "c6d1d176589468750c0449eb35a86545",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_05.zip",
+      "bytes": 93849774,
+      "sha256": "198d4b8fdd07e472e92400bdf7dc0df6f37555642d2a893022b0f405b5348b4b",
+      "md5": "f10bca624e74b67786f2772bbebc202c",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_06.zip",
+      "bytes": 93583490,
+      "sha256": "26ab22713eac4d93476150dacc6f3788025ceb514b8ffcb6e168f671b93d6693",
+      "md5": "c434ce6ab4a8d16224e74c7adc81fd88",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_07.zip",
+      "bytes": 93960354,
+      "sha256": "e48fa618f6b6c81c55d6ee5bc57acfee1acf70a3880c900b9291b14e139552a8",
+      "md5": "5a77177cee474b70c9f2beb4d4e787b8",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_08.zip",
+      "bytes": 94185354,
+      "sha256": "ae2428ff2d7e05d8992d19ff436496e07ab34da0ac282261817e51ef5c21ee60",
+      "md5": "3ed053dac55cf1decb713089566241a4",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_09.zip",
+      "bytes": 94211974,
+      "sha256": "e1ca07e34009772dc2034be2d24f102812ec5d609223974ca155af5447311574",
+      "md5": "433a03b817e3d1db161b4d4b1a383ab4",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_10.zip",
+      "bytes": 94123878,
+      "sha256": "99730b619f4f99b922cdbf477e0fbf54b5411eb672e6749c90acfcf162a7b07c",
+      "md5": "85dd914162011220902feebed93c385c",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_11.zip",
+      "bytes": 93890982,
+      "sha256": "a85f96e73df395a5520f8dc0f9ec2958bdb43359550286af6ad674bcdc0cd808",
+      "md5": "8ba92654254813aca7fa18d05ecc9d61",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_12.zip",
+      "bytes": 93748554,
+      "sha256": "517d71fd51629bbd9980b9fd496505d31bd2d36dca2a46c813a810c9444797df",
+      "md5": "a2c85ee87db70424e5a5b2a90b669750",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_13.zip",
+      "bytes": 94115718,
+      "sha256": "01ab22066dd29d626d16d39fb1e353e2294e823ddb16e3cef8ae03ce2690a7aa",
+      "md5": "7399441d56d98669f5a23b0998ecda15",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_14.zip",
+      "bytes": 93652786,
+      "sha256": "d3131db2daf5d3e9fc18f956cbb0f392d9bb786af49d75c2587837062c80da17",
+      "md5": "c8221d9bfe58fff3320f59842e9c68f3",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_15.zip",
+      "bytes": 93517314,
+      "sha256": "cff160748bb61fe7244e76d4c29b44ed6a18b7cf7a0615d50883373a8a80ee04",
+      "md5": "22b9516151220acde667b5ff9c6b4fe4",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_16.zip",
+      "bytes": 93417674,
+      "sha256": "fb1abd62fd54e19ca84fefc726b3a2082c350ef79d6ea1a4aa0389cf553d1c52",
+      "md5": "49c11d1df356c09e06a417dd73fc7bf5",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_17.zip",
+      "bytes": 93781642,
+      "sha256": "8c72e31d535e8dc1db81fb788352bae0cbc9321b13f0353db5adea552c219610",
+      "md5": "6987bc31ff52a32ced2ddc58b7721792",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_18.zip",
+      "bytes": 94001114,
+      "sha256": "52e947619c6d9d0547c44c35d3eb29049a77681ad430459c1a485715bfbf3f11",
+      "md5": "736c10474e827a27c5c16c5b6072cce6",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_19.zip",
+      "bytes": 94124478,
+      "sha256": "b3acf3d43b14dbc9b0fcae051ab096a9e01a303d15ce76355dfa5db02890d939",
+      "md5": "84c96241bc19fa4da0779c37aa19d9f3",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_20.zip",
+      "bytes": 94173058,
+      "sha256": "87c88cf18a5a3a583cc77796880e5bc1f10d3eaa4bd9e26ceaf1c404ebd6a574",
+      "md5": "e4811c99cd292a16b2b6d9f886fea384",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_21.zip",
+      "bytes": 93825334,
+      "sha256": "85b6dc28c6af288b1d0faa3a2996e73d9b740806d1c96556322557e14e700a81",
+      "md5": "df81a8dc8641d263ca5ab448e7724920",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_22.zip",
+      "bytes": 94136210,
+      "sha256": "ad96735f8cbefc0db853848282eb3a9900dce4561acfa05eec0e6326193b5815",
+      "md5": "ac6f484fd3ce5297aa98181132e77868",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_23.zip",
+      "bytes": 94043338,
+      "sha256": "0848625620ae2a070753f59bfb036c25ddbf6b96145ecc79987a5302a7b17865",
+      "md5": "a242acda8b2c2b758d7a261ec7dddd62",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_24.zip",
+      "bytes": 93650982,
+      "sha256": "a40b7c9d0b268a5d7bb981d2930c6a0702adc7afbea58525d5d94f0a92edbdc8",
+      "md5": "c8bc938fcbb6c815b8b1afa3a21284af",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_25.zip",
+      "bytes": 93420682,
+      "sha256": "e73c3603599822ba3e8cded95202d9d75cf39e19ed3939e8e4e2e31afacf4e62",
+      "md5": "d369fe22cdb3aa456a0717ce39d7f062",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_26.zip",
+      "bytes": 94065334,
+      "sha256": "fa7aebab4cc972541e0f9994c8d56e1dae9337585e02c822937bc7f34c21f4c6",
+      "md5": "d0d374e71ccd75065a8be54cfe97bfac",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_27.zip",
+      "bytes": 93680122,
+      "sha256": "72090a3d4d224e4ffbb9c4b98fdca1fafa3c76574f422052b79c6412ad0faceb",
+      "md5": "a9d399a8929c2edba23f4d8d0fbeb7ce",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_28.zip",
+      "bytes": 94038938,
+      "sha256": "9fb9524de37c83ea0d2512ebd3ea98c95941c13aeac7289c2fedda63402c6646",
+      "md5": "3b3a5b666bf5e9f03fcfac4f6e1562a6",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_29.zip",
+      "bytes": 93731634,
+      "sha256": "179cb017adcfdb262a70eda9ecb871b7406548f6308339df70713faadfb601b4",
+      "md5": "e1cd1743fcfab179edd20368c96a4f6e",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_30.zip",
+      "bytes": 93578642,
+      "sha256": "c26d4e40454862fe088e6ae246132fe7b13e65879fa1334258b8c9015fba2340",
+      "md5": "993ebcb1ea42e3be79f0382c8a6f46cc",
+      "members": 98
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_31.zip",
+      "bytes": 94147306,
+      "sha256": "be7fb166638918d8501905703ab6985834b76f0ff0016cd66d6af74e675f9f24",
+      "md5": "b55c75bbc5c57ccd768a7355dbb25d6c",
+      "members": 100
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_32.zip",
+      "bytes": 93926402,
+      "sha256": "9483322c70c93eba700d2b4ceb24059ba88404be1287a7d64ff48f53bd0b21e3",
+      "md5": "534100dfcd7b3c9768df417aaa79889c",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_33.zip",
+      "bytes": 93877710,
+      "sha256": "971463e59c862b6caf194ff29f9aa75fea2da78690c8609f7f98f5e72f3a5adb",
+      "md5": "5c988c49551a75905fe046bf917b0145",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_34.zip",
+      "bytes": 94045030,
+      "sha256": "0cea888e560cc73e369af3ad64ce177d1e9a7deef23a078f1db47f13e9fa4b61",
+      "md5": "ffa3c5f56b900c781fdd1428820a9623",
+      "members": 95
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_35.zip",
+      "bytes": 94302102,
+      "sha256": "950b1f3ea85d88f37c50a821860f5ef9ca352a1619a7146448397d0a915d08ad",
+      "md5": "2222938479d8a221b0b70d366dfaf902",
+      "members": 96
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_36.zip",
+      "bytes": 93525510,
+      "sha256": "e2e8e0a764b2cbe140066cdf66bd93e0b49c38113e47f5a07acadd6d8abaa0ab",
+      "md5": "5089e6cbca8cb5b21e7745e65ab8ca7d",
+      "members": 94
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_37.zip",
+      "bytes": 93458662,
+      "sha256": "2b9a21b62ace6e0cef9f7c0a6736654073da0bd674825279496f3e8577b92ee2",
+      "md5": "38f679cb9a3753648e1b0e28d7f3f388",
+      "members": 100
+    },
+    {
+      "file": "03_120menit_02_paseban_barat_38.zip",
+      "bytes": 36150422,
+      "sha256": "93790d43830467ecc4918b3478bfc57f3395f9413c06bd0331852bfde6002c78",
+      "md5": "1b3a1263b56ae77cbd60e356b14745b5",
+      "members": 38
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_01.zip",
+      "bytes": 94225314,
+      "sha256": "4b97cf05209cdc6e99587860b84158d45f059828e9debdc90d962096c107f8d1",
+      "md5": "1566472f036b2e0af22dd65d56492b47",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_02.zip",
+      "bytes": 94073330,
+      "sha256": "fd83683b2ac0fd95e678fbeb5c73a4f9f0019a3dda02a3a3c726b6e5dca9b48f",
+      "md5": "0e93229fe2caf797c0736132ebbc6713",
+      "members": 115
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_03.zip",
+      "bytes": 94276450,
+      "sha256": "1263565c5dae8da4a1bd05b18f963bdbe7ed67702e08a1c463585416e9ec0f23",
+      "md5": "17fd5c0439792434704dd430a090c525",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_04.zip",
+      "bytes": 93737158,
+      "sha256": "19cfc34036f4706b65e58ab4b726f852db96dbf2e6141f77dca409b5098b1dfd",
+      "md5": "985999f304cfb63aabbfd3589eaffbed",
+      "members": 117
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_05.zip",
+      "bytes": 94160266,
+      "sha256": "18a77ae2947444ee95e91db7df80b51d86494e3d20ca25da9a43512f1f0dac27",
+      "md5": "5da9dd5ff69095c79a96eb452dee562e",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_06.zip",
+      "bytes": 93992758,
+      "sha256": "21920a595a2aebb1617fb6caca6dc3e8a55ab918dc661dcde1884192b4cc5ad5",
+      "md5": "a871d6dda9a3952b5220c155bb970cad",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_07.zip",
+      "bytes": 93769038,
+      "sha256": "bf7be8386977338585a0c6f1b30e6faef177e43ac8f8f01ec1fbcca58c11f064",
+      "md5": "adfb2f69bd6e0805c25796f0b0879df6",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_08.zip",
+      "bytes": 93814078,
+      "sha256": "447d605b0b40fdce317d844d3d80dd48b5bf634812bf8ca6bd27d14d4443cd00",
+      "md5": "993dbdb2dcc68507e1eafa8f6def04f7",
+      "members": 115
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_09.zip",
+      "bytes": 94400046,
+      "sha256": "835dbaa43ec1cdb52b4c6f6b31ed0e9d86168ca316550732c9e12f6973d87967",
+      "md5": "032742ee527b74e6535d9168cc9e6cd0",
+      "members": 117
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_10.zip",
+      "bytes": 93675974,
+      "sha256": "f18d1b2f40a4d18262b76e257521940e088722ed2aa2e5c8bfe5f62ffb69acda",
+      "md5": "37d14e1bccf09d76fe09855d735ee4f4",
+      "members": 123
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_11.zip",
+      "bytes": 93661314,
+      "sha256": "bfb0752ea0c407d08581b3100375d897dea364154d10203a688f347ee0b06c5b",
+      "md5": "23abacde5f2b495949faaae196667673",
+      "members": 116
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_12.zip",
+      "bytes": 93877082,
+      "sha256": "01f777dd46ff999b3016d51100ad13c0ab8a76345ae44422549a77c13bbd99b3",
+      "md5": "4a78d382a39f6396d3d92abb6a1d8098",
+      "members": 120
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_13.zip",
+      "bytes": 93647186,
+      "sha256": "07d51e0d4874f227d3da348b3a12c36746c09257cc7b60839759382a093a7a1e",
+      "md5": "aa41048ce3e5c59bb7043a82d800d6b2",
+      "members": 118
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_14.zip",
+      "bytes": 93749030,
+      "sha256": "5f205ac0cfc81aed5735ea6729ca6f6bbc2e3912785b24f83d0a5979c806232b",
+      "md5": "c8658b61409ff59b5741656c050c68ed",
+      "members": 115
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_15.zip",
+      "bytes": 94230226,
+      "sha256": "f2ad7b53cac176b5569ce53878829996853977b44b826aae456c1405d9b9c2b6",
+      "md5": "161d0a7646d3beaf945efd05b4a72242",
+      "members": 121
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_16.zip",
+      "bytes": 94200778,
+      "sha256": "42dd25b2b0f707843ca42ed780adc6db54a81cf4ebe051b31cf8f6a94666ca95",
+      "md5": "21f47eb3381666db43b1003e4038f75a",
+      "members": 143
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_17.zip",
+      "bytes": 94104146,
+      "sha256": "880c665c14675b38c8ee8988421ae3494bc39e31ecaa149ccbb030186f1252b4",
+      "md5": "931b52ab0cff8e1cde09c4cf76be5416",
+      "members": 143
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_18.zip",
+      "bytes": 94093814,
+      "sha256": "829c9f2c9c6597fef52cdd83dbe74a119915a525be32dfb4763d15ae3c2edf8a",
+      "md5": "17422e7f314c1be697f62c720392bba9",
+      "members": 129
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_19.zip",
+      "bytes": 93756330,
+      "sha256": "0b96e0740889e20ef0f5d6575d6a1d579de7c2d5ed8b2de887ba00a3aae43d4c",
+      "md5": "adf7a5224254f02773a8e8d243d830f7",
+      "members": 124
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_20.zip",
+      "bytes": 93632710,
+      "sha256": "4f8cb97abba8d7c872b948168ad87be93a92ae760c18fc7522c840252303a04c",
+      "md5": "5630411cc1d0e236bf98864c4578d205",
+      "members": 118
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_21.zip",
+      "bytes": 93880814,
+      "sha256": "1f725d04e4b5bb9db1d9b23ccef13a9ef5760ecc55aa110705102fb9792ceb12",
+      "md5": "c095f4d24e0e67ea404843944dd1bbfe",
+      "members": 122
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_22.zip",
+      "bytes": 94140358,
+      "sha256": "62c45f34937af9308e4b0d9e137bd014ffced2cefd03033741e77b68b9b6bdcb",
+      "md5": "1fb160a44f29ad989bf59ec96f6b3d22",
+      "members": 128
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_23.zip",
+      "bytes": 93886338,
+      "sha256": "e21c444672700c640ccf069c1f4823d897f1cefdd98974eaea59251bf128156c",
+      "md5": "ba2a18aa769f6c7ad9e83c44749fe841",
+      "members": 137
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_24.zip",
+      "bytes": 93982302,
+      "sha256": "fbc485375cd366a175ab1f4c27536da2f22e03543ee7c857587fbe4d41fa195d",
+      "md5": "bafce1f51bc7a9b4b3b673a15cba8a43",
+      "members": 131
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_25.zip",
+      "bytes": 94349522,
+      "sha256": "5a4c987b3ea5cbc819b053725b3cad6fcb2ec7a6c9ec49bc60ebe1a5181c8a54",
+      "md5": "05070a28d00a38e690bc4f44d8de1d2f",
+      "members": 127
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_26.zip",
+      "bytes": 94331606,
+      "sha256": "ec9c197d8226bf9cecf88b41c71401dc02f48b7ff914a08e1c3a7ea91a5dd407",
+      "md5": "264f276d10838f2cbc1d1753c8814b91",
+      "members": 131
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_27.zip",
+      "bytes": 93800042,
+      "sha256": "1d51673d95b0247a443183224250d1fc075176022550e7810cc909d95138b72d",
+      "md5": "e4b797caadb49cd4cd27e0f9fcf90d6a",
+      "members": 144
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_28.zip",
+      "bytes": 93718326,
+      "sha256": "55d0c988352a6ed5d811c128ea03ef4bab8d0147388e8af9d74817a705a5b7cf",
+      "md5": "1770918f591ba3e76a882170ef3c0a66",
+      "members": 126
+    },
+    {
+      "file": "03_120menit_03_klodran_selatan_29.zip",
+      "bytes": 91349742,
+      "sha256": "814e335cf8d006b4b00e9f27e3308d1c071ed6d8f69e7f85d8cd2cc50b505429",
+      "md5": "b657d3dbb308c4d20c1550b6fe035adb",
+      "members": 124
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_01.zip",
+      "bytes": 94252118,
+      "sha256": "0fabd4bb152c6d0edf3ba71314ffa01f6a77dfe8f1734f17659555830632132a",
+      "md5": "18dce9e9ac60c28cecf42fa98dd3d387",
+      "members": 133
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_02.zip",
+      "bytes": 94115614,
+      "sha256": "fbe05b404a6ca476cb08f550e0e8ee1ac6e971547f9d9c944cca7f8b497801cf",
+      "md5": "972482fe53787d3d78d3df826a432ed2",
+      "members": 138
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_03.zip",
+      "bytes": 94088150,
+      "sha256": "395e67aa294f963b04b6f8878993669c62012b28d23b2624af505b870e5ee857",
+      "md5": "b2adbe8073eb251d7c4d8cb933f345c7",
+      "members": 143
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_04.zip",
+      "bytes": 93814090,
+      "sha256": "6521d5a7cafb4da0f7e0872034012f83bd8cd116f086dbccd00b14333b6b1ff7",
+      "md5": "b37b9dcad7314f1a699df4d4b0eb0f78",
+      "members": 141
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_05.zip",
+      "bytes": 93972850,
+      "sha256": "b40910226a4603f2e8653bf5d611e0304a492e64f26e735b852c23944db908a7",
+      "md5": "2c33ebcda7e9f2d2a2ff0cb7c255f3e1",
+      "members": 137
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_06.zip",
+      "bytes": 94068554,
+      "sha256": "312ce2f3f1d67f1f167e0382b9f8c805f13b81059072189d26774398ecdfa6f5",
+      "md5": "2a0b0ff1e47439655afb9735698c1b40",
+      "members": 145
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_07.zip",
+      "bytes": 93875538,
+      "sha256": "eb2102d3786e5d628ac8d4232fec694dc1970edeeffd23c3e33ef9b503d0d567",
+      "md5": "1e5a024a1480f481ccc2f557d906a9bd",
+      "members": 138
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_08.zip",
+      "bytes": 93996814,
+      "sha256": "5f310c2a6795111c9a3ad8022feeb8b4e21b1e9c77adac2824e9aa1848cf1887",
+      "md5": "c1ef1ff5b74e2ad87aadf7f78a6ddd9f",
+      "members": 133
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_09.zip",
+      "bytes": 93976566,
+      "sha256": "1b058ebaae9eae0a3b2ba60b7c1994da36bcad10c40007b7157c26ef24f1156d",
+      "md5": "d0439eadc8d6cfbdeb979af971e1c8d9",
+      "members": 139
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_10.zip",
+      "bytes": 94110278,
+      "sha256": "66cd22eda90514ca3e23b84bc0e0ac5931d9a238f83b12f71e66f21babc21bb9",
+      "md5": "3f020aae78437197b91b87b8bf86dce6",
+      "members": 137
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_11.zip",
+      "bytes": 93969262,
+      "sha256": "92eff6c751ef850e91ccf305251c3b360b12aef24bdcbf44044a6c00e16d7a2c",
+      "md5": "3f6ff1bc0a9a7503d23992423b94b45a",
+      "members": 142
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_12.zip",
+      "bytes": 93749386,
+      "sha256": "7305ae6e6fa149e3d32322e78e43f61db3f3237c1908c4395566fa7215a1a435",
+      "md5": "f355e7d46520d3b0e43da0091ebe8f3f",
+      "members": 151
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_13.zip",
+      "bytes": 93785714,
+      "sha256": "f50dcfc703eb45d41caa93324e588a0c07d24245e1146535a9ce58e6198981b7",
+      "md5": "3c7b28d41adac8cc7e2660073024ef5e",
+      "members": 149
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_14.zip",
+      "bytes": 93706354,
+      "sha256": "f1c1bff72afd6379d28698ca2962e4eb79d2895756268b1aaed3f0dd23b95654",
+      "md5": "726e3ddb1d32967adcd2c6185a95754e",
+      "members": 133
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_15.zip",
+      "bytes": 94241242,
+      "sha256": "8073c52ece52d81d0f802b4b52a851164e67cc4765d0b7f58eaf29fce3c39eff",
+      "md5": "34081d03a230c104b9d3412e5c0400e5",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_16.zip",
+      "bytes": 94277074,
+      "sha256": "583515073de2ebf978a6be02078f71b69f3e64653341489eddced4565cd0fb54",
+      "md5": "e5c7f025b00805718c0381ba2e29eda8",
+      "members": 148
+    },
+    {
+      "file": "03_120menit_04_bejen_barat_17.zip",
+      "bytes": 5593106,
+      "sha256": "c3809a0ab46dc02dc435841069d0ee9296ca2b9a7e88b17d3d114ed085b94277",
+      "md5": "c0fc0a8247face42ab7ec3f6fba93c93",
+      "members": 9
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_01.zip",
+      "bytes": 93943738,
+      "sha256": "c20959ee7de4a7a7d6c9d7dc25772fee5d6c37e68401c4de2f438bd4d56d55c9",
+      "md5": "128526a182609851d5ef202055a686d8",
+      "members": 120
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_02.zip",
+      "bytes": 93636194,
+      "sha256": "8317e3a4b40ce59018fd7345f76f2c204c000960a67b4e70a8b695dbab7956f9",
+      "md5": "c5c04a623e63381f596af6174e5bfd95",
+      "members": 127
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_03.zip",
+      "bytes": 93973946,
+      "sha256": "8a37aced0a4b9a7be64d9de6d39dc8b94bb454fed42a9345d06b4544710436fe",
+      "md5": "9a4f03c5f5e7769d0504841b990c780a",
+      "members": 126
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_04.zip",
+      "bytes": 93986146,
+      "sha256": "855b242a593617e61e45baa3539694fa4da1d03a421be30fc34195afb6f6d27f",
+      "md5": "f5b187dc5dca119b07fca1115fce7639",
+      "members": 128
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_05.zip",
+      "bytes": 94017790,
+      "sha256": "9aaebf63bc04b5af0a57a3a5e874e8b714b84adc0d3fb1dda764bca692b1e3cd",
+      "md5": "c4eb8f2e71f0158ff45afb3329a9c545",
+      "members": 122
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_06.zip",
+      "bytes": 94373638,
+      "sha256": "b1c3ed8315cb2f24622c9f673a5503ebaa9474d05e7e295829d726e415e8b89e",
+      "md5": "4f28ad1ddf64a86aa963bbdaad4ae93d",
+      "members": 135
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_07.zip",
+      "bytes": 93791542,
+      "sha256": "cee7b85da0660601f71252ed6cbc8b61daf50b32e14d7faa73fdeef4b45c0510",
+      "md5": "bb6f2c755ab43fd96df01adcd23eface",
+      "members": 121
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_08.zip",
+      "bytes": 94301986,
+      "sha256": "7c9482d56a309c34ca880dce8ea9951093190db0d8296e9346ce0fa3187e9c0e",
+      "md5": "264bb8c115034fa7187c2453cfbcfede",
+      "members": 128
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_09.zip",
+      "bytes": 94000122,
+      "sha256": "f2151863cea60f633d62f55875bde5f9e8d1365310f072aa74212a991f732eeb",
+      "md5": "99e0b6feacfdb36c863412cc161626a4",
+      "members": 131
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_10.zip",
+      "bytes": 94090594,
+      "sha256": "d3b4aaf8881369c56ba767b184ec5f0637a5d9102c767150c077685e51f384f7",
+      "md5": "a547d8b9a300f1fdf8ac9d2374e55846",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_11.zip",
+      "bytes": 93871574,
+      "sha256": "800712205d091f0283aad12a09bd5889f19bb8b8b4c2b5049fd48c88d96df4b4",
+      "md5": "926dbec3c8e7d60d55993863cf98699e",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_12.zip",
+      "bytes": 94091070,
+      "sha256": "be225b5c583a4a0066a4d67867600cb6a47457cb8fb35c5503fb8f72d866ceb1",
+      "md5": "f0a1c354455bc176a1d7b4acfc515d6b",
+      "members": 126
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_13.zip",
+      "bytes": 93839342,
+      "sha256": "e69de052d8d05bc92b106f8a79c38525be913d663610c8b4eb69f235217e9884",
+      "md5": "d86aae2b1f3910453b2a10c0fe2456ac",
+      "members": 135
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_14.zip",
+      "bytes": 94389222,
+      "sha256": "bfa3f1acd1ade097f37f89b9c238ab0c36665bbccd0d71c7d14246813e4afd7e",
+      "md5": "71389735a182bcd43d03633f34fc2298",
+      "members": 137
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_15.zip",
+      "bytes": 93809034,
+      "sha256": "fe15d536ffc9aa87e96120348e60f9c16582c3eef0bd98932d87b19fd0e5e02b",
+      "md5": "dfaf654a2c5a0009d57da65d20659523",
+      "members": 139
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_16.zip",
+      "bytes": 93784802,
+      "sha256": "b1b11655a435825629f848a52516191d2436a3bcc9877766cc88efc3cdd03cd7",
+      "md5": "1339a82f56d3d9f807bc8012472ec645",
+      "members": 137
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_17.zip",
+      "bytes": 94322918,
+      "sha256": "9a95cba3b7534bf0a49d69be3b1e8c248694808b37e0b4f5ff15adfc4f28b307",
+      "md5": "c8106fbb72cd53c2ae422b6f0bef8a90",
+      "members": 131
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_18.zip",
+      "bytes": 94346086,
+      "sha256": "bca697c24875ff1bfb3a725c645e3fd49722e49079463e5a3b825a2dc20f3899",
+      "md5": "92c4b011a92216bd822d96466b6419d5",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_19.zip",
+      "bytes": 93660510,
+      "sha256": "007f3dead710241270bd3782516f4ac5824001d4c513f506cd7e2c9fc7892f67",
+      "md5": "42c5656edcd9d66eeb612689555fbf81",
+      "members": 130
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_20.zip",
+      "bytes": 94040022,
+      "sha256": "1c7803ee808b12da2e893e1c7260ee6f825ddc562998d107e2a7816e87e0bf67",
+      "md5": "c31a6eb13553c3b2fe24eb47659a8698",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_21.zip",
+      "bytes": 94371762,
+      "sha256": "4a0118c77053a39588399a474a759144b8fd6ef44cb133647dd2b44c590c391a",
+      "md5": "2e217bf31074a4f550d36dc73aeba532",
+      "members": 144
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_22.zip",
+      "bytes": 94129322,
+      "sha256": "2aa23f308d8086aaa0083d7b454afedb8fa05efa2ec5029be90bab4898d45007",
+      "md5": "0243f84915b47e40c6de0c2759ff6d72",
+      "members": 136
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_23.zip",
+      "bytes": 93780566,
+      "sha256": "7d5b0b9b5fcd5e1c77cc11e0b9946403113922d7ede792dab45295aeeb09f76b",
+      "md5": "c487a7b65bdd0af967988b5e4b335b70",
+      "members": 147
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_24.zip",
+      "bytes": 93966082,
+      "sha256": "1c7c2529481cf7b76162e384b5ee7b43bcea2cb7efbfb3946d2771a2fb4837cb",
+      "md5": "e9599453f4ffb289e7de117b97974517",
+      "members": 151
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_25.zip",
+      "bytes": 93950918,
+      "sha256": "998198f844769aa241cac0522d23e388492d280908a2539e63359448962ad4c0",
+      "md5": "0ed219df0bfd71ae44481977c0a25e8b",
+      "members": 154
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_26.zip",
+      "bytes": 93753058,
+      "sha256": "b302739ac3b80a49716d237e11fab217709a902e2a95d9f37c8a548a56cf601d",
+      "md5": "02396280af3b4eb31d55ff11b8f56099",
+      "members": 153
+    },
+    {
+      "file": "03_120menit_05_palbapang_selatan_27.zip",
+      "bytes": 49217414,
+      "sha256": "7fee41ad0745fbccf23cc820e1f3022bf38a79cf9298a08bdf31290b8139b4e8",
+      "md5": "1117d5905995f5c9cb11ae2705eb75cc",
+      "members": 82
+    },
+    {
+      "file": "04_pengambilan_awal_01.zip",
+      "bytes": 94123041,
+      "sha256": "5640e8926457b09b9f53781f6a0cec9fac60af31b77a5b34d30b3a09ba7aa2f8",
+      "md5": "dce8cec3882afb703dcac51bf2e79b5b",
+      "members": 73
+    },
+    {
+      "file": "04_pengambilan_awal_02.zip",
+      "bytes": 94017448,
+      "sha256": "f806d70fb5e53eee5891e93a9f91529420974eb15985edf483b50d4d735c7ce1",
+      "md5": "7798fea5a35a01756d76b22046cf815d",
+      "members": 32
+    },
+    {
+      "file": "04_pengambilan_awal_03.zip",
+      "bytes": 93866496,
+      "sha256": "6f9739b4fa0cdb37b0b02e2c71262498d382d7cd31a6020b179146b4a4b44d6b",
+      "md5": "89ddb490528b6b67045ced429f7ecc24",
+      "members": 27
+    },
+    {
+      "file": "04_pengambilan_awal_04.zip",
+      "bytes": 93122222,
+      "sha256": "14a79563883ee140f518d78492f2844d8abe013c13706f2cc91d56eefe86f72a",
+      "md5": "0d9208868944587a4e9e903281f7dd89",
+      "members": 27
+    },
+    {
+      "file": "04_pengambilan_awal_05.zip",
+      "bytes": 92523372,
+      "sha256": "b34f896c42280ccf120df961a65e0a6350b288b653a3cce450b63d1fbd6fac0c",
+      "md5": "60be12b1c85f352c5d6e6b4920fb264f",
+      "members": 27
+    },
+    {
+      "file": "04_pengambilan_awal_06.zip",
+      "bytes": 75076545,
+      "sha256": "bd79ca84897453589eb6aee15e2786e5770a4d46f53977fcf7bc7b6a0d563edb",
+      "md5": "28a74923914e4546cf3fae2e3a77922a",
+      "members": 28
+    },
+    {
+      "file": "04_pengambilan_awal_07.zip.part01",
+      "bytes": 94371840,
+      "sha256": "3e33191f5b567dae409c1ff3539712f23b2b2ca93e593a6cedd7bab15da08c61",
+      "md5": "39a86cb2abc44449b9ed13bfd747a078",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_07.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_07.zip.part02",
+      "bytes": 94371840,
+      "sha256": "7cae5cc2ff212531e219cb0787a7c49378c6482f2c7068f15620403f9091c222",
+      "md5": "d0fdcfd1110f5e8182faa43a6c769d09",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_07.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_07.zip.part03",
+      "bytes": 94371840,
+      "sha256": "88fb24bf068d977a67a7ef72adcbf8d476f5bcc8b3ee9ceb3ef2494e46dae0c7",
+      "md5": "a807302c111d612ca9c86aef871ad851",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_07.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_07.zip.part04",
+      "bytes": 1781897,
+      "sha256": "e9bc81fb848675ade01e4c6f2d312c6f279895c405224512fdfa3960b96f33aa",
+      "md5": "644aa366a9f5bc3a45db12aec1e62989",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_07.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_08.zip",
+      "bytes": 93653319,
+      "sha256": "ea62225696087fce1b159d99dbb778df7f005fceefac1f12840b9d016e8694a7",
+      "md5": "34872243ccf6173165a24abd8e65555c",
+      "members": 73
+    },
+    {
+      "file": "04_pengambilan_awal_09.zip",
+      "bytes": 69404474,
+      "sha256": "af628ab30436b8766eaf1f364a3057b90b45424bb75be1a6ad386179292a17bf",
+      "md5": "ee76cf81ef36565b831e62f85f1a922a",
+      "members": 57
+    },
+    {
+      "file": "04_pengambilan_awal_10.zip.part01",
+      "bytes": 94371840,
+      "sha256": "49e982bb809dfa0c69c7b502393fd6fac7af9087b72efcee026ad6642e486da3",
+      "md5": "a3b65f29972c9c1e5edc3475123ae997",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_10.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_10.zip.part02",
+      "bytes": 94371840,
+      "sha256": "64cba2cc692a8ec825565d8fdaa3f67f484ed4d8b4e2fb1d7e3b30deddfd15c9",
+      "md5": "7a4599359481de58697b99377c14128b",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_10.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_10.zip.part03",
+      "bytes": 36350262,
+      "sha256": "17e5deadcb6b7888cda90975b5bc3d6c4af53f3fe6e165f9bf6a76f60407244a",
+      "md5": "badcbc4ee3a67e2c291ae776bd3357f3",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_10.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_11.zip",
+      "bytes": 93317410,
+      "sha256": "8dbe38228a97c2bd8ba0f767d7b80909ddffe9c40c5b7ee76b86db682c2c4b7f",
+      "md5": "31b6d54d3409c15a4c3ef64d93100e71",
+      "members": 66
+    },
+    {
+      "file": "04_pengambilan_awal_12.zip",
+      "bytes": 85877210,
+      "sha256": "a860bd2fb3e9bee04e7e30bac28c45a3fbac5e7463f01c7f04a7a2c64d609510",
+      "md5": "b9953299d8804269dd40986f1d8975cf",
+      "members": 64
+    },
+    {
+      "file": "04_pengambilan_awal_13.zip.part01",
+      "bytes": 94371840,
+      "sha256": "355742f3d9071aba106055f4760058dc90b8dbff2bc241e36e675a19b485445c",
+      "md5": "438b867165da40e8649c1a997955d5e2",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_13.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_13.zip.part02",
+      "bytes": 55230812,
+      "sha256": "8406c8996ca46a9f6003cbf9720494a88d0dc0ed1d33fd7caf332a61c2edc0e3",
+      "md5": "b8dedc55f6d1a2c7df04ed368ebe84a0",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_13.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_14.zip",
+      "bytes": 93403342,
+      "sha256": "94b6ff89023ec212195097b3e0f38414173c6f66675aa902f84675166e3041f4",
+      "md5": "b317b7ac7c2dc188bbcc5fa9e71e8f43",
+      "members": 67
+    },
+    {
+      "file": "04_pengambilan_awal_15.zip",
+      "bytes": 85747586,
+      "sha256": "fc06941952337ac23adb7e5d3d34de84ac586bddc6115a849c1a84bfb025fe89",
+      "md5": "67fa2fb1f436da65b72903a0fec669d6",
+      "members": 63
+    },
+    {
+      "file": "04_pengambilan_awal_16.zip.part01",
+      "bytes": 94371840,
+      "sha256": "65f22b35a2e334f4026966950db15ca08b6a1bae90843bcf7b9338f75f8ac3a0",
+      "md5": "833ca709d115c8f9dea6a8bd3559ec69",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_16.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_16.zip.part02",
+      "bytes": 88480036,
+      "sha256": "18af1ae6ea1182ec7698c317a8a93801e126bf87bf2d7607979018d78ebc54aa",
+      "md5": "7cf5c77d7f85c51dc70ded3e7cb31b5b",
+      "members": 0,
+      "kind": "zip_part",
+      "reassemble_to": "04_pengambilan_awal_16.zip"
+    },
+    {
+      "file": "04_pengambilan_awal_17.zip",
+      "bytes": 721628,
+      "sha256": "941005f864e26fd7e9cef7b8c07b64988d3ee837a34b58dbddae55e04cd1bdcd",
+      "md5": "7b2083736dcbe467a08bca114e6379e7",
+      "members": 15
+    },
+    {
+      "file": "05_laporan_01.zip",
+      "bytes": 180870,
+      "sha256": "e3be0cf542ecb1dc204cb8a6185421c939b8ea39f82bc0f7098bdd9c1561619e",
+      "md5": "278d3e2129f509d505bf97b6d10d9047",
+      "members": 10
+    }
+  ],
+  "training_ready": false,
+  "extract_to": "Download all packages into one folder, run restore_dataset.py, then extract all ZIPs to the same empty directory. Four initial-video ZIPs require reassembly.",
+  "excluded": "PROCESS.json and .DS_Store only; unrelated datasets and failed empty run are not part of this Bantul release",
+  "reassembly": [
+    {
+      "file": "04_pengambilan_awal_07.zip",
+      "bytes": 284897417,
+      "sha256": "efdfa362658f55387a96a1dbe94e0a852b32c40c17d491b1c6ca6c908116e3f6",
+      "md5": "277b18dc700f32a0eabe63efa52b8b35",
+      "members": 1,
+      "parts": [
+        "04_pengambilan_awal_07.zip.part01",
+        "04_pengambilan_awal_07.zip.part02",
+        "04_pengambilan_awal_07.zip.part03",
+        "04_pengambilan_awal_07.zip.part04"
+      ]
+    },
+    {
+      "file": "04_pengambilan_awal_10.zip",
+      "bytes": 225093942,
+      "sha256": "8aba9be48b1f08e748f515b6d5fc836c37fb1618afa57ea4020925a3aac4e534",
+      "md5": "c7cfa930449ac7bebff46b6c14c2510e",
+      "members": 1,
+      "parts": [
+        "04_pengambilan_awal_10.zip.part01",
+        "04_pengambilan_awal_10.zip.part02",
+        "04_pengambilan_awal_10.zip.part03"
+      ]
+    },
+    {
+      "file": "04_pengambilan_awal_13.zip",
+      "bytes": 149602652,
+      "sha256": "b6e1a3c492b99e4933e62c9b5279cba680272f55791461818bf24047afe17fa1",
+      "md5": "aeaee252bac647434db2fd638b8d916b",
+      "members": 1,
+      "parts": [
+        "04_pengambilan_awal_13.zip.part01",
+        "04_pengambilan_awal_13.zip.part02"
+      ]
+    },
+    {
+      "file": "04_pengambilan_awal_16.zip",
+      "bytes": 182851876,
+      "sha256": "df229b1d837cd1343e1fb45504b3b99c2e9d5bdb9b415b28c839503d299076ce",
+      "md5": "e85eb90c05f304968dec9a5fd8b04706",
+      "members": 1,
+      "parts": [
+        "04_pengambilan_awal_16.zip.part01",
+        "04_pengambilan_awal_16.zip.part02"
+      ]
+    }
+  ]
+}
