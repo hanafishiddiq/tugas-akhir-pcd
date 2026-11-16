@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-16",
+  "total_source_images_indexed": 2063,
+  "priority_images_reassessed": 1121,
+  "reserve_camera_images_inherited": 942,
+  "active_images": 222,
+  "active_by_decision": {
+    "selected_queue": 171,
+    "selected_empty": 16,
+    "selected_challenge": 35
+  },
+  "active_by_camera": {
+    "01_paseban_selatan": 81,
+    "02_paseban_barat": 78,
+    "04_bejen_barat": 63
+  },
+  "active_by_session": {
+    "20261115_114313_WIB": 31,
+    "20261115_131932_WIB_120min": 191
+  },
+  "visual_class_presence": {
+    "motor": 194,
+    "mobil": 147,
+    "unknown": 35,
+    "bus": 12,
+    "other": 12,
+    "truk": 6
+  },
+  "core_visual_class_presence": {
+    "motor": 160,
+    "mobil": 123,
+    "unknown": 19,
+    "bus": 7,
+    "other": 6,
+    "truk": 1
+  },
+  "provisional_active_groups": 193,
+  "v2_retained": 38,
+  "added_vs_v2": 184,
+  "legacy26_selected": 25,
+  "v2_original_groups": {
+    "candidate_groups": 170,
+    "represented_before": 36,
+    "represented_after": 168,
+    "still_without_selected_rep": 2,
+    "not_independent_vehicle_or_episode_count": true
+  },
+  "training_ready": false,
+  "new_vehicle_annotations": 0,
+  "dataset_version": "Bantul_CCTV_v3",
+  "active_by_tier": {
+    "core": 187,
+    "challenge": 35
+  },
+  "visual_class_presence_unit": "images_with_class_observed",
+  "split_status": "unassigned",
+  "drive_folder": "https://drive.google.com/drive/folders/1MaLqNqmCQNgn2FsZjGHeiZsNZtVYlwRE",
+  "drive_image_upload_status": "completed_metadata_verified",
+  "drive_image_bytes": 191480862,
+  "local_unused_video_files_removed": 14411,
+  "local_complete_source_archives": "Google Drive; working subset and provenance clips retained locally"
+}

@@ -1,6 +1,6 @@
-# Dataset CCTV Bantul 15 November 2026
+# Arsip sumber CCTV Bantul 15 November 2026
 
-Bahan sumber untuk PoC analisis jumlah mobil, motor, bus dan truk serta persentase cakupan ROI pada satu gambar CCTV persimpangan. Dataset ini belum siap training: kurasi episode batch baru, aturan keanggotaan ROI, label tambahan dan split masih perlu diselesaikan.
+Arsip akuisisi untuk PoC analisis jumlah mobil, motor, bus dan truk serta persentase cakupan ROI pada satu gambar CCTV persimpangan. Paket gambar yang kini dipilih untuk anotasi dan pratinjau tersedia melalui [Kurasi CCTV Bantul v3](../bantul-curated-v3/README.md). Label percobaan dalam arsip ini masih perlu revisi.
 
 ## Isi paket
 
@@ -35,4 +35,4 @@ Seluruh 644 klip dari batch 120 menit lulus hash/decode; 1.550 JPEG diperiksa da
 
 Sumber: portal publik Pemerintah Kabupaten Bantul https://bantulkab.go.id/cctv.html dan Diskominfo Bantul. Halaman/konfigurasi sumber disimpan pada metadata; konfigurasi pemutar mencantumkan CC BY 4.0. Video sumber dipakai untuk memilih gambar dan memeriksa konteks berhenti; input PoC tetap satu gambar statis.
 
-Berikutnya kurasi episode antrean yang berbeda, validasi ROI dan kelas langka, selesaikan anotasi, lalu pisahkan kelompok lokasi/sesi/episode sebelum training. Hindari menaruh frame bertetangga dari episode yang sama pada train dan test.
+Lanjutkan anotasi gambar pilihan v3 dengan ROI jalan terkunci, kemudian validasi keanggotaan ROI dan dukungan kelas sebelum menentukan split berdasarkan lokasi, sesi, dan episode.

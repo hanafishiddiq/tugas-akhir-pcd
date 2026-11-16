@@ -1,0 +1,27 @@
+{
+  "version": "bantul_roi_annotation_policy_v1_20261116",
+  "status": "locked_for_annotation",
+  "scope": "Road geometry and manual annotation protocol only; automatic membership remains pending validation.",
+  "required_future_fields": [
+    "roi_membership: inside|outside|boundary_review|unknown",
+    "membership_reason",
+    "road_contact_xy: visible evidence or null",
+    "crosses_roi_boundary: true|false|unknown",
+    "occlusion",
+    "class_name: mobil|motor|bus|truk|other|unknown"
+  ],
+  "rules": [
+    "Inspect original full image, not masked/cropped ROI, so roofs and riders outside road polygon remain visible.",
+    "Decide target approach and physical road contact/base evidence, not bbox center, bbox overlap alone, shadow, or rider foot.",
+    "A visible contact point assists review but is not the sole membership rule; if vehicle spans a boundary, contact point conflicts with visible body/base, or important contact is hidden, use boundary_review or unknown.",
+    "A point within 3px at1280width (4.5px at1920) of any ROI boundary is flagged for review. This is a conservative annotation aid, not a calibrated physical error bound.",
+    "Do not invent a hidden wheel/contact point; do not turn unknown into outside/zero. Resolve with documented review before scoring; if unresolved mark frame/region incomplete and report scope.",
+    "Stop boundary follows visible paint upstream edge where available, with virtual extension over missing portions. Upstream virtual boundary fixes study extent and is not queue tail or calibrated road length.",
+    "The same final accepted four-class object list feeds count and coverage. Coverage is union of visible half-open bboxes intersected with full fixed road mask, divided by road mask area; overlaps counted once.",
+    "Mark moving/arriving context separately if known from curation; a static input cannot establish duration of stopping. No new vehicle annotation is made in this ROI step.",
+    "Future runtime membership rule must be implementable from single image detections and validated independently. Ground contact annotations are not available automatically at inference."
+  ],
+  "automatic_bbox_rule_adopted": null,
+  "coverage_is_physical_road_occupancy": false,
+  "new_vehicle_annotations": 0
+}

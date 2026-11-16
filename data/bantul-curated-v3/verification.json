@@ -1,0 +1,36 @@
+{
+  "scope": "local_curated_package_at_verification",
+  "date": "2026-11-16",
+  "total_indexed": 2063,
+  "active_images": 222,
+  "source_and_copy_sha_pass": 222,
+  "unique_byte_hashes": 222,
+  "unique_rgb_hashes": 222,
+  "native_dimensions_pass": 222,
+  "temporal_references_exist": 491,
+  "locked_roi_geometry_unchanged": true,
+  "all_image_gallery_links_exist": true,
+  "duplicate_group_variant_flags": [],
+  "alignment_counts": {
+    "consistent": 222
+  },
+  "training_ready": false,
+  "new_vehicle_annotations": 0,
+  "drive_image_readback_status": "222_completed_metadata_verified",
+  "source_archive_checks_20261116": {
+    "drive_metadata_matches": 168,
+    "local_sha256_matches": 168,
+    "zip_member_crc_pass": true,
+    "remote_hash_verified": false,
+    "cleanup_status": "completed"
+  },
+  "cleanup": {
+    "removed_logical_bytes": 33503244573,
+    "observed_free_space_increase_bytes": 33334562816,
+    "remaining_protected_videos": 791,
+    "active_222_source_and_copy_hash_pass": true,
+    "all_active_temporal_paths_exist": true,
+    "cloud_files_deleted": 0
+  },
+  "drive_image_bytes": 191480862
+}
