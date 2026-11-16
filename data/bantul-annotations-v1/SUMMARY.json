@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "started_on": "2026-11-16",
+  "dataset": "Bantul_222_v1",
+  "expected_images": 222,
+  "annotated_images": 222,
+  "objects": 2087,
+  "all_annotation_classes": {
+    "motor": 1465,
+    "mobil": 521,
+    "other": 49,
+    "truk": 9,
+    "unknown": 23,
+    "bus": 20
+  },
+  "memberships": {
+    "inside": 1662,
+    "boundary_review": 244,
+    "outside": 129,
+    "unknown": 52
+  },
+  "images_by_camera": {
+    "04_bejen_barat": 63,
+    "01_paseban_selatan": 81,
+    "02_paseban_barat": 78
+  },
+  "reference_complete_images": 87,
+  "reference_partial_images": 135,
+  "cross_audit_passed_images": 222,
+  "schema_error_frames": 0,
+  "qa_flag_records": 126,
+  "training_performed": false,
+  "split_locked": false,
+  "certified_human_ground_truth": false,
+  "class_support_unit": "annotated instances across frames, not unique vehicles",
+  "status": "annotation_and_cross_audit_complete"
+}

@@ -1,0 +1,4456 @@
+[
+  {
+    "image_id": "B001",
+    "annotation_sha256": "50cbfd32e3b4a8ae0e26115670bda074d0a009965f2157725aa887aa4325f67c",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak baru mengikuti ban motor depan dan SUV putih; B001-04 tertutup tandem sehingga posisi terhadap pembatas masih belum pasti."
+    ],
+    "review_notes": [
+      "Kerumunan motor depan dipisahkan dari SUV putih dan motor jauh sisi kerb. Motor merah dua helm ada di sekitar garis tengah dan kontaknya tertutup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0002.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B001.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B001-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B002",
+    "annotation_sha256": "b137de6126a71ea80472c7dab3f9e8af318dd541b63248822f6476bd58b0982f",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak motor depan dan mobil pojok terlihat; B002-01 melintasi garis henti dan B002-13 melintasi garis di dekat tepi."
+    ],
+    "review_notes": [
+      "Empat mobil terpisah di belakang deret skuter. Motor putih di depan melewati garis dan skuter merah dekat taman/marka berstatus batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0008.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B002.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B002-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B003",
+    "annotation_sha256": "f30974018e854d9455d2d71f568f78df1d4b327d22effa2e9ed0a43155ff2233",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kontrol kosong, marka henti dan batas hulu dapat dilihat tanpa kendaraan dalam ROI."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0019.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B003.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B003-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B004",
+    "annotation_sha256": "cbcdcc185ef29e15b26b717f6169c1c55f196b32b7af31e35c82c13907b3dc76",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor memiliki roda yang terpisah dan berada di dalam. Motor bercat kuning dekat kerb masih sebelum marka henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0026.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B004.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B004-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B005",
+    "annotation_sha256": "7c7afed52e723c8d3de76051d6f1453ebf7eea24d56ba60bef4ec046e5491655",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B005-06 skuter merah kecil sudah diberi kotak dan titik di pita batas hulu."
+    ],
+    "review_notes": [
+      "Dua mobil dan dua motor terdekat dibedakan. Motor paling kecil di tepi kanan harus dibedakan dari skuter sebelah kirinya."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0042.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B005.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B005-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B006",
+    "annotation_sha256": "e01948f53feac20f9768d1b587a228b6750f43b067a5f25433cce457a894de2f",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "ROI kosong. SUV gelap berada jauh di kiri setelah keluar dari cakupan pendekat, dan fragmen kanan bawah berada jauh di luar kerb."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0057.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B006.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B006-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B007",
+    "annotation_sha256": "881aca034c4a32c1fb5b4a9e2a6311746ac613a3d9747d13a8143a55adcf215d",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak van, mobil dan truk boks mengikuti ban yang tampak; skuter dekat tiang di luar dan motor kecil di pita hulu tetap ditandai."
+    ],
+    "review_notes": [
+      "Truk boks dan van panel putih dibedakan. Skuter paling dekat keluar marka, motor kecil di hulu berstatus batas."
+    ],
+    "qa_flags_reviewed": [
+      "B007-03: kabin depan dan boks terpisah terlihat, ban dan arah di ROI.",
+      "B007-07: bagian skuter di balik lampu, posisi di sisi keluar marka henti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0066.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B007.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B007-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B008",
+    "annotation_sha256": "76930f1fbb7377b99660ed750c8f3b3643693d298e33378d8819afb08ecf7235",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak skuter putih di dekat pembatas tetap di sisi masuk; truk boks dan motor terhalang lampu sudah diperiksa."
+    ],
+    "review_notes": [
+      "Truk kabin+boks dan van tanpa jendela dipisah dari dua mobil. Skuter putih di dekat ujung marka masih di dalam."
+    ],
+    "qa_flags_reviewed": [
+      "B008-03: bodi boks terpisah di belakang kabin dan roda terlihat di pendekat.",
+      "B008-09: skuter merah sebagian di balik lampu dan sudah di luar garis henti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0068.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B008.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B008-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B009",
+    "annotation_sha256": "9de91f2bc49f008f35f9d71f29d643b863b0aa9380a077d9611aab883c4802f4",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B009-08 titik lama dihapus; titik saat ini pada ban depan yang terlihat di kanan MPV dan arusnya berlawanan."
+    ],
+    "review_notes": [
+      "Lima mobil pada pendekat terpisah dari mobil arah lawan. Motor berpengendara merah muda di balik papan punya posisi kontak yang belum pasti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0082.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B009.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B009-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B010",
+    "annotation_sha256": "9c89e8f1b68af3a78f945b8a3489b2c4e4d1984ac7945622a7c5c1629af5539d",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua skuter terpisah, motor depan mencakup rider dan penumpang dengan pelampung merah muda."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0098.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B010.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B010-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B011",
+    "annotation_sha256": "fab533f6755e70d4d816946df695cb798a4ddffdb279f5c0387973c5003e635d",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak skuter depan pada dua sisi garis mendukung status boundary; roda kelompok tengah tertutup oleh pengendara lain."
+    ],
+    "review_notes": [
+      "Dua skuter dekat zebra memiliki roda depan setelah marka, sedangkan skuter dekat lampu sudah keluar. Lapisan motor dekat garis tengah dicatat sebagai tidak pasti."
+    ],
+    "qa_flags_reviewed": [
+      "B011-09: motor yang tertutup tiang jelas lebih jauh ke sisi luar garis henti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0108.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B011.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B011-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B012",
+    "annotation_sha256": "29b3e290cac1a2c3f90111d7f984c02f70f3e91a7a3cf66f2a482db99bd87b7a",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Titik skuter biru menyentuh garis henti; B012-08 terhalang mobil putih, roda belum terlihat."
+    ],
+    "review_notes": [
+      "Motor depan bercat biru melintasi marka. Motor kecil di balik mobil terakhir tetap unknown pada membership karena roda tertutup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000000.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B012.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B012-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B013",
+    "annotation_sha256": "33d13e2a406c0cb684b3f49a44fc2615512f2c6c8f94bee7cfc789242ab48a9c",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "ROI basah kosong; bagian hatchback perak paling kiri sudah jauh melewati area stop."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000010.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B013.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B013-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B014",
+    "annotation_sha256": "a78116feb6394373b6f4b663b3382f866c01d6d089af8e494f4824e7de84cc57",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "Titik ban depan dua skuter dekat dan motor hitam hulu terlihat di overlay; mobil terpotong di luar garis hulu."
+    ],
+    "review_notes": [
+      "Empat motor yang terpisah mengisi pendekat. Mobil yang baru terlihat di pojok kanan masih di sisi hulu."
+    ],
+    "qa_flags_reviewed": [
+      "B014-05: bagian mobil terpotong bangunan/tepi, tetapi bagian terlihat seluruhnya sebelum garis hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000042.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B014.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B014-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B015",
+    "annotation_sha256": "cdca487e938d76e34886c98a2a842c92dcf5bd143f50ef192bc655525a417060",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B015-05 titik roda depan tepat di tepi divider; B015-07/08/11 masih tertutup mobil putih dan status tetap unknown."
+    ],
+    "review_notes": [
+      "Dua mobil putih dan beberapa motor kecil dapat dipisahkan. Motor yang hanya terlihat kepalanya di belakang mobil tidak dipaksakan masuk."
+    ],
+    "qa_flags_reviewed": [
+      "B015-05: ban depan berada tepat sekitar garis tengah. Revisi boundary_review sesuai bukti fisik dan kotak masih mengikuti bagian yang terlihat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000052.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B015.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B015-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B016",
+    "annotation_sha256": "1a6767035a7f2772ecaef3a83845f0ac5d511c50e6dc31138bbae9ddd32aa105",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Titik ban motor antre dan mobil mengikuti dasar kendaraan; B016-07 hanya bagian atas terlihat di belakang MPV hitam."
+    ],
+    "review_notes": [
+      "Empat motor dan dua mobil terlihat di dalam. Helm terpisah di balik SUV hitam belum menunjukkan posisi kontak yang pasti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000093.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B016.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B016-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B017",
+    "annotation_sha256": "46e2f5d4215d4beb1d5cb29644cf956b566a412bd3ca130421dd4adbd58256d0",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Titik skuter putih sudah lewat garis namun bagian belakang melintasi marka; rombongan di kanan mengikuti ban depan."
+    ],
+    "review_notes": [
+      "Rak bak menyatu dengan pikap dan seluruh tinggi terlihat dalam bbox. Skuter putih berboncengan paling depan punya ban depan lewat marka, belakang di sisi lain."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000143.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B017.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B017-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B018",
+    "annotation_sha256": "f71996d512e95938c1a79d135b5b14ae241d8a1feffc24c5512478bf71fd2b20",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil tunggal berhenti dengan roda di dalam meskipun bumper mendekati marka; kendaraan jauh di luar batas hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000173.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B018.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B018-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B019",
+    "annotation_sha256": "546fe9342b471eb0cbcab9061e9c163e7833822fd17fa037292727519a931dbe",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Titik MPV lawan berada di lintasan luar; B019-05 hanya kepala dan depan kendaraan tampak di belakang atap SUV."
+    ],
+    "review_notes": [
+      "Dua MPV gelap berbeda arah. Skuter di balik mobil pendekat diberi status unknown, dan skuter lain punya bagian roda yang terlihat di dalam."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000183.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B019.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B019-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B020",
+    "annotation_sha256": "746613212dc19a313cb4897976c83d0d4566f719ce083fc69b91659af0db82b5",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Ban motor toska melintasi marka henti, motor kanan di sisi luar tepi jalan, motor kecil menyentuh pita hulu."
+    ],
+    "review_notes": [
+      "Skuter hijau di marka henti berstatus batas. Skuter ungu di jalan samping dan motor kecil di luar garis hulu dicatat sebagai konteks."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000245.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B020.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B020-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B021",
+    "annotation_sha256": "0f9f39dd01d3aea5fa4b5ce60c78137f71eec86a73b6ef0956d424a84b2fc628",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Area ignore melokalisasi kepala, lengan dan spion terpisah di balik mobil gelap tanpa klaim roda atau count."
+    ],
+    "review_notes": [
+      "Motor palang marka dan motor padat sudah dibedakan. Siluet tambahan di atas SUV hijau perlu diperiksa."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000295.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B021.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B021-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B022",
+    "annotation_sha256": "abb2eba58c2622cd36d4409a05e0de876ebfadf7888678b3c93adf892ba3b205",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak ban terlihat untuk motor depan dan MPV; roda B022-03 tertutup oleh grup depan dan posisi mengikuti baris fisik."
+    ],
+    "review_notes": [
+      "Hatchback putih berada di belakang tujuh motor. Kontak motor terlihat di aspal sisi target dan masing-masing pengendara/bodi terpisah walau bbox bertumpang-tindih."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000395.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B022.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B022-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B023",
+    "annotation_sha256": "d3fcef3c49d4270001e4a3a7fcfbfcfdf9cc62aabd4423f10ef7f42d6a670abe",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Kontak kendaraan tampak termasuk skuter biru yang sudah di zebra cross. Motor kecil B023-06 dekat divider tetap boundary."
+    ],
+    "review_notes": [
+      "Motor pembawa kardus sudah di zebra sehingga di luar. Dua skuter dekat henti masih di dalam bersama MPV, skuter hijau muda dan motor hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000435.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B023.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B023-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B024",
+    "annotation_sha256": "9029d52cac52127569cdd1e007724be4300f3848ebbb1e89a5bfb6f20bf5e72b",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Empat titik dekat divider dilihat ulang pada dasar ban. Bagian samping ban yang lebih atas sempat terbaca sebagai tapak. Roda belakang campuran atau tertutup sehingga boundary_review sesuai."
+    ],
+    "review_notes": [
+      "Motor berjajar dekat garis tengah, tiga skuter kecil memiliki tapak terlihat di bagian atas garis tengah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000496.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B024.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B024-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B025",
+    "annotation_sha256": "14233ef83f3c0644b53488f665caf23a5c59ee2e938733e1f1c9f9797e681faf",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor dan satu MPV perak di dalam. Empat titik kontak kini sesuai ban yang tampak di native."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000546.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B025.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B025-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B026",
+    "annotation_sha256": "ed98dd284f45eb1275bf9f8ff7cdd31705c6c754604408745ba8b69a79a4ec66",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B026-03 dan B026-08 sekarang boundary_review mengikuti tanda pembagi; kontak lain yang terlihat ditandai di overlay."
+    ],
+    "review_notes": [
+      "Motor gelap sudah lewat henti, dan dua motor dekat garis tengah ditandai batas. Bagian motor di sisi kerb belum cukup untuk tapak."
+    ],
+    "qa_flags_reviewed": [
+      "B026-09: roda depan/muka tampak di sela dekat bangunan, kontak dan posisi kerb tidak pasti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000597.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B026.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B026-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B027",
+    "annotation_sha256": "53661a5ee99157d142945b9c135053fe6cadf36f290387300da9825309ddc7e8",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Perbandingan native dan detail menunjukkan motor merah berhelm putih terpisah dari tandem gelap. B027-04 dipersempit, B027-12 ditambahkan dengan roda tertutup dan membership unknown."
+    ],
+    "review_notes": [
+      "Truk kuning tersedia sebagai konteks hulu dan pikap hitam di dalam target. Dua motor tersusun rapat di depan MPV putih."
+    ],
+    "qa_flags_reviewed": [
+      "B027-11: kabin dan bak/boks truk kuning terlihat di pojok luar garis hulu, sebagian terpotong sisi.",
+      "B027-12: helm putih, jaket merah dan bagian depan skuter berbeda dari tandem di depannya. Roda tertutup, sehingga membership unknown dan diabaikan untuk hitungan eksak."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000647.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B027.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B027-comparison.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B027-detail.jpg"
+    ]
+  },
+  {
+    "image_id": "B028",
+    "annotation_sha256": "fa0a8b2565cccae64a4fffc785953a133e15d53bcc02a699ca5171f0df8a5854",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor dekat pembagi dan hulu membutuhkan status batas. Motor tengah/kanan, termasuk skuter putih dekat kerb, tetap di dalam."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000697.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B028.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B028-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B029",
+    "annotation_sha256": "23d1e29e69fa238f2793db77dbd9197ecdce5b2e92438f6712a588eb73f21f16",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap bak terbuka jelas other dan lima skuter terpisah. Skuter hijau belakang sebagian tertutup kepala rider di depannya."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000748.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B029.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B029-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B030",
+    "annotation_sha256": "590d52396c5240b851b42a0d2447725dfcfd64999e417a2b6cc40f1a402be77e",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Roda motor depan tersebar di sekitar marka stop; beberapa motor kecil dekat pembagi atau hulu ditahan sebagai batas, dan motor tertutup tidak dipaksakan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000798.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B030.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B030-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B031",
+    "annotation_sha256": "288cca3a32514d36da0d5286ba3b75f941b3520570ab87308ff654ef56483698",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kontrol kosong pada pendekat. Motor berboncengan yang tampak di seberang bergerak pada arah lawan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000818.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B031.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/bejen_by_barat/B031-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "B032",
+    "annotation_sha256": "8f83520d7df87bcbf42f4041159ee714c1ce0d2bbc02b0e3efaf612d3b9224c5",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "B032-02 titik dipindah ke tapak roda belakang MPV yang terlihat."
+    ],
+    "review_notes": [
+      "MPV perak, dua mobil hulu dan dua motor berada di sisi pendekat; posisi tapak depan motor terbaca."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000848.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B032.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B032.jpg"
+    ]
+  },
+  {
+    "image_id": "B033",
+    "annotation_sha256": "e8b37179e454f6425acd3e6b912830765a962c1c859d2daa7384dea689f451da",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "B033-06 roda depan diperiksa terpisah dalam lajur. Membership diubah dari unknown ke inside.",
+      "B033-08 titik yang tidak terisolasi dihapus dan alasan oklusi lokal dicatat."
+    ],
+    "review_notes": [
+      "Motor hitam di tengah dekat garis, delapan motor lain dan tiga mobil dapat dibedakan; pengendara/roda depan motor hitam terlihat terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000899.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B033.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B033.jpg"
+    ]
+  },
+  {
+    "image_id": "B034",
+    "annotation_sha256": "c2b566ffeed4aeb776adb2dcd5db740432a65b5c6444357671061df1630a5f17",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu motor pengendara merah dengan ban berada di sisi dalam dan jauh dari marka henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000940.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B034.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B034.jpg"
+    ]
+  },
+  {
+    "image_id": "B035",
+    "annotation_sha256": "804853afd94aae2f3b25eac546f0c238b7ed1cc9a62832b1d2336b4946c3e635",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van biru dekat garis dengan ban di aspal pendekat. Siluet motor tertutup van sehingga sisi pembagi tak pasti."
+    ],
+    "qa_flags_reviewed": [
+      {
+        "object_id": "B035-02",
+        "flags": [
+          "visual_priority"
+        ],
+        "conclusion": "Bodi tertutup van, pengendara masih tampak dan tapak tidak bisa dipisah di sisi pembagi."
+      }
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001000.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B035.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B035.jpg"
+    ]
+  },
+  {
+    "image_id": "B036",
+    "annotation_sha256": "5eab922b94d7466495cb778cb415d0e6b0022d23a900cd6851decc4160c2eda0",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B036-03 kotak diperpanjang ke dasar ban depan dan tapak ditambahkan."
+    ],
+    "review_notes": [
+      "Motor depan sisi pembagi berhimpit garis, mobil perak hulu dekat garis kuning. Lima motor dalam lajur dapat diisolasi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001050.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B036.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B036.jpg"
+    ]
+  },
+  {
+    "image_id": "B037",
+    "annotation_sha256": "30bfb47f3219052792af86ba4eb7b07ad3c5cb5b1debe6b72490eb47c9df36e5",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van tinggi tepat di muka garis henti dengan bumper menjorok, kendaraan belakang dan motor dapat dibedakan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001101.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B037.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B037.jpg"
+    ]
+  },
+  {
+    "image_id": "B038",
+    "annotation_sha256": "fb08a8ef560351fffee51829bd7d4a63e1bbd5aa603a901f53b4096ca92663aa",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan tujuh motor di pendekat. MPV perak atas melaju di sisi seberang pembagi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001161.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B038.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B038.jpg"
+    ]
+  },
+  {
+    "image_id": "B039",
+    "annotation_sha256": "94688bf4cfe55c31f31e71cfff7916fc8034643ac1cd3bee23a67f7997ff1a25",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Sepeda motor dua pengendara dan tas di dekat pembagi, kontak roda depan terlihat di sisi pendekat."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001211.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B039.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B039.jpg"
+    ]
+  },
+  {
+    "image_id": "B040",
+    "annotation_sha256": "f9cc8707e32e0c7363763a6d5b770fee002179c321b780bedd85cd357ba96330",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor depan pada garis, motor bermuatan daun satu entitas, pikap hitam terpisah dari MPV dan kendaraan roda dua."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001252.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B040.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B040.jpg"
+    ]
+  },
+  {
+    "image_id": "B041",
+    "annotation_sha256": "c1cb1ec9ba4f8a46a110cb304488dd029a57b9121f2bd539c60ca0693f9ccb15",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bak terbuka terlihat jelas. Motor di balik belakang pikap tertutup dan dekat pembagi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001294.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B041.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B041.jpg"
+    ]
+  },
+  {
+    "image_id": "B042",
+    "annotation_sha256": "95c135f144d28f82de2e562e171c34990ac502dd81109ed12c8c458c9631d29d",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B042-02 sepeda di garis pembagi diberi boundary_review."
+    ],
+    "review_notes": [
+      "Sepeda berpedal di belakang motor terdepan, roda dekat marka pembagi. Terlihat dua pikap/mobil arah sama dan motor rapat."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001354.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B042.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B042.jpg"
+    ]
+  },
+  {
+    "image_id": "B043",
+    "annotation_sha256": "b87e2d90a4ac9245e1a3f42034fe98421ba9815c91bc230164142b7e1bf15469",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "B043-06 titik pada aspal tanpa roda dihapus. Motor tetap terlihat terpisah, tapak tertutup."
+    ],
+    "review_notes": [
+      "Tiga mobil dan empat motor pada arah pendekat; setang/kabin tidak dianggap kontak."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001404.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B043.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B043.jpg"
+    ]
+  },
+  {
+    "image_id": "B044",
+    "annotation_sha256": "1f23bb49c671d2151d5cb68d5a4daf131ce8a30d2e29e23ad6674644ea40397a",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor putih bersinggungan garis henti, motor hitam di belakangnya, motor ketiga dekat pembagi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001444.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B044.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B044.jpg"
+    ]
+  },
+  {
+    "image_id": "B045",
+    "annotation_sha256": "406088fd570e7693e588d972ed45b052538af8f4b8be2028c013e78f56f6005a",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B045-09 titik kini berada di dasar roda belakang kendaraan gelap.",
+      "B045-10 titik pada aspal dilepas. Tapak pikap di bawah bak gelap tidak terisolasi pada sumber."
+    ],
+    "review_notes": [
+      "Motor muatan daun satu kotak plus muatan, mobil gelap dan pikap bertutup terpal jelas terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001464.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B045.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B045.jpg"
+    ]
+  },
+  {
+    "image_id": "B046",
+    "annotation_sha256": "9edd788d8e182a3a19059dd881194069126f674db0673e63fd27af244a48a48b",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B046-03 dipindahkan ke boundary_review setelah posisi ban terhadap pembagi diperiksa.",
+      "B046-05 tapak belakang dikoreksi mendekati ban yang terbaca. Sumbu depan B046-01 terletak di sisi zebra cross dan status boundary dipertahankan."
+    ],
+    "review_notes": [
+      "Van biru dan mobil krem terpisah dari pikap di belakang. Tiga motor terdepan melintasi garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001505.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B046.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B046.jpg"
+    ]
+  },
+  {
+    "image_id": "B047",
+    "annotation_sha256": "450daefa3a37a78a13c15c1069d14b28c8d7c55cfbd8a895bec58eda25314c92",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "B047-01 extent bawah bumper disesuaikan hingga y435."
+    ],
+    "review_notes": [
+      "Dua MPV putih dan tiga motor. Bumper depan MPV pertama sedikit lebih rendah dari kotak lama."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001585.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B047.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B047.jpg"
+    ]
+  },
+  {
+    "image_id": "B048",
+    "annotation_sha256": "87276e69fb76ed409da78b2ae365c3c9233b3e80f2622a9ae2e274f0b3e2292d",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Lima motor dengan satu roda depan dekat garis henti dan tangan pengendara belakang tetap terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001625.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B048.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B048.jpg"
+    ]
+  },
+  {
+    "image_id": "B049",
+    "annotation_sha256": "f14abbacea8960539566663379e8f1b3ad0b06297665098d4f6d00ad19b8b3ba",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B049 bak abu diberi ignore lokal berdasarkan source dan cuplikan waktu, sementara truk merah tetap satu instance.",
+      "B049-01 tapak depan dekat kabin diverifikasi pada [1003,379]. Pada B049-06 ban depan bertumpang tindih dengan pengendara lebih dekat dan ujung gelap tidak dapat dipisah dengan mantap."
+    ],
+    "review_notes": [
+      "Truk merah dan muatannya jelas di dalam; bak abu di belakang tersorot lokal karena sambungan/kabin tidak terlihat."
+    ],
+    "qa_flags_reviewed": [
+      {
+        "object_id": "B049-01",
+        "flags": [
+          "visual_priority"
+        ],
+        "conclusion": "Satu kabin truk merah jelas, muatan terpasang dimasukkan, bak abu ambigu berada di ignore lokal."
+      }
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001675.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B049.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B049.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/B049_temporal_detail.jpg"
+    ]
+  },
+  {
+    "image_id": "B050",
+    "annotation_sha256": "c59682925e6efef82d5d32524faedb2ba171eb2037acd3f12064de4849d7cd78",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV marun dan motor merah-hitam, tapak pada sisi pendekat sebelum batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001726.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B050.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B050.jpg"
+    ]
+  },
+  {
+    "image_id": "B051",
+    "annotation_sha256": "6738593b584d2efc5f698ebdcb3bb22aeeb56888f22f60cbe788ca46f2d0c44a",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil perak, dua motor depan, rombongan hulu termasuk satu dengan muatan daun dan satu posisi roda tertutup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001776.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B051.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B051.jpg"
+    ]
+  },
+  {
+    "image_id": "B052",
+    "annotation_sha256": "07e8938a38f2dc8e0dc77a86df4953f94a68c9c2ae9087bda9afd681ff39eed1",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV gelap dan enam motor, skuter biru di sisi mobil berbeda dari putih yang berada di kanannya."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001837.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B052.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B052.jpg"
+    ]
+  },
+  {
+    "image_id": "B053",
+    "annotation_sha256": "82283a5acadd2911e081fdd5db1f2cb7161234da166cabc9550515b48bc62ba8",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga mobil dan sembilan motor berjejer. Motor terjauh di dekat mobil merah teroklusi, garis tidak dapat dipastikan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001889.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B053.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B053.jpg"
+    ]
+  },
+  {
+    "image_id": "B054",
+    "annotation_sha256": "7daf491f6f5e8871b295a2bb5b139bac64a004b285632cd8382a6cccdb87d88a",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B054-02 kontak roda depan berada pada sisi marka henti, kini boundary_review."
+    ],
+    "review_notes": [
+      "Sembilan motor. Motor pembawa rak vertikal satu unit dan skuter merah depan melewati garis."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001939.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B054.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B054.jpg"
+    ]
+  },
+  {
+    "image_id": "B055",
+    "annotation_sha256": "6245030b775b02d1464b41699b86ceb2b7c95b901307b359fe24fd5165dba958",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B055-02 diberi boundary_review; B055-07 dipersempit dan motor terpisah B055-11 ditambah."
+    ],
+    "review_notes": [
+      "Rak vertikal tetap satu unit. Skuter putih dan motor helm jingga di belakangnya tampak sebagai kendaraan berbeda."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001949.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B055.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B055.jpg"
+    ]
+  },
+  {
+    "image_id": "B056",
+    "annotation_sha256": "a053c9f879b1c74c21f1c725324fc05caf1000af1739b3884c1fd1cb025d4e7b",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van hitam dalam lajur, tiga motor di bawahnya dan satu motor serta mobil di batas hulu."
+    ],
+    "qa_flags_reviewed": [
+      {
+        "object_id": "B056-06",
+        "flags": [
+          "visual_priority"
+        ],
+        "conclusion": "Mobil terpotong di tepi kanan; dasar kendaraan dekat batas hulu, pertahankan status boundary."
+      }
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_001989.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B056.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B056.jpg"
+    ]
+  },
+  {
+    "image_id": "B057",
+    "annotation_sha256": "aae8befd3a8bc6155965a1e25a7c5279ad5cdefdc8de605e0fe98a4b9cad0398",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Aspal pendekat kosong, tidak terlihat kendaraan di antara garis henti, pembagi, kerb, serta batas hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002020.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B057.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B057.jpg"
+    ]
+  },
+  {
+    "image_id": "B058",
+    "annotation_sha256": "db603d5663a5cb4a10c69e310396d9631e33716065b6ce92e93d805e11d275f4",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B058-01 dan B058-03 diberi boundary_review di pembagi; titik B058-03 dipindah ke roda belakang."
+    ],
+    "review_notes": [
+      "Motor rapat berbaris. Motor biru di pembagi perlu kontak ban yang tidak bercampur titik kaki pengendara."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002040.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B058.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B058.jpg"
+    ]
+  },
+  {
+    "image_id": "B059",
+    "annotation_sha256": "ccb144b10d40bf42b8d2853604d3533edefedb8eec53569d3cc678b3a00ef492",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga mobil terpisah dan enam motor dengan rider; motor biru depan tampak sebelum marka henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002100.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B059.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B059.jpg"
+    ]
+  },
+  {
+    "image_id": "B060",
+    "annotation_sha256": "934053e449badf807683fa6b9cae7bd5a7932f18f71d808fa4c2e7dfbe9b1b45",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV gelap di muka, MPV hitam kedua lebih hulu. Motor di balik mobil pertama tertutup dekat pembagi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002141.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B060.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B060.jpg"
+    ]
+  },
+  {
+    "image_id": "B061",
+    "annotation_sha256": "f161a67d440fd8dd95cc178d713d8777dc3ebf0c7d263410e697fc51ceaf2f00",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B061-01 ditandai boundary_review di titik pertemuan garis pendekat."
+    ],
+    "review_notes": [
+      "Tiga mobil dan motor padat. Motor merah depan kontak mendekati titik pertemuan pembagi dengan garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002201.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B061.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B061.jpg"
+    ]
+  },
+  {
+    "image_id": "B062",
+    "annotation_sha256": "d6574d85ebbbfba785f3c38c01e9f71bd89ecf37fea116aae1a81ab01ec62e04",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Truk boks putih beroda jelas di pendekat. Motor di belakang boks oklusi dekat pembagi."
+    ],
+    "qa_flags_reviewed": [
+      {
+        "object_id": "B062-01",
+        "flags": [
+          "visual_priority"
+        ],
+        "conclusion": "Kabin hitam dan boks putih terpadu dengan roda di sisi pendekat; kelas truk terverifikasi."
+      }
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002231.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B062.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B062.jpg"
+    ]
+  },
+  {
+    "image_id": "B063",
+    "annotation_sha256": "e54ed35ebd5ccd152a7a300be1ecd81a1de1b4e2bbd6073dc4a2414351bd2b62",
+    "reviewer": "selatan",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "B063-03 extent kiri x630 sama dengan batas ban pada sumber penuh; tidak memotong objek."
+    ],
+    "review_notes": [
+      "Truk boks dan SUV perak terpisah. Motor merah depan di sisi lewat garis henti, motor balik boks tetap ambigu."
+    ],
+    "qa_flags_reviewed": [
+      {
+        "object_id": "B063-01",
+        "flags": [
+          "visual_priority"
+        ],
+        "conclusion": "Kabin hitam dan boks putih satu kendaraan, kedua sisi dasar terlihat dalam lajur meski SUV menutup sudut belakang."
+      }
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002242.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/reviewers/bejen/overlay_B063.jpg",
+      "/Users/hanafi/Desktop/Kuliah/Semester 3/PCD/Tugas Akhir/.scratch/bantul-annotation222-20261116/cross_audit/bejen_by_selatan/B063.jpg"
+    ]
+  },
+  {
+    "image_id": "S001",
+    "annotation_sha256": "c3cc4268c3332d626dafe25ef27c34b368e010ff3eff776147777dcccf1a775b",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pada antrian padat, motor dan MPV yang beririsan dapat dipisahkan lewat rider/bodi. Roda S001-07 tidak terlihat dan motor di hulu S001-26 berada pada garis virtual."
+    ],
+    "qa_flags_reviewed": [
+      "S001-06: dua rider berada jelas di sela median dalam, kontak tertutup dan tetap null.",
+      "S001-07: bukti visual sangat terbatas di sela van, ketidakpastian eksplisit.",
+      "S001-18: helm dan bodi terpisah, area dasarnya tertutup kelompok di depan tetapi jauh di dalam jalur.",
+      "S001-28: konteks mobil parkir tertutup dedaunan, jauh di luar hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/frames/frame_0000.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S001.jpg"
+    ]
+  },
+  {
+    "image_id": "S002",
+    "annotation_sha256": "4ea3a82cd08790a5129f4c886a2b4a05251e9f20b3776381331c249a281d6446",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S002-15: kotak akhir memasukkan seluruh ujung batang muatan di kanan sampai x sekitar 1494, diperiksa pada source+overlay baru.",
+      "Overlay akhir menunjukkan muatan batang S002-15 tercakup dan penumpang/rider tetap terpisah dari motor lain."
+    ],
+    "review_notes": [
+      "Motor S002-07 dekat garis henti dan dua motor dekat kerb/hulu tetap ambigu. Mobil perak di belakang mobil hitam dan MPV merah tampil sebagai tiga kendaraan terpisah."
+    ],
+    "qa_flags_reviewed": [
+      "S002-17: ban dan arah di sisi kerb/hulu terhalang daun, perlakuan boundary_review masuk akal.",
+      "S002-19: mobil parkir terpisah dari arus pendekat, diperlakukan sebagai konteks."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0000.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S002.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S002-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S003",
+    "annotation_sha256": "4ff00be253f2f595ed7993ef368313a74ab33e2449b5e6771012dd04de609f85",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga mobil dan satu van tidak pasti berbeda secara visual; motor merah di batas hulu/kerb memiliki roda depan terbaca dan posisi belakang tertutup daun."
+    ],
+    "qa_flags_reviewed": [
+      "S003-06: mobil statis di balik daun berada jauh di luar batas hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0010.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S003.jpg"
+    ]
+  },
+  {
+    "image_id": "S004",
+    "annotation_sha256": "f3bd1d8a11cc965f36d2fbf56a1c22f837a11b18bd8d0a9d7dbda42c47fe7417",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S004-12: tapak roda tertutup. Titik yang jatuh di helm motor depan dihilangkan dan kontak kini null.",
+      "Pada overlay akhir dot di helm objek lain hilang. S004-12 memiliki occlusion partial yang sesuai skuter putih tertutup helm penumpang."
+    ],
+    "review_notes": [
+      "Van perak tetap unknown; pengendara yang lebih dekat pada skuter putih dan hitam bisa dibedakan. Roda motor hitam di tepi kerb masih terlihat di aspal pendekat."
+    ],
+    "qa_flags_reviewed": [
+      "S004-20: mobil parkir tetap konteks di balik daun, jauh setelah batas hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0012.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S004.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S004-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S005",
+    "annotation_sha256": "6a860a7ac6a566cbd53c506211e9845cf8340e70a00419dabcea3938b8d6e170",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Seluruh aspal di dalam ROI kosong. Fragmen mobil statis hanya terlihat di balik daun di hulu."
+    ],
+    "qa_flags_reviewed": [
+      "S005-01: konteks luar ROI karena mobil di balik daun berada di luar batas hulu virtual."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0015.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S005.jpg"
+    ]
+  },
+  {
+    "image_id": "S006",
+    "annotation_sha256": "4b1c04f32a11fddc6a89823d642a2741f2b8d19b16feaae72d56bb33f1f06275",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Lima motor bersentuhan di sisi dalam batas, termasuk skuter dekat dengan seorang anak di depan. Dua motor kecil dan mobil parkir jelas di hulu."
+    ],
+    "qa_flags_reviewed": [
+      "S006-08: fragmen mobil statis di balik dedaunan hanya konteks luar hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0019.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S006.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S006-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S007",
+    "annotation_sha256": "11f7c1cb8940ab389ac855631981452c482faa2174dae8a4d839d78d0a6f448b",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S007-06: status ban depan persis tepi garis henti menjadi boundary_review, sesuai overlay akhir.",
+      "Ban depan S007-06 tepat dekat marka henti dan status batas konsisten dengan overlay akhir."
+    ],
+    "review_notes": [
+      "Coach hitam terpisah dari mobil abu di samping, dan tiga skuter dekat batas hulu ditandai boundary_review. Ban motor merah terdekat di marka henti perlu penjelasan atau perubahan."
+    ],
+    "qa_flags_reviewed": [
+      "S007-05: dua helm dan bodi terpisah, area ban tertutup motor lain di depan yang berada dalam ROI.",
+      "S007-06: status boundary_review sesuai tapak depan di tepi marka setelah revisi.",
+      "S007-15: coach tampak dari kaca depan besar, spion dan panel penumpang. Dasar tertutup mobil di depan tetapi bus mengambil lajur median di dalam hulu.",
+      "S007-16: fragmen mobil terang terselip di belakang mobil abu sekitar garis hulu, batas fisik belum bisa dipastikan.",
+      "S007-22: fragmen mobil parkir sisi kanan tetap konteks di luar garis hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0022.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S007.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S007-comparison.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S007-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S008",
+    "annotation_sha256": "ddec14a20dd16471d0472bf0831a4c08fd8238d34b54f49ba6d4e49286da3228",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Ruang pendekat kosong sampai marka henti. Pesepeda ada di seberang median dan mobil di balik daun berada di luar hulu."
+    ],
+    "qa_flags_reviewed": [
+      "S008-01: mobil statis terhalang daun dan tetap berada di luar hulu."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/01_paseban_selatan/snapshots/frame_0024.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S008.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S008-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S009",
+    "annotation_sha256": "a27707073a59d4ed81953880d2b8163119b88d44e1a3612902b927fb9b5c6589",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S009-10 sebagian tertutup motor depan pada bagian dasar, sesuai revisi occlusion partial."
+    ],
+    "review_notes": [
+      "Bus merah-kuning di dalam pendekat dan van panel bergrafis adalah kendaraan yang berbeda. Ban motor merah dekat marka henti dan dua motor tepi kerb tetap dicatat sebagai ambiguitas."
+    ],
+    "qa_flags_reviewed": [
+      "S009-05: kaca/pintu bus dan tulisan sisi tampak jelas, dot roda pada aspal target, kotak meliputi spion dan atap.",
+      "S009-14: motor merah paling dekat terpotong di bawah frame dan berbatas kerb/marka, kontak tidak cukup terlihat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000010.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S009.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S009-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S010",
+    "annotation_sha256": "c3841da83a7f9fbb240a16023ef70d53f3a9b240ed5749888fb60ce07deb043e",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Coach hitam-hijau dan minicoach perak-biru terpisah. Antrian padat motor ditelusuri lewat helm dan potongan bodi. Motor paling depan mencapai garis henti."
+    ],
+    "qa_flags_reviewed": [
+      "S010-01: dot mengarah ke ban depan yang dekat garis poligon median, tetapi kedua ban tampak di aspal sisi pendekat dan curb berada lebih jauh; inside didukung.",
+      "S010-05: coach hitam-hijau mudah dipisahkan dari bus lain, kontak tertutup mobil di baris depan; bus maju cukup jauh dari batas hulu.",
+      "S010-06: minicoach perak-biru dengan bodi dan jendela penumpang, tapak roda samping terlihat di sisi dalam."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000036.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S010.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S010-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S011",
+    "annotation_sha256": "173a5b40b3846084ed21a303a9ddd41abc2e2b13ae4b1013dca93828874794d3",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap biru memiliki bak terbuka dan masuk other. Van kotak gelap tertutup tint, subtype niaga/penumpang belum pasti. Lima motor di dalam terpisah dari motor jauh di hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000069.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S011.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S011-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S012",
+    "annotation_sha256": "cd5961fd0bc6abe8aeea1744cab6d578a8c5ccbe054e1a4b1f978f4ed06ed8bd",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kontrol jalan basah kosong di ROI; motor kecil di kanan tetap setelah garis hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000085.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S012.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S012-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S013",
+    "annotation_sha256": "a7edb33106cd2248903d79a24c9c10fbbf704258936dd9b4ba9b18231c85372f",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor terdepan di kiri memotong marka henti. Kelompok di tengah dipisah lewat helm, stang dan bodi, dengan mobil jauh di hulu diberi status batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000093.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S013.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S013-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S014",
+    "annotation_sha256": "53dc57f2f3ec1cbf96a865ae4a0b5cb6cf0d573882f2de0681f3c5842a61f274",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Skuter merah dekat median dan motor terdepan di tengah berada di marka henti. Fragmen di sela dua mobil tidak memberi bukti kontak sehingga tetap unknown."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000122.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S014.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S014-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S015",
+    "annotation_sha256": "a6832d96cc8c699b4fef08be083658aea8f625641c6c5caefa7127e9d9fd07f3",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga mobil dan motor hijau di dalam terpisah dari skuter merah pada kerb. Posisi kontak skuter merah di tepi marka trotoar masih ambigu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000136.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S015.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S015-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S016",
+    "annotation_sha256": "8a66835c8fa96e3acb9d51b20b61b720a2cf4ee0bf2dd3ec1a3a0bab39a5cb14",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap berbodi bak dengan rak termasuk other. Bus jauh masih di hulu; mobil dekat hulu dan motor putih dekat kerb punya status batas."
+    ],
+    "qa_flags_reviewed": [
+      "S016-16: bodi panjang dan kaca depan bus terlihat, dasar di sisi hulu virtual.",
+      "S016-17: fragmen pengendara skuter di sisi daun berada di luar hulu dan terpisah dari skuter putih batas."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000172.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S016.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S016-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S017",
+    "annotation_sha256": "48052111dcf9c213e5bc3418fa7398dad550de88b040ed7e13be3a6d212c9e21",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua skuter terdepan menjulur melewati garis henti, sementara motor berboncengan di belakang jelas masih di dalam. MPV hitam berada pada lajur median."
+    ],
+    "qa_flags_reviewed": [
+      "S017-10: skuter di sela dedaunan memotong batas hulu/kerb, kontak tertutup dan tetap null."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000197.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S017.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S017-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S018",
+    "annotation_sha256": "e0a2fe1521dca410770342ca558c36014513949ae117abfbb8cbd25b9d110825",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Box/catatan kontak kendaraan jauh dicek ulang. Detail roda motor yang tertutup daun dan kendaraan yang bertumpuk di hulu tidak dibaca sebagai kontak presisi."
+    ],
+    "review_notes": [
+      "Skuter merah dan pesepeda kerb merupakan objek berbeda dengan kontak dekat marka. Motor berbodi krem dengan fork biru memiliki panel dan suspensi sepeda motor. Mobil terbatasi garis hulu telah dipisahkan."
+    ],
+    "qa_flags_reviewed": [
+      "S018-25: motor hitam tertutup daun merupakan konteks luar hulu, terpisah dari motor merah berstatus batas."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000225.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S018.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S018-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S019",
+    "annotation_sha256": "0a6408dc2d6548d7671aab4301bffcb942d3c19fd2ceb68ab3f75f9ac8ef9c1a",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu SUV dan tiga motor dapat dipisahkan di dalam, mobil krem dan motor paling dekat garis hulu melintasi batas ROI."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000266.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S019.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S019-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S020",
+    "annotation_sha256": "771aa7fd8235f384399f3409952c91918220357534683b0cea088aa63a880279",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap terpal jelas berbentuk bak. Tiga kelompok motor rapat dapat dibedakan melalui helm/bodi. Motor paling depan dekat segitiga kerb dan marka henti dipertahankan sebagai batas."
+    ],
+    "qa_flags_reviewed": [
+      "S020-34: skuter merah di dekat sudut kerb tampak parsial antara tiang dan daun; kontak dan posisinya masih belum pasti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000299.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S020.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S020-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S021",
+    "annotation_sha256": "a71d594156200f17ab2483016c807685b124684063b195bbaae77f6c0d9aff35",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S021-16 berstatus boundary_review. Overlay akhir menempatkan dot pada ban depan di sisi marka henti."
+    ],
+    "review_notes": [
+      "Bodi pikap dan muatan biru serta beberapa motor berpenumpang terpisah. Satu titik ban yang diputuskan inside sangat dekat marka henti."
+    ],
+    "qa_flags_reviewed": [
+      "S021-16: ban depan motor putih helm biru praktis mencapai tepi marka henti di native overlay."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000326.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S021.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S021-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S022",
+    "annotation_sha256": "3b546ca88d6fa1c2cb70054e719cb8b61d9f364923c34a030eed68e019bdb239",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kendaraan putih tiga roda tampak dari roda tunggal di depan dan kabin tertutup; other tepat. Skuter putih dekat kerb perlu status batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000363.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S022.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S022-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S023",
+    "annotation_sha256": "871042518033bf668fcc86b515be3b85c686545b2e9c65c89ed5f9c8c1f9fb79",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kontrol kosong pada seluruh ROI. Arus kecil yang terlihat di jalan seberang terpisah oleh median."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000392.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S023.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S023-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S024",
+    "annotation_sha256": "4f5a6774961d38e8e301d7a50381ff21c8df64500068d9e55f840943bc974f36",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Skuter merah dan skuter pelek kuning menyentuh garis henti. Motor terdekat hulu sudah masuk, tiga berikutnya masih di luar, dan satu mobil di batas median."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000399.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S024.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S024-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S025",
+    "annotation_sha256": "5dffc99cf9d3f79b1d17a6eaa083274b38e0bbdb38009ad3eadddcc379c76b64",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Deret motor bertumpang tindih dapat dipisahkan lewat pengendara dan bodi. Kendaraan di pinggir daun dan skuter pelek kuning tetap berstatus batas."
+    ],
+    "qa_flags_reviewed": [
+      "S025-23: pengendara dan motor di balik daun tumpang tindih garis hulu/kerb; kontak tidak cukup terlihat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000419.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S025.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S025-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S026",
+    "annotation_sha256": "a78f28269bdbc0b44b1ee606067936c7ac58dc8137899915acf9e7f28afebee2",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bus kuning-hijau, tiga mobil dan skuter tersusun di dalam pendekat. Motor paling kanan masih dekat kerb sehingga status batas."
+    ],
+    "qa_flags_reviewed": [
+      "S026-01: bus dengan pintu penumpang jelas, tapak roda di aspal pendekat, kotak meliputi spion dan ujung atap.",
+      "S026-05: kontak dekat garis overlay median, tetapi ban di aspal sisi pendekat pada native overlay dan curb sebenarnya lebih jauh."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000439.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S026.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S026-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S027",
+    "annotation_sha256": "7f0b4c451d52ca6efa3a34b5046071fd70fa50d8e34b4e137e1f47c7e2dc2fce",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S027-06 mencakup ujung batang yang dibawa. Bak pikap S027-02 sebagian tertutup MPV depan."
+    ],
+    "review_notes": [
+      "Pikap hitam dengan rak terlihat sebagai kendaraan terpisah. Roda depan skuter biru telah melewati garis dan belakang masih sebelum marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000465.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S027.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S027-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S028",
+    "annotation_sha256": "1e82a54ffa80cb5608a11a24613393547eee6f1e79aee068b7a27f4a7d7e4acf",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Becak merah-biru terpisah dari skuter berboncengan. Bus putih besar dan bus kecil berpanel teal terpisah di hulu, tetapi kendaraan kedua belum dapat ditetapkan membership."
+    ],
+    "qa_flags_reviewed": [
+      "S028-06: bus putih berprofil tinggi, kontak tertutup kendaraan di depan namun posisi lajur median di dalam jelas.",
+      "S028-07: bodi/jendela bus kedua terlihat di belakang, kontak dan posisi terhadap garis hulu terhalang."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000505.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S028.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S028-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S029",
+    "annotation_sha256": "64565f2395a6a962ba2e0c4ccedfefc801d0e0fc19e78f69191733a6a9b50e1c",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor depan memotong marka henti, motor kuning lebih jauh ke dalam. Pikap putih di belakang dipisah dari MPV perak; mobil sisi kanan berstatus batas hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000523.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S029.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S029-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S030",
+    "annotation_sha256": "2606f26dd59ca2032f7899dd69d7b3bffdc4d741d8941f43bd60b930d83b1873",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Siluet helm/bahu terlindung dengan ignore lokal possible_target_in_roi dan bbox mobil mengikuti atap. Kelas serta keanggotaan target tidak dipaksakan."
+    ],
+    "review_notes": [
+      "Dua motor di kerb dibedakan dari motor tengah. Dua kepala tampak dalam area kotak mobil perak dan membutuhkan identifikasi atau uncertainty lokal."
+    ],
+    "qa_flags_reviewed": [
+      "S030-09: motor berhelm putih di belakang motor hitam, sebagian terhalang tiang/daun, status batas dipertahankan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000562.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S030.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S030-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S031",
+    "annotation_sha256": "1eb582eb09fdb8d31a71e88572bb56e1f48749109811612d527ed74656a2436b",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Konteks motor dan mobil jauh dicek dengan alasan jarak; posisi tapak presisi yang tidak terbaca tidak dipaksakan."
+    ],
+    "review_notes": [
+      "Lima mobil utama dan pikap terlihat, mobil lain terhalang di hulu dengan status batas yang eksplisit. Skuter hijau tua terdekat masih sebelum marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000606.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S031.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S031-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S032",
+    "annotation_sha256": "bb6b546d0c82d26e449d77895821a2746562d5f77962d33891bc367350bff513",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Jarak kendaraan jauh dan terhalangnya tapak motor sisi median dicocokkan ke catatan visi yang direvisi."
+    ],
+    "review_notes": [
+      "Dua motor di sisi hulu/kerb diperlakukan sebagai ketidakpastian. Motor terhalang di celah antara mobil putih dan median diberi label tersendiri."
+    ],
+    "qa_flags_reviewed": [
+      "S032-11: helm dan sebagian muka skuter berada di celah mobil, area ban tertutup sehingga membership tetap unknown."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000627.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S032.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S032-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S033",
+    "annotation_sha256": "7e7e50d4e413e0985201cd42961220f73779babcdda47c6a9b5f7548a2e903f6",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "Mobil merah S033-03 tertutup sebagian oleh bus dan motor di depan, sesuai revisi occlusion partial. Bentuk kedua bus konsisten pada overlay akhir."
+    ],
+    "review_notes": [
+      "Dua bus berbeda dan becak hijau dapat dipisahkan dari mobil merah. Atap coach besar terpotong di tepi atas dan dicatat."
+    ],
+    "qa_flags_reviewed": [
+      "S033-01: atap coach perak bersentuhan tepi atas frame; truncated benar. Ban belakang menapak aspal di dalam.",
+      "S033-02: bus hijau kecil dengan posisi lajur median jelas, bagian dasar terhalang oleh coach perak dan hatchback merah."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000656.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S033.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S033-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S034",
+    "annotation_sha256": "af3445f6da8f78e12abe5c4091081899c7238e1141debbe36dd27ca3f85f7172",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Helm terisolasi tetap ignore ketat di atas atap. roi_relevance=possible_target_in_roi menahan referensi hitung penuh walau proyeksi kotak berada di luar poligon."
+    ],
+    "review_notes": [
+      "Dua mobil hitam bersebelahan jelas. Siluet helm terlihat tepat di atas mobil median dan status kendaraan/arah tidak bisa dipastikan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000687.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S034.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S034-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S035",
+    "annotation_sha256": "5f3baf8a72da635dc7dffd0b3a2db89d578cd3f2c64edb09f7d9deb27433d1cd",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van abu kotak tetap unknown, MPV dan SUV jelas terpisah. Motor merah dekat kerb/marka status batas dan pengendara anak di belakangnya tetap dalam bbox motor terkait."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000725.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S035.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S035-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S036",
+    "annotation_sha256": "bad327f0c7add9f68b1b8b245fecb7cc4e0cf7401f182c0767302c7487a1f778",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua becak terpisah, satu di dalam dan satu jauh di hulu. Klaster motor dekat kerb memiliki kontak parsial dan kepala yang tampak di depan MPV tidak dipaksakan masuk."
+    ],
+    "qa_flags_reviewed": [
+      "S036-12: helm dan sedikit bodi dapat dipisahkan di depan MPV, tetapi kontak tertutup sehingga unknown.",
+      "S036-25: sisi kendaraan dan pengendara di antara daun dan tiang; posisi tepat terhadap hulu dan kerb belum pasti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000758.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S036.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S036-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S037",
+    "annotation_sha256": "5c9436d5d86faa895eac9d7bf09a6239386e8df77b00e08c289c0a62e4fd901c",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "SUV gelap dan van perak terpisah. Van tetap kelas unknown, dan ban depan motor jaket biru sudah di luar garis dengan bagian belakang masih sebelum marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000791.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S037.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S037-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S038",
+    "annotation_sha256": "55e77e13cdf9cb5144b76304fd1b3b5bf1efb3e411e360d3709a4f48918c1f17",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap kios hitam masih menunjukkan bak dan kabin terpisah, sehingga other. Dua skuter merah di tepi kerb punya posisi ban yang belum terpisah jelas dari batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000837.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S038.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S038-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S039",
+    "annotation_sha256": "b62fd29a287fcaaa8392d4e907fd530c1c3b63dd5acb4b4370c61e703585ac87",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Minicoach putih berada sekitar batas hulu dan dasar depan tertutup mobil. Motor berkeranjang dipisah dari dua skuter kerb yang buktinya kurang."
+    ],
+    "qa_flags_reviewed": [
+      "S039-05: bentuk coach jelas dari kabin depan tinggi dan jendela sisi. Bodi melintasi garis hulu, ban depan tertutupi oleh mobil di depannya."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000865.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S039.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S039-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S040",
+    "annotation_sha256": "bffd49bd6f8a403686d58a9ec733015347ea05f1a66989311be2406d912c2cf9",
+    "reviewer": "barat",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Sedan gelap dan hatchback perak berada di dalam. Motor dua rider di belakang skuter depan terpisah, dan dua skuter di tepi hulu/kerb diberi status batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000913.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S040.jpg",
+      ".scratch/bantul-annotation222-20261116/cross_audit/selatan_by_barat/S040-comparison.jpg"
+    ]
+  },
+  {
+    "image_id": "S041",
+    "annotation_sha256": "4fda92863a84ba3deb2e654aba0f3b8fcaffb88aefde9b7dde6c1387d20b8f21",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Truk boks putih dan motor berhimpit terpisah, termasuk roda tiga biru dekat tepi dan kendaraan di hulu."
+    ],
+    "qa_flags_reviewed": [
+      "S041-23 (decided_contact_within_review_band): Roda depan tampak di sisi luar kuning dan sedikit dekat pita batas; motor kecil berada di arah hulu dari batas."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000940.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S041.jpg"
+    ]
+  },
+  {
+    "image_id": "S042",
+    "annotation_sha256": "b8ee9ff536364e1c9f044daf8dec4e7bcccc74fa6ff838b166d0dae82ae712d4",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor merah muda di depan dan SUV gelap di sisi median terpisah dari kendaraan yang merapat."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000968.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S042.jpg"
+    ]
+  },
+  {
+    "image_id": "S043",
+    "annotation_sha256": "dad9f58c9506847dbccbd72c62975cb042fc531f7961742cabcee2f49b22d1ee",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bus merah dan MPV merah terpisah; motor terdepan perlu perlakuan batas henti."
+    ],
+    "qa_flags_reviewed": [
+      "S043-01 (visual_priority): Bus merah dengan kaca penumpang panjang dan badan tinggi; MPV merah menutup sebagian bawah depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000995.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S043.jpg"
+    ]
+  },
+  {
+    "image_id": "S044",
+    "annotation_sha256": "3019c613c32b64f76866d1cfcea83a43d56f45d7355dbaccce74bb466d6d84e5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil di sisi median; motor gelap dekat henti, motor kecil dengan roda tertutup tetap tidak pasti."
+    ],
+    "qa_flags_reviewed": [
+      "S044-05 (visual_priority): Helm dan bahu tampak di balik mobil; roda serta posisi tapak tertutup, unknown tepat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001021.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S044.jpg"
+    ]
+  },
+  {
+    "image_id": "S045",
+    "annotation_sha256": "12e49eaa1f90d74b6217ae1eab2282dd3795828470c8962a20ebdc96c040a94b",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV hitam dan motor berderet. Motor depan dekat garis henti dicek terhadap posisi roda."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001060.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S045.jpg"
+    ]
+  },
+  {
+    "image_id": "S046",
+    "annotation_sha256": "f37c47f1ad28dee07d28ade4f2352288c0d11f5af1b2fc3444f94fbcc73a0460",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil hitam/perak dan deret motor padat terbagi; skuter di tepi luar dekat cabang tetap batas."
+    ],
+    "qa_flags_reviewed": [
+      "S046-29 (visual_priority): Skuter berimpit dengan tiang dan daun tepat di sambungan kuning-hijau, boundary tepat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001083.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S046.jpg"
+    ]
+  },
+  {
+    "image_id": "S047",
+    "annotation_sha256": "8f0e4d57e88f2a857fb55ddcbb965ba4b634e2b1f681e9272a4d9253a515bd2c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van merah tua dan mobil penumpang perak terpisah; kelas van masih tidak pasti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001115.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S047.jpg"
+    ]
+  },
+  {
+    "image_id": "S048",
+    "annotation_sha256": "5b92ff078851a12dd2a5107410568a4367226b1f4199f59e25f42ec1889a63e3",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil merah dan skuter berhimpit dipisahkan; dua skuter terang di depan dekat garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001162.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S048.jpg"
+    ]
+  },
+  {
+    "image_id": "S049",
+    "annotation_sha256": "2b41d3180e39c327b3f6f3768316e0feab3971242b933256a243d976b2eaa823",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Barisan rapat dengan batas di depannya dan hulu; tumpang tindih bbox tidak menduplikasi kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001195.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S049.jpg"
+    ]
+  },
+  {
+    "image_id": "S050",
+    "annotation_sha256": "af2d1041c687e11f1a6ed217af2d2d54f054f4aa7cbef498cbcf88987d8a90ce",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV terang di depan, hatchback perak dan van hitam terpisah; motor merah di tepi perlu perlakuan batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001224.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S050.jpg"
+    ]
+  },
+  {
+    "image_id": "S051",
+    "annotation_sha256": "c46c9422c2b6f15b0fa1e89ff5dc1d021ddb4946689ffe636a503b9abea00a9b",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "SUV putih dan pikap dibedakan dari lima skuter yang sebagian besar rodanya tertutup. Tapak motor hulu/tepi tetap sesuai statusnya."
+    ],
+    "qa_flags_reviewed": [
+      "S051-12 (visual_priority): Helm hitam dan rider berjaket gelap di antara skuter hijau dan SUV putih; badan terlihat sebagian, roda tertutup.",
+      "S051-14 (visual_priority): Skuter gelap tampak di celah depan mobil hitam; bagian ban bawah tertutup mobil putih di depan.",
+      "S051-15 (visual_priority): Rider dengan fairing merah muda terpisah dari motor tandem di belakang, ban tertutup atap putih.",
+      "S051-16 (visual_priority): Dua rider di satu skuter gelap di belakang skuter merah muda, arah dan posisi di ruas target.",
+      "S051-17 (visual_priority): Skuter dengan keranjang berada di kanan deret, kontak tertutup bagian belakang mobil putih tetapi posisi lajur jelas."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001238.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S051.jpg"
+    ]
+  },
+  {
+    "image_id": "S052",
+    "annotation_sha256": "e0fb34c6f1fd2086896d0249e0775ce08c928090366903adf91549dd9bbf396a",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S052-08 diperbarui menjadi boundary_review setelah pengecekan tapak dekat median. Becak diberi subtype becak."
+    ],
+    "review_notes": [
+      "Roda tiga berdekatan dengan skuter lalu MPV bertumpuk; satu kendaraan roda tiga dipisahkan dari rider motor."
+    ],
+    "qa_flags_reviewed": [
+      "S052-08 (contact_membership_disagreement): Skuter hitam di sisi median, roda depan berdekatan langsung dengan garis hijau; status diperiksa bersama annotator.",
+      "S052-17 (visual_priority): Skuter gelap di depan SUV perak; bagian fairing terlihat dan roda tertutup rider depan.",
+      "S052-19 (visual_priority): Dua helm pada satu kendaraan di belakang pasangan rider bermotif; fairing dan dasar tertutup.",
+      "S052-20 (visual_priority): Dua helm dan fairing lampu bulat terpisah dari rider dengan helm hijau lebih dekat.",
+      "S052-21 (visual_priority): Rider helm hijau dan skuter dengan lampu bulat di depan tandem yang berbeda.",
+      "S052-22 (visual_priority): Rider helm gelap mengapit fairing motor merah, terpisah dari rider helm hijau dan topi lebar di muka.",
+      "S052-27 (visual_priority): Skuter hitam di balik daun dekat garis kuning; motor merah muda yang lebih dekat merupakan kendaraan lain."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001268.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S052.jpg"
+    ]
+  },
+  {
+    "image_id": "S053",
+    "annotation_sha256": "e3f0e37340ad0ff0344a5ef932f8ee155147188b5e9a9453bad4ee0dc296d613",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Becak merah muda diberi subtype becak setelah melihat kanopi serta konfigurasi roda."
+    ],
+    "review_notes": [
+      "Roda tiga merah muda dekat henti dan minicoach di hulu dibedakan. Oklusi motor di sisi kerb diperiksa."
+    ],
+    "qa_flags_reviewed": [
+      "S053-15 (visual_priority): Motor merah di samping kendaraan terang, fairing dan sebagian ban depan terlihat melalui sela.",
+      "S053-16 (visual_priority): Rider helm putih di samping skuter merah dan di belakang rider helm abu di muka.",
+      "S053-18 (visual_priority): Rider merah dengan kepala dan badan atas terbaca; roda tertutup kanopi roda tiga."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001293.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S053.jpg"
+    ]
+  },
+  {
+    "image_id": "S054",
+    "annotation_sha256": "3828971a3eec1af5b63979ac990dedfb8a7620a664b1d4913752faa5bca7d3be",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "Dua becak di depan diberi subtype becak dan tetap dua objek terpisah."
+    ],
+    "review_notes": [
+      "Bus Hertansa putih-merah dan bus jauh terpisah dari dua becak dan deret motor; kandidat terpotong diperiksa lokal."
+    ],
+    "qa_flags_reviewed": [
+      "S054-01 (visual_priority): Bus Hertansa putih-merah dan roda belakang terlihat; kaki/rider di muka adalah kendaraan lain.",
+      "S054-12 (visual_priority): Kabin truk dan sisi boks tampak di belakang MPV pada hulu luar.",
+      "S054-13 (visual_priority): Coach kuning sebagian tertutup mobil di batas hulu; tapak kurang tegas, boundary sesuai.",
+      "S054-21 (visual_priority): Rider oranye dan skuter merah muda yang terlihat cukup terpisah dari kendaraan roda tiga.",
+      "S054-24 (visual_priority): Rider merah tampak di balik terpal becak; bagian bawah motor tertutup.",
+      "S054-27 (visual_priority): Skuter dekat tepi gambar di sudut batas henti dan kerb; bagian bawah terpotong."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001302.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S054.jpg"
+    ]
+  },
+  {
+    "image_id": "S055",
+    "annotation_sha256": "3b113e2d20840a44c4ba435707a2287d043bf5d57e70b4b78b08383115ce955c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "SUV gelap dan MPV putih diikuti beberapa motor; helm berpasangan di depan tetap satu motor."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001328.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S055.jpg"
+    ]
+  },
+  {
+    "image_id": "S056",
+    "annotation_sha256": "9f59b2767271f02b21fc97ecbd7e949f57a6544e7d8da57ac0fb9241a97e22f5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Truk boks hijau, mobil, dan motor dipisahkan. Motor merah depan melintasi wilayah henti; motor tepi tetap ragu."
+    ],
+    "qa_flags_reviewed": [
+      "S056-04 (visual_priority): Kabin hijau terpisah dari boks tinggi bergaris; roda belakang tampak pada aspal target.",
+      "S056-15 (visual_priority): Rider helm abu di belakang motor berjaket hijau, fairing dan roda tertutup sebagian."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001385.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S056.jpg"
+    ]
+  },
+  {
+    "image_id": "S057",
+    "annotation_sha256": "9bbcf574783ffbf7605ea01d08f210a0dad8448358fec1a1c6d3d1f064554876",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil dan van di sisi jauh dibedakan; motor dekat daun/kerb memiliki tapak tak terbaca."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001406.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S057.jpg"
+    ]
+  },
+  {
+    "image_id": "S058",
+    "annotation_sha256": "4a52b16216b504345b2a3d0d19246af94e315000c81a08b3c2a7ecd667eb2dfa",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Hatchback putih dan skuter merah terpisah, skuter gelap dekat tepi diperlakukan sesuai ketidakpastian batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001436.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S058.jpg"
+    ]
+  },
+  {
+    "image_id": "S059",
+    "annotation_sha256": "a75accff1fce4ba91277a10c5f0b6fa8a80358f930a27fbddf5f3a3b4203bff1",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bus kuning-hijau dibedakan dari MPV dan motor; dua rider depan yang terpisah tidak dijadikan satu motor."
+    ],
+    "qa_flags_reviewed": [
+      "S059-04 (visual_priority): Bus kuning-hijau berkaca panjang, roda dan badan belakang terpisah dari kendaraan depan.",
+      "S059-11 (visual_priority): Rider gelap berkaca mata/visor tepat di depan coach; distinct dari motor bertutup helm cerah di depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001492.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S059.jpg"
+    ]
+  },
+  {
+    "image_id": "S060",
+    "annotation_sha256": "cbd171cbaa61feb5dc9a65de266d9656e802c6e93d3e9308cbb712459302b4d6",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Antrean padat, motor di antara SUV dan motor depan dibedakan berdasarkan helm, setang dan bagian fairing yang terlihat."
+    ],
+    "qa_flags_reviewed": [
+      "S060-15 (visual_priority): Rider berjaket merah sebagian di belakang rider oranye; lengan, setang, dan fairing terlihat terpisah.",
+      "S060-16 (visual_priority): Dua helm pada satu motor dengan muka bulat berada di belakang helm merah muda yang lebih dekat.",
+      "S060-18 (visual_priority): Rider helm abu dan lampu muka merah terlihat di antara motor di depan; tapak tertutup.",
+      "S060-19 (visual_priority): Dua orang berpakaian gelap dengan motor yang memiliki satu badan, terpisah dari motor helm dekat di depannya."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001515.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S060.jpg"
+    ]
+  },
+  {
+    "image_id": "S061",
+    "annotation_sha256": "ad363d402b4a40d6a80ad297ea7c15d5d2dba8561c987cf7f0e2a1db0b0823ff",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV hitam dan SUV terpisah dari skuter hijau kebiruan dengan jaket terang."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001544.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S061.jpg"
+    ]
+  },
+  {
+    "image_id": "S062",
+    "annotation_sha256": "72f20c966f1807d4c6a7f300ec491290d24840c823cbf44cc861b08c4d325141",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua kendaraan bak hitam dan skuter muka biru terpisah; roda motor dekat kerb berada di area batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001597.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S062.jpg"
+    ]
+  },
+  {
+    "image_id": "S063",
+    "annotation_sha256": "69b3a4fc35643d226cb7ff2d9dab95011f365f5dc6df8ae4cc93eb44dde89757",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S063-12 diperbarui ke boundary_review setelah pengecekan tapak median."
+    ],
+    "review_notes": [
+      "Antrean sangat rapat, truk jauh dibedakan dari mobil target; motor putih tepi dan motor dekat median diperiksa secara lokal."
+    ],
+    "qa_flags_reviewed": [
+      "S063-10 (visual_priority): Kabinnya putih disusul boks gelap, berada di luar hulu dan terhalang kendaraan dekat.",
+      "S063-12 (contact_membership_disagreement): Posisi motor dekat garis median; perlu verifikasi titik dan status berdasarkan roda depan atau belakang yang terlihat.",
+      "S063-19 (visual_priority): Rider berhelm gelap dan lampu muka motor terpisah dari rider helm merah di belakang.",
+      "S063-23 (visual_priority): Helm gelap dan muka skuter abu terlihat di belakang motor helm putih.",
+      "S063-26 (visual_priority): Rider hitam di depan mobil krem dengan lampu depan sendiri, sebagian roda tertutup rider depan.",
+      "S063-27 (visual_priority): Rider helm gelap dan lampu bulat terpisah di sela dua motor; tapak tidak terbaca.",
+      "S063-28 (visual_priority): Rider kaus jingga dan muka skuter sendiri, berada di belakang motor yang lebih dekat.",
+      "S063-36 (visual_priority): Rider biru dan fairing putih di depan batas hulu, terpisah dari motor tandem di depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001624.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S063.jpg"
+    ]
+  },
+  {
+    "image_id": "S064",
+    "annotation_sha256": "5b84c68235d2addfbdbacb5697a729fafec6ce48b4ff0031ea3952b2cf8db3f8",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [
+      "Becak jauh diberi subtype becak; tetap di luar batas hulu."
+    ],
+    "review_notes": [
+      "MPV gelap terdepan, motor tandem dan kendaraan kecil jauh terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001647.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S064.jpg"
+    ]
+  },
+  {
+    "image_id": "S065",
+    "annotation_sha256": "c237d239dc638d5b1f36b254f6dad8d90f075890f510b28404bdf2ee66481cd1",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV hitam/MPV perak dan tiga skuter di hulu dibedakan. Motor yang berimpit di sisi kiri MPV diperiksa."
+    ],
+    "qa_flags_reviewed": [
+      "S065-12 (visual_priority): Skuter merah dengan helm abu, terpisah dari rider pusat dan motor gelap di belakang.",
+      "S065-13 (visual_priority): Motor gelap dan helm hitam antara skuter merah dan skuter rider jingga; bawah teroklusi.",
+      "S065-14 (visual_priority): Helm dan kaus jingga dengan fairing putih tepat di depan mobil; sebagian roda tertutup."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001673.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S065.jpg"
+    ]
+  },
+  {
+    "image_id": "S066",
+    "annotation_sha256": "236b7a66a0b0cf167696b21b285c1800d3bdb6b2cc859f50143c4ea5f600a218",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kontrol kosong, seluruh aspal pendekat terlihat tanpa kandidat kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001678.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S066.jpg"
+    ]
+  },
+  {
+    "image_id": "S067",
+    "annotation_sha256": "21c602447cbe0416257a2d3dc0fb4af03879deaaa250514ae514430abfc113f1",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor depan melintasi area henti; skuter di hulu dan dekat kerb dipisahkan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001695.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S067.jpg"
+    ]
+  },
+  {
+    "image_id": "S068",
+    "annotation_sha256": "31ad5f5ae86469481b4c890bc74d5a5aaf84fe2c728692c2e2019962ab1eb59d",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bus oranye dan mobil dekat median, beberapa motor rapat di depan termasuk motor dengan roda dekat henti."
+    ],
+    "qa_flags_reviewed": [
+      "S068-02 (visual_priority): Bus oranye bertubuh tinggi dengan jendela penumpang dan roda belakang terlihat.",
+      "S068-06 (visual_priority): Motor tandem berhelm gelap terpisah dari motor helm hijau di depannya."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001731.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S068.jpg"
+    ]
+  },
+  {
+    "image_id": "S069",
+    "annotation_sha256": "8a4a5a6399a3fcac3e4f836383bad7f8a887d20a6ca08d2e1a45eb2faed887ef",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Deret mobil hitam dan skuter depan terpisah; pasangan pengendara dihitung sebagai bagian satu motor."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001761.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S069.jpg"
+    ]
+  },
+  {
+    "image_id": "S070",
+    "annotation_sha256": "4099e16dfa49729251e49785a3c13418e8dff5670928aff10d2aa0d4bff72f5c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bus kuning-hijau di belakang mobil merah dan MPV krem. Roda bus terlihat sebagian di antara mobil."
+    ],
+    "qa_flags_reviewed": [
+      "S070-03 (visual_priority): Bus kuning-hijau dengan kaca dan pintu coach, bawah terhalang oleh MPV krem."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001788.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S070.jpg"
+    ]
+  },
+  {
+    "image_id": "S071",
+    "annotation_sha256": "d6c242de48aa21fe2efdb0006d2f6d8cbf7aa5b4febf47457594e1710a569833",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S071-11 tetap unknown dengan possible_cargo_vehicle, karena sambungan kendaraan dan sumbu tertutup."
+    ],
+    "review_notes": [
+      "Antrean padat mobil dan motor; rider pada baris depan dan hulu dipisahkan melalui bagian muka kendaraan."
+    ],
+    "qa_flags_reviewed": [
+      "S071-11 (visual_priority): Kabin kuning dan kemungkinan bidang boks belakang, kelas perlu dicocokkan ulang dengan bentuk yang terlihat.",
+      "S071-22 (visual_priority): Rider berhelm gelap berdampingan dengan rider merah dan terpisah dari helm di bawah; roda tertutup.",
+      "S071-29 (visual_priority): Rider kecil di ujung antrean belakang sejumlah rider lain; kepala dan bagian muka motor terpisah.",
+      "S071-31 (visual_priority): Rider jaket gelap dengan penumpang terang pada sisi kanan antrean, badan motor sebagian tertutup."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001852.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S071.jpg"
+    ]
+  },
+  {
+    "image_id": "S072",
+    "annotation_sha256": "8c50ab312f3543c0b9b4d1778468189526d71b98e683e3988e1cda990d54ab65",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Deretan MPV dekat median dan motor depan terpisah; motor dekat kerb kanan melintasi batas tepi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001870.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S072.jpg"
+    ]
+  },
+  {
+    "image_id": "S073",
+    "annotation_sha256": "791c1ae0d8715a89c907aef9bd2946611b231fda995f96b468ac26b88fc06f96",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Hatchback putih dan empat motor depan dengan celah hulu; motor kecil yang melintang batas hulu tetap lokal."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001920.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S073.jpg"
+    ]
+  },
+  {
+    "image_id": "S074",
+    "annotation_sha256": "09e9bb9018e7537735e9f46bce41cd0a6d2cbb0de77427b0b85f8dc7d6525c0f",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Kendaraan kuning dan satu mobil merah muda tampak di barisan mobil; motor sangat dekat kerb dan garis henti diberi batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001948.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S074.jpg"
+    ]
+  },
+  {
+    "image_id": "S075",
+    "annotation_sha256": "6056db14a24bc2350203b8e84a4b48e357e54700e7320fc95527d508774b9799",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil putih dan motor pemuka terpisah dari bus putih-merah di luar hulu serta motor merah tepi."
+    ],
+    "qa_flags_reviewed": [
+      "S075-04 (visual_priority): Kaca depan hampir tegak dan badan bus putih-merah berada di belakang batas hulu; roda tertutup mobil depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001977.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S075.jpg"
+    ]
+  },
+  {
+    "image_id": "S076",
+    "annotation_sha256": "6cd01696b2b14b6087c1b41a29e23b67ae6a11dc02188229105137cc6ed5d293",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "S076-09 diperbarui ke boundary_review setelah pengecekan tapak dekat median."
+    ],
+    "review_notes": [
+      "Bus putih-merah, deret mobil dan motor dipisahkan; motor terakhir di kerb kanan melintasi garis tepi."
+    ],
+    "qa_flags_reviewed": [
+      "S076-03 (visual_priority): Coach putih-merah dengan kaca tinggi dan deret jendela; roda terhalang barisan depan.",
+      "S076-09 (contact_membership_disagreement): Skuter gelap di sisi median, tapak roda depan sangat dekat garis hijau; status dicek kembali."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001997.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S076.jpg"
+    ]
+  },
+  {
+    "image_id": "S077",
+    "annotation_sha256": "02428bd3c4935c655a45b5404ff1d65c680a427de9cd0b294a7b719ff07a1a28",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu bus TransJogja kuning-hijau dan dua motor di target. Mobil kecil jauh di luar hulu."
+    ],
+    "qa_flags_reviewed": [
+      "S077-01 (visual_priority): Bus TransJogja kuning-hijau dan pintu naik penumpang, dua roda yang terlihat berada di lajur target."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002028.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S077.jpg"
+    ]
+  },
+  {
+    "image_id": "S078",
+    "annotation_sha256": "1379873637050c8214099c2b1d162c09fa909f1a0c9ea2eb8f135bb47613f7e2",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua kendaraan hitam, MPV putih dan deret motor terpisah; sosok pejalan kaki sendiri tanpa motor."
+    ],
+    "qa_flags_reviewed": [
+      "S078-15 (visual_priority): Dua helm di skuter terpisah dari rider perempuan berkerudung di depan; tapak tersembunyi."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002071.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S078.jpg"
+    ]
+  },
+  {
+    "image_id": "S079",
+    "annotation_sha256": "03b12c81c5a85d21347c821ebf3652c0496d266a3432595e6ef1bb902f02ffa4",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor membawa tanaman dan motor di bekas jalur kerb terpisah; variasi kendaraan rapat tidak diberi bbox ganda."
+    ],
+    "qa_flags_reviewed": [
+      "S079-17 (visual_priority): Rider gelap di belakang skuter rider oranye, spion dan fairing terpisah di antara keduanya.",
+      "S079-18 (visual_priority): Rider oranye dan skuter putih dengan lampu muka jelas di depan skuter gelap lainnya."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002114.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S079.jpg"
+    ]
+  },
+  {
+    "image_id": "S080",
+    "annotation_sha256": "2bfc0ec139254c547c2c754ec190ce3d4841da138e145b1dc047f8533e1501bb",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Minivan hitam sisi median memiliki bayangan dan tapak terbaca; kendaraan hitam di hulu luar terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002126.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S080.jpg"
+    ]
+  },
+  {
+    "image_id": "S081",
+    "annotation_sha256": "c060ca80e7ecc0d78ab638e557af1aa3b63b6b18bb7059a3a448e0b4a40e7fe6",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Minivan, SUV putih dan barisan motor dipisahkan, sementara dua roda depan berada pada area batas henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002157.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/selatan/overlays/S081.jpg"
+    ]
+  },
+  {
+    "image_id": "W001",
+    "annotation_sha256": "13468fd15b8a69936763f55ba74052c7f02f0d65a7b3aea17a6449c05998d874",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pikap bak terbuka tunggal terbaca utuh. Kedua ban di pendekat dan kelas other sesuai."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0003.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W001.jpg"
+    ]
+  },
+  {
+    "image_id": "W002",
+    "annotation_sha256": "234484d2376611966eb02663c917005cfb017a93a40633a8508f71fddf0a4674",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil putih, pikap, dan motor di balik kabin dipisahkan. Roda motor tidak dapat dibaca dengan andal."
+    ],
+    "qa_flags_reviewed": [
+      "W002-03 (visual_priority): Dua helm dan sisi muka motor terlihat di kanan kabin, tapak ban tertutup badan pikap. Unknown tepat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0012.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W002.jpg"
+    ]
+  },
+  {
+    "image_id": "W003",
+    "annotation_sha256": "13a736fc1d410a2a9f401d1816b443334da8c563c5a30765458020eac42c0931",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Pendekat dan batas henti kosong. Kabel dan watermark tetap terlihat tanpa bentuk kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0015.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W003.jpg"
+    ]
+  },
+  {
+    "image_id": "W004",
+    "annotation_sha256": "ba84082ba5d3eb039bff8ae550c3c85cb2a217b9b4ba643ddd5b4b43d9700077",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tujuh kotak mencakup MPV putih dan enam motor. Rider sisi taman terpisah dari kendaraan lapis depan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0032.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W004.jpg"
+    ]
+  },
+  {
+    "image_id": "W005",
+    "annotation_sha256": "078402eda876d51c651ef21e5b8a30f1e9eeb882f9fbf3acbee57cb0a8a20139",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor termasuk satu di daerah hulu dekat mulut jalan; kedua siluet terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0047.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W005.jpg"
+    ]
+  },
+  {
+    "image_id": "W006",
+    "annotation_sha256": "f38a6be07430f70863edb71b4aebe4dc07f89a54c894a21b3e374a1480c4caaa",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor, termasuk motor paling hulu dan skuter putih tandem, masing-masing mendapat kotak."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0054.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W006.jpg"
+    ]
+  },
+  {
+    "image_id": "W007",
+    "annotation_sha256": "601938e53bec4a0cea19a96552320bec7f4e335b2599f6eb4be660f72fb97c87",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bidang pendekat kosong. Motor cyan di kanan bawah berperan sebagai konteks setelah garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0066.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W007.jpg"
+    ]
+  },
+  {
+    "image_id": "W008",
+    "annotation_sha256": "f16f58b95e4b1b00952a778d269144b6594a1efa1ae7f26e2d0f527751a6e8f1",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor membentuk dua baris. Kotak merah, biru, dan motor dekat kerb terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0077.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W008.jpg"
+    ]
+  },
+  {
+    "image_id": "W009",
+    "annotation_sha256": "1c66ded285232b91a6932876d1a46ab733210f81b54b4077012adbc6ac192fe4",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor berhenti sebelum garis, roda depan di sisi pendekat terhadap marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0090.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W009.jpg"
+    ]
+  },
+  {
+    "image_id": "W010",
+    "annotation_sha256": "f54a9ff2c49b9ec1d1414bd62c2049e966abf6ae914b71b2256a24fc47355acf",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van perak bertipe penumpang belum pasti kelas; empat motor di sekitarnya terbaca satu per badan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0095.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W010.jpg"
+    ]
+  },
+  {
+    "image_id": "W011",
+    "annotation_sha256": "ff41e2a99a98490e2038ecae4c553a85f144aa0b381dde6b7a37c4b9c9c5323c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor merah tunggal menyentuh atau menyeberangi garis henti. Tetap boundary_review."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0109.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W011.jpg"
+    ]
+  },
+  {
+    "image_id": "W012",
+    "annotation_sha256": "ebb6554077c876cd2c62b6e2fb4f68e3d59a33a53e250a45cfeea316770d7d8f",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV putih utuh. Motor merah di garis henti dibiarkan belum pasti posisi anggota."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/02_paseban_barat/frames/frame_0114.png",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W012.jpg"
+    ]
+  },
+  {
+    "image_id": "W013",
+    "annotation_sha256": "300d51ebd407c71f7fefc15563cfb04b878a075c174be234067656cc0ed6f69c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor sasaran dan motor hilir dapat ditelusuri. Motor belakang sebagian tertutup dan dipertahankan sebagai kasus parsial."
+    ],
+    "qa_flags_reviewed": [
+      "W013-03 (visual_priority): Rider biru lebih jauh terlihat, tetapi bagian bawah berimpit dengan motor tandem di depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000011.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W013.jpg"
+    ]
+  },
+  {
+    "image_id": "W014",
+    "annotation_sha256": "b9dbc909059e6af59c7bd2342bde97ff7592bdcf5a1c4df31c91bb6eb302754a",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Bidang marka henti dan batas belakang kosong dari kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000044.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W014.jpg"
+    ]
+  },
+  {
+    "image_id": "W015",
+    "annotation_sha256": "475e74d473536a18b776e328b98ed250c8ad74bb728ca4df9f6b3066ec2423d8",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor dan kendaraan roda tiga angkut. Roda roda tiga melintasi perpanjangan marka, sementara motor merah dekat ujung garis."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000077.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W015.jpg"
+    ]
+  },
+  {
+    "image_id": "W016",
+    "annotation_sha256": "a9450355757711c0119e457a07eba51d62412139a2b7ba88297624a615e8b138",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor berdampingan. Rider kedua tetap terpisah meski kotak bertumpang tindih."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000121.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W016.jpg"
+    ]
+  },
+  {
+    "image_id": "W017",
+    "annotation_sha256": "4db7469b5c079456db51ac5adf43eac06b77411b698ab5405f91c668c45b8ee9",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor berwarna gelap di tepi bawah berada pada arah lawan; kontrol pendekat tetap kosong."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000175.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W017.jpg"
+    ]
+  },
+  {
+    "image_id": "W018",
+    "annotation_sha256": "e427420a9fa0bca52c6c23e579120683fc140ca439fec3aab4f3fd82e3410ef8",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor kecil dekat batas belakang dan motor putih-merah di marka depan menyeberangi batas. Motor biru di tengah jelas di dalam."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000197.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W018.jpg"
+    ]
+  },
+  {
+    "image_id": "W019",
+    "annotation_sha256": "6bc139b590891a163cbfa410e534262801c88641f663c3225b884c3265e02ed5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan dua motor di pendekat. Fragmen putih jauh di luar batas belakang berada di luar area hitung."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000250.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W019.jpg"
+    ]
+  },
+  {
+    "image_id": "W020",
+    "annotation_sha256": "2258375ac56cbff51475bca105847aec0e2448bce0d4cfd1473c4ae211d5b05c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor berjarak. Rider dan penumpang pada satu motor berada dalam kotak yang sama."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000305.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W020.jpg"
+    ]
+  },
+  {
+    "image_id": "W021",
+    "annotation_sha256": "ca4f1a3f309868beaea0c801b427dec69b993f299270e7263a90e0e99f86fdfc",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil merah di dalam; motor yang menyusur di depan zebra berada di arah lawan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000326.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W021.jpg"
+    ]
+  },
+  {
+    "image_id": "W022",
+    "annotation_sha256": "97bb7f6ac0a73e83ba4fdad3f8df9d2bfb6ac9d726f112ea8a3e5af760a78ba4",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil merah serta motor hulu dan sisi taman terpisah. Dua motor di dekat watermark mempunyai siluet berbeda."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000348.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W022.jpg"
+    ]
+  },
+  {
+    "image_id": "W023",
+    "annotation_sha256": "242f8df61ad6dac5ae58ec4f4e40874333aef6a9db4d088cb15dbcbc5988acc5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor, satu dekat ujung marka dan satu dekat kerb, roda tetap dalam bidang."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000414.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W023.jpg"
+    ]
+  },
+  {
+    "image_id": "W024",
+    "annotation_sha256": "85a54639740ce66fd164cbac33f2a9851f6974743fd55c99f08d871d5f6ca21f",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor termasuk skuter muatan hijau dan dua motor di kepala. Siluet dan rider tercakup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000468.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W024.jpg"
+    ]
+  },
+  {
+    "image_id": "W025",
+    "annotation_sha256": "f47a0572925645d971f722c5b8c782f68733d51ce5478ce9bab6253c41a7d57f",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "W025-02 sekarang boundary_review dengan alasannya. Kontak dekat marka pembagi diperiksa ulang pada overlay terbaru."
+    ],
+    "review_notes": [
+      "Van biru tetap unknown. Tiga motor dekat garis sisi atau garis henti dipertahankan sebagai boundary_review."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000577.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W025.jpg"
+    ]
+  },
+  {
+    "image_id": "W026",
+    "annotation_sha256": "4ca52af082d098e9c8c1956e4f8ac24c7fe40c16713a10712871b40af27b4a3e",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu motor hitam pengendara membungkuk, roda dan rider masih terbaca."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000627.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W026.jpg"
+    ]
+  },
+  {
+    "image_id": "W027",
+    "annotation_sha256": "2b441d69ffc8d9a1a432e75dc3fa9f8804ce156f939165550845e027ceb458f0",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu skuter putih berhelm abu dengan ruang sebelum garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000660.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W027.jpg"
+    ]
+  },
+  {
+    "image_id": "W028",
+    "annotation_sha256": "21b7143dd63dd5dc04d7e3a8755afbf33fca4c326981e017b6795bdba6cceeee",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV perak di dalam; motor putih di depan menempel batas dan tetap boundary_review."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000682.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W028.jpg"
+    ]
+  },
+  {
+    "image_id": "W029",
+    "annotation_sha256": "837427e40df3935acbbfbb5a948ab79649c91a1e27ab8fb8dbf9d76856bbcc52",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor. Zoom menampilkan roda depan motor kiri tepat tercakup tanpa menduplikasi motor kanan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000736.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W029.jpg"
+    ]
+  },
+  {
+    "image_id": "W030",
+    "annotation_sha256": "96c83b51cabe88dc490fced3d7bc0f2c4fe299a6e386afd8bb533f2391b78cb2",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Hatchback putih tunggal dapat dibaca, kedua roda sebelum marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000767.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W030.jpg"
+    ]
+  },
+  {
+    "image_id": "W031",
+    "annotation_sha256": "2380fa8e51610780edfedeed78158098023d351f841cc705f5123e0c96b6e2e6",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV kotak gelap dan motor tandem di sisi taman. Siluet keduanya terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000810.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W031.jpg"
+    ]
+  },
+  {
+    "image_id": "W032",
+    "annotation_sha256": "3b5794af354c80d81f1ee1186400688b14ab22cbb64f73c5e1cec63f7ceb4abe",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan tiga motor termasuk satu motor teroklusi di balik mobil biru dan satu motor melintasi garis."
+    ],
+    "qa_flags_reviewed": [
+      "W032-03 (visual_priority): Dua helm dan muka motor terlihat di belakang MPV, namun tidak bisa mengaitkan jejak ban ke motor secara pasti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000832.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W032.jpg"
+    ]
+  },
+  {
+    "image_id": "W033",
+    "annotation_sha256": "f5e32733c2c013a0a8b29420f47be1d916d74f654b9e5d19ad28db0d2831208a",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu skuter tandem gelap, rider dan penumpang berada pada kotak kendaraan yang sama."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000931.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W033.jpg"
+    ]
+  },
+  {
+    "image_id": "W034",
+    "annotation_sha256": "6bf41aff1b62eaf9aa0ad92b91742b105e045580bc649720aa7321abb89f41a0",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil masuk dari hulu di luar batas. Lima motor berdekatan; kontak motor tengah tidak dapat dipastikan."
+    ],
+    "qa_flags_reviewed": [
+      "W034-04 (visual_priority): Rider pada deret tengah dapat dibedakan; kontak depan tertutup formasi rapat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000996.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W034.jpg"
+    ]
+  },
+  {
+    "image_id": "W035",
+    "annotation_sha256": "7078cb15904f9924576b191e757013aa9656db6122bb096a5cb73235e2be55ca",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil hitam serta tiga motor. Roda belakang motor yang sebagian tertutup terlihat pada aspal sisi taman."
+    ],
+    "qa_flags_reviewed": [
+      "W035-02 (visual_priority): Roda belakang yang terlihat berada pada aspal pendekat. Oklusi sisi depan masih memberi bukti fisik yang cukup untuk inside."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001040.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W035.jpg"
+    ]
+  },
+  {
+    "image_id": "W036",
+    "annotation_sha256": "93d5d257075b4e6b120d0c63c2b6e2cc8f5e0341e4f0742fe15991a47af26a1b",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tujuh motor termasuk motor merah paling hulu dan motor belakang dekat kerb. Kontak roda motor tengah tertutup."
+    ],
+    "qa_flags_reviewed": [
+      "W036-05 (visual_priority): Motor di bagian tengah dapat dikenali. Roda dan kontak bertumpuk dengan motor yang lebih dekat."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001105.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W036.jpg"
+    ]
+  },
+  {
+    "image_id": "W037",
+    "annotation_sha256": "28df0063990e5b52bd6fb13b4fa3695ba1b25aa99f734b5a92fa8e8a1cbdf9c3",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "SUV gelap serta dua motor masing-masing satu kotak, tidak menganggap garis yang melewati atap sebagai batas benda."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001148.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W037.jpg"
+    ]
+  },
+  {
+    "image_id": "W038",
+    "annotation_sha256": "18a68a6fcb33dcce66f562d70f0b8e9451d2f08dbdef5558af3f613f9629d914",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Van putih dengan roda terlihat berada di dalam batas belakang, kelas belum pasti. Motor di balik SUV tetap unknown dan motor garis depan boundary_review."
+    ],
+    "qa_flags_reviewed": [
+      "W038-03 (visual_priority): Rider di sisi taman terlihat di atas SUV; tidak ada tapak ban yang dapat dibaca."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001170.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W038.jpg"
+    ]
+  },
+  {
+    "image_id": "W039",
+    "annotation_sha256": "af779af6506c96179b665019ae2e00ab595a284c01421a884d49e53f2a09ebd3",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Motor hulu di luar batas belakang, tiga motor berurutan di kepala. Motor paling kanan menyentuh garis henti."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001225.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W039.jpg"
+    ]
+  },
+  {
+    "image_id": "W040",
+    "annotation_sha256": "cec6ccd0bd7250316c0f314804a506dd3cf04e02af7e11880183fbcefb45229a",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil putih dan enam motor. Dua motor tengah tampak sebagai kendaraan terpisah meskipun dasar tertutup."
+    ],
+    "qa_flags_reviewed": [
+      "W040-04 (visual_priority): Siluet kendaraan terpisah dari motor merah depan, kontak tertutup.",
+      "W040-05 (visual_priority): Rider di tengah dan sebagian bodi terpisah dari motor depan, tapak ban tertutup."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001267.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W040.jpg"
+    ]
+  },
+  {
+    "image_id": "W041",
+    "annotation_sha256": "d135e47cd6d165a0a56067f2e03047b13c4d7936620c0967fdb0a77870eca898",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Sepeda kayuh di bawah marka pembagi berada di arah lawan; pendekat kosong."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001289.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W041.jpg"
+    ]
+  },
+  {
+    "image_id": "W042",
+    "annotation_sha256": "27989c494ae4ad35dfaa1408e8941d377a993201f2050573383b8a0c480bb3ee",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan dua motor. Roda belakang motor yang lebih jauh terlihat, motor biru depan menyeberangi batas."
+    ],
+    "qa_flags_reviewed": [
+      "W042-03 (visual_priority): Ban belakang terlihat berada di sisi target dan sebelum garis henti, sesuai status inside."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001333.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W042.jpg"
+    ]
+  },
+  {
+    "image_id": "W043",
+    "annotation_sha256": "96b309bb78791a90398bf707b7df1b6d0d0699920ca24708b776aef310594656",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu skuter putih tandem; kedua orang termasuk dalam satu kotak kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001388.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W043.jpg"
+    ]
+  },
+  {
+    "image_id": "W044",
+    "annotation_sha256": "c724bcc3e65278ac7a69ddc64b9d89ea6cd06e740d444bfef39ae9010d0284d2",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV perak dan dua motor berurutan. Roda dan tubuh tampak dalam kotak masing-masing."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001486.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W044.jpg"
+    ]
+  },
+  {
+    "image_id": "W045",
+    "annotation_sha256": "c068105bf47fa10d58480e3d7193423596babb029cb0f50484a6b0ad437f8b32",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua skuter tandem dengan kotak terpisah; roda depan tidak melewati batas."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001605.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W045.jpg"
+    ]
+  },
+  {
+    "image_id": "W046",
+    "annotation_sha256": "4ff9feef2f5b4fc2e286cafe47967b6b121e74cedb8919243741bf93a73a0827",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor berurutan, pengendara sisi kanan di depan garis merah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001660.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W046.jpg"
+    ]
+  },
+  {
+    "image_id": "W047",
+    "annotation_sha256": "3207a54227a821dc5703addb2bb1aea7306083303ba6c864edd25357f3be2044",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV hitam dan dua skuter tandem. Pengendara tambahan bukan objek kendaraan tambahan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001725.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W047.jpg"
+    ]
+  },
+  {
+    "image_id": "W048",
+    "annotation_sha256": "e3795947f5b5225661b1fd0a71a7c2e2a30fb3f49d4dfebb5ee1a3057a6ce5b0",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV abu dan lima motor, termasuk motor yang tertutup di samping MPV. Tidak memaksakan jarak roda."
+    ],
+    "qa_flags_reviewed": [
+      "W048-02 (visual_priority): Rider dan bagian samping motor di belakang mobil terbaca, jejak roda tidak terpisah."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001769.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W048.jpg"
+    ]
+  },
+  {
+    "image_id": "W049",
+    "annotation_sha256": "b8e7efde9831260396ea789f8bb17626c957ccc14c7d78eb081dfa4944b06bb5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Ketiga motor di kepala terpisah. Kotak tumpang tindih mengikuti rider dan tubuh kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001824.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W049.jpg"
+    ]
+  },
+  {
+    "image_id": "W050",
+    "annotation_sha256": "23c33c2bd04af32f387fd9d78a44b372fe31a4f184eebd378e33a57514282fec",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor termasuk satu rider di belakang skuter depan, dengan kontak yang tetap belum dapat dipisahkan."
+    ],
+    "qa_flags_reviewed": [
+      "W050-03 (visual_priority): Pengendara sisi jauh terlihat, roda menyatu secara proyeksi dengan motor di depan."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001878.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W050.jpg"
+    ]
+  },
+  {
+    "image_id": "W051",
+    "annotation_sha256": "ae301fb47166e687640232d7e7d657d50857450209d0eed4d73d4a3e0010ad46",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan tiga motor. Motor depan yang menempel marka pembagi tidak dipaksa masuk."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_001932.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W051.jpg"
+    ]
+  },
+  {
+    "image_id": "W052",
+    "annotation_sha256": "8c059724dd33ad3ae3b44e06424f898348ccc8b8819a9275aa71729b6520bf72",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor, dua bersisian di kepala dan dua mengantre. Roda masih berada pada sisi target."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002041.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W052.jpg"
+    ]
+  },
+  {
+    "image_id": "W053",
+    "annotation_sha256": "861a620e724ddb0a2b1fc611e6d5fd16605b84d6def20a002aaeca8e4c554f56",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu MPV serta empat motor, termasuk pasangan motor pada bagian hulu yang terpisah."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002107.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W053.jpg"
+    ]
+  },
+  {
+    "image_id": "W054",
+    "annotation_sha256": "f1fce3e92d291276696326a0b494cc5d7cba6dfc13c339509f0529925c978baf",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV perak dekat marka dan skuter merah. Roda mobil masih menapak sisi pendekat."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002162.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W054.jpg"
+    ]
+  },
+  {
+    "image_id": "W055",
+    "annotation_sha256": "971fedeb2f06f0179c3602bb4645f11c4698f1166db6faf8deface9df29cb29e",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua mobil dan tiga motor. Roda mobil paling hulu sudah berada di dalam batas walau atap melintas garis kuning."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002228.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W055.jpg"
+    ]
+  },
+  {
+    "image_id": "W056",
+    "annotation_sha256": "2051a0082240545c70910ca5bad3b35776eb1e6644d1770c1c38817c44123002",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil putih dan satu skuter biru berjarak; seluruh bagian penting tercakup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002265.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W056.jpg"
+    ]
+  },
+  {
+    "image_id": "W057",
+    "annotation_sha256": "e174a1d804549950e423d56e48e4c58369fbaaf8846d42e170f6681d1ccf7628",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Delapan motor, tiga kontak roda tertutup pada barisan rapat. Rider dan dasar yang masih terlihat dicocokkan pada masing-masing kotak."
+    ],
+    "qa_flags_reviewed": [
+      "W057-02 (visual_priority): Pengendara di belakang skuter bagian kiri dapat dipisahkan, bagian roda terhalang.",
+      "W057-04 (visual_priority): Bagian tubuh pengendara dan motor berbeda dari rider jingga, tetapi tapak tidak terbaca.",
+      "W057-05 (visual_priority): Motor lebih jauh pada kelompok tengah tertutup dari arah kamera."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002320.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W057.jpg"
+    ]
+  },
+  {
+    "image_id": "W058",
+    "annotation_sha256": "5a440ce70c3b80547a28e840397660f1c97066f1a7107577934f2bef67072475",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor, termasuk motor merah di belakang tiga kendaraan yang rapat di depan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002375.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W058.jpg"
+    ]
+  },
+  {
+    "image_id": "W059",
+    "annotation_sha256": "1c785523bfa47c1f85eb88f2e6cad419ecbc8d558997eb1badd650777fc5c699",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu SUV putih utuh sebelum garis henti, sirip dan atap tercakup."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002408.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W059.jpg"
+    ]
+  },
+  {
+    "image_id": "W060",
+    "annotation_sha256": "88d30f8dc6a700874a974de6973322484c8a0e2ea1576ed2b59ffc9e4b141623",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "SUV putih dan dua motor; motor depan berada di sisi target dekat garis pembagi."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002429.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W060.jpg"
+    ]
+  },
+  {
+    "image_id": "W061",
+    "annotation_sha256": "3be852890b1c69ecddb5ed5bce0fe1ac9f02bf80a30b173185919edd2da129bb",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV putih serta dua motor, rider yang berboncengan mengikuti kotak kendaraan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002539.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W061.jpg"
+    ]
+  },
+  {
+    "image_id": "W062",
+    "annotation_sha256": "36725a0bd0a1c97a55a69153a9b022b71a5b400415aff111a38a9352c0f0e83c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua motor rapat; roda dan rider keduanya dapat dipisahkan."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002605.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W062.jpg"
+    ]
+  },
+  {
+    "image_id": "W063",
+    "annotation_sha256": "e1f265b142774f3c439cbdc9fcbefeaf657302cb78a595b5235e0a639d4a6eeb",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor dalam bidang atau di kepala, dua motor yang masih di mulut jalan hulu berada sebelum batas belakang."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002659.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W063.jpg"
+    ]
+  },
+  {
+    "image_id": "W064",
+    "annotation_sha256": "47b57a8082564e73b6a98a74e34792ea94bb6aad9c4dcbcb5232573d0e31e113",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Sedan perak dan tiga motor. Motor berbaju merah di balik sedan tidak dapat diputuskan kontaknya."
+    ],
+    "qa_flags_reviewed": [
+      "W064-03 (visual_priority): Helm dan stang tercakup di balik sedan; ban tidak tampak."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002714.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W064.jpg"
+    ]
+  },
+  {
+    "image_id": "W065",
+    "annotation_sha256": "aedf146362964cf49e80aab7f9b56eacc690bdf1f0565c4f9211fea3f255f981",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil hitam dan dua motor dengan muatan pada sisi dekat kerb; mobil putih paling kiri jauh di hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002769.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W065.jpg"
+    ]
+  },
+  {
+    "image_id": "W066",
+    "annotation_sha256": "b60a650b4cc3ea1fae4904f40da1496bb251a4860845d54f2fe74db4fd656fb8",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor. Muatan galon motor tengah menutup posisi roda, sehingga tetap parsial."
+    ],
+    "qa_flags_reviewed": [
+      "W066-01 (visual_priority): Rak galon dan pengendara terlihat, kontak kendaraan sendiri tidak terbukti."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002824.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W066.jpg"
+    ]
+  },
+  {
+    "image_id": "W067",
+    "annotation_sha256": "824c8c55248688bd9ee4b37a54d1b1663af7ddc3657d3ded00db392bc08b944c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu MPV dan tiga motor dalam pendekat; motor kecil di mulut jalan masih di luar batas hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002879.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W067.jpg"
+    ]
+  },
+  {
+    "image_id": "W068",
+    "annotation_sha256": "ee68d14ab4208743e59e47566395ce5d2de00f50e2f2a6647b3e7bcfb85d14c7",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Dua skuter dengan roda masing-masing terbaca. Kotak motor tandem kanan tidak mencampur dua motor."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_002967.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W068.jpg"
+    ]
+  },
+  {
+    "image_id": "W069",
+    "annotation_sha256": "f27ce86111ba5ebda433b67e2f624ff7d4a1584ef2900aa57990a9f55c17b6e5",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Satu motor pengendara merah di sisi taman, roda terlihat di jalur target."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003043.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W069.jpg"
+    ]
+  },
+  {
+    "image_id": "W070",
+    "annotation_sha256": "b76c0ebda217894de412a3c3057dac9338f3e0143dc76cd8cef2e0943acbfee4",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil putih dan dua motor dapat dihitung. Dua helm di atas mobil tanpa cukup badan kendaraan tetap unknown."
+    ],
+    "qa_flags_reviewed": [
+      "W070-03 (visual_priority): Hanya dua helm dan bagian bahu. Tidak ada bukti untuk memaksa kelas atau membership."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003098.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W070.jpg"
+    ]
+  },
+  {
+    "image_id": "W071",
+    "annotation_sha256": "7897e418dff34e6dc692758cfeac9534d23d690fb67cf429d1947afd55a33c4a",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor terpisah; rider tandem dan pembonceng masuk kotak masing-masing motor."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003153.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W071.jpg"
+    ]
+  },
+  {
+    "image_id": "W072",
+    "annotation_sha256": "78db70c6720ee21eb95c0b884d0a13f7b8ff6ae7c121e14028a3ccc84e441d1c",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [
+      "W072-01 sekarang target_approach, kelas other tetap. Posisi kedua roda di sisi dalam batas belakang diperiksa ulang."
+    ],
+    "review_notes": [
+      "Sepeda pedal pada bagian hulu termasuk objek pendekat non-target kelas evaluasi. Motor rapat bagian tengah tetap parsial."
+    ],
+    "qa_flags_reviewed": [
+      "W072-01 (context_role_inside_target_roi): Kontak kedua roda sepeda dalam pendekat. Role sudah diperbaiki ke target_approach, kelas other serta pengecualian evaluasi dipertahankan.",
+      "W072-05 (visual_priority): Pasangan rider pada baris taman terpisah dari rider di depan. Tapak roda tertutup."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003219.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W072.jpg"
+    ]
+  },
+  {
+    "image_id": "W073",
+    "annotation_sha256": "4bcc8c72668b0b08840b925a256b39b968ec6798a3ba59b7392b5255a3773fa7",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Empat motor dengan pasangan rider. Tidak ada kelas langka atau kontak yang melintasi marka."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003263.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W073.jpg"
+    ]
+  },
+  {
+    "image_id": "W074",
+    "annotation_sha256": "2185b9ad42f38213f68f5a423dbc9a716ff62bb04529ed7f2c523d94b24a79c2",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "MPV putih dan tiga motor, termasuk rider yang terlihat di balik atap mobil; posisi kontak belum bisa dipastikan."
+    ],
+    "qa_flags_reviewed": [
+      "W074-03 (visual_priority): Helm, torso dan stang di sisi taman terlihat, roda berada di balik MPV."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003318.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W074.jpg"
+    ]
+  },
+  {
+    "image_id": "W075",
+    "annotation_sha256": "5f69d4e720da6901cc041d0d4dd03485319045e1874bb6ef19990dd8b21249ae",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Tiga motor. Dua motor terdepan melintasi atau menempel garis henti dan masih memerlukan boundary_review."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003381.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W075.jpg"
+    ]
+  },
+  {
+    "image_id": "W076",
+    "annotation_sha256": "c5365c45233639b18ac1e954382817a72339a978ede5141927c304b2b8738fed",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass_with_uncertainty",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Mobil kuning, motor pembawa kotak dan empat motor di kepala. Batas roda motor hijau depan dan motor teroklusi tetap parsial."
+    ],
+    "qa_flags_reviewed": [
+      "W076-04 (visual_priority): Siluet rider dan bagian motor di belakang motor hijau terbaca, tapak ban tertutup."
+    ],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003425.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W076.jpg"
+    ]
+  },
+  {
+    "image_id": "W077",
+    "annotation_sha256": "a84fb4763b2394ad72bc8439e2dc62ff45f162967577247af7f3a4e0ce634f15",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Seluruh pendekat kosong; marka sisi taman dan garis henti dapat diikuti tanpa objek."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003458.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W077.jpg"
+    ]
+  },
+  {
+    "image_id": "W078",
+    "annotation_sha256": "b882ea62922543018d0307e5a8d706cf06ae750bb554da6628e3b40bba312af6",
+    "reviewer": "bejen",
+    "source_reviewed": true,
+    "overlay_reviewed": true,
+    "status": "pass",
+    "open_issues": [],
+    "resolved_issues": [],
+    "review_notes": [
+      "Hatchback putih tunggal berada sebelum garis henti. Motor yang masih masuk dari mulut jalan berada di luar batas hulu."
+    ],
+    "qa_flags_reviewed": [],
+    "visual_evidence": [
+      "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_003534.jpg",
+      ".scratch/bantul-annotation222-20261116/reviewers/barat/overlays/W078.jpg"
+    ]
+  }
+]

@@ -1,0 +1,339 @@
+[
+  {
+    "image_id": "W025",
+    "resolved_issues": [
+      "W025-02 sekarang boundary_review dengan alasannya. Kontak dekat marka pembagi diperiksa ulang pada overlay terbaru."
+    ]
+  },
+  {
+    "image_id": "W072",
+    "resolved_issues": [
+      "W072-01 sekarang target_approach, kelas other tetap. Posisi kedua roda di sisi dalam batas belakang diperiksa ulang."
+    ]
+  },
+  {
+    "image_id": "B001",
+    "resolved_issues": [
+      "Kontak baru mengikuti ban motor depan dan SUV putih; B001-04 tertutup tandem sehingga posisi terhadap pembatas masih belum pasti."
+    ]
+  },
+  {
+    "image_id": "B002",
+    "resolved_issues": [
+      "Kontak motor depan dan mobil pojok terlihat; B002-01 melintasi garis henti dan B002-13 melintasi garis di dekat tepi."
+    ]
+  },
+  {
+    "image_id": "B005",
+    "resolved_issues": [
+      "B005-06 skuter merah kecil sudah diberi kotak dan titik di pita batas hulu."
+    ]
+  },
+  {
+    "image_id": "B007",
+    "resolved_issues": [
+      "Kontak van, mobil dan truk boks mengikuti ban yang tampak; skuter dekat tiang di luar dan motor kecil di pita hulu tetap ditandai."
+    ]
+  },
+  {
+    "image_id": "B008",
+    "resolved_issues": [
+      "Kontak skuter putih di dekat pembatas tetap di sisi masuk; truk boks dan motor terhalang lampu sudah diperiksa."
+    ]
+  },
+  {
+    "image_id": "B009",
+    "resolved_issues": [
+      "B009-08 titik lama dihapus; titik saat ini pada ban depan yang terlihat di kanan MPV dan arusnya berlawanan."
+    ]
+  },
+  {
+    "image_id": "B011",
+    "resolved_issues": [
+      "Kontak skuter depan pada dua sisi garis mendukung status boundary; roda kelompok tengah tertutup oleh pengendara lain."
+    ]
+  },
+  {
+    "image_id": "B012",
+    "resolved_issues": [
+      "Titik skuter biru menyentuh garis henti; B012-08 terhalang mobil putih, roda belum terlihat."
+    ]
+  },
+  {
+    "image_id": "B014",
+    "resolved_issues": [
+      "Titik ban depan dua skuter dekat dan motor hitam hulu terlihat di overlay; mobil terpotong di luar garis hulu."
+    ]
+  },
+  {
+    "image_id": "B015",
+    "resolved_issues": [
+      "B015-05 titik roda depan tepat di tepi divider; B015-07/08/11 masih tertutup mobil putih dan status tetap unknown."
+    ]
+  },
+  {
+    "image_id": "B016",
+    "resolved_issues": [
+      "Titik ban motor antre dan mobil mengikuti dasar kendaraan; B016-07 hanya bagian atas terlihat di belakang MPV hitam."
+    ]
+  },
+  {
+    "image_id": "B017",
+    "resolved_issues": [
+      "Titik skuter putih sudah lewat garis namun bagian belakang melintasi marka; rombongan di kanan mengikuti ban depan."
+    ]
+  },
+  {
+    "image_id": "B019",
+    "resolved_issues": [
+      "Titik MPV lawan berada di lintasan luar; B019-05 hanya kepala dan depan kendaraan tampak di belakang atap SUV."
+    ]
+  },
+  {
+    "image_id": "B020",
+    "resolved_issues": [
+      "Ban motor toska melintasi marka henti, motor kanan di sisi luar tepi jalan, motor kecil menyentuh pita hulu."
+    ]
+  },
+  {
+    "image_id": "B021",
+    "resolved_issues": [
+      "Area ignore melokalisasi kepala, lengan dan spion terpisah di balik mobil gelap tanpa klaim roda atau count."
+    ]
+  },
+  {
+    "image_id": "B022",
+    "resolved_issues": [
+      "Kontak ban terlihat untuk motor depan dan MPV; roda B022-03 tertutup oleh grup depan dan posisi mengikuti baris fisik."
+    ]
+  },
+  {
+    "image_id": "B023",
+    "resolved_issues": [
+      "Kontak kendaraan tampak termasuk skuter biru yang sudah di zebra cross. Motor kecil B023-06 dekat divider tetap boundary."
+    ]
+  },
+  {
+    "image_id": "B024",
+    "resolved_issues": [
+      "Empat titik dekat divider dilihat ulang pada dasar ban. Bagian samping ban yang lebih atas sempat terbaca sebagai tapak. Roda belakang campuran atau tertutup sehingga boundary_review sesuai."
+    ]
+  },
+  {
+    "image_id": "B026",
+    "resolved_issues": [
+      "B026-03 dan B026-08 sekarang boundary_review mengikuti tanda pembagi; kontak lain yang terlihat ditandai di overlay."
+    ]
+  },
+  {
+    "image_id": "B027",
+    "resolved_issues": [
+      "Perbandingan native dan detail menunjukkan motor merah berhelm putih terpisah dari tandem gelap. B027-04 dipersempit, B027-12 ditambahkan dengan roda tertutup dan membership unknown."
+    ]
+  },
+  {
+    "image_id": "B032",
+    "resolved_issues": [
+      "B032-02 titik dipindah ke tapak roda belakang MPV yang terlihat."
+    ]
+  },
+  {
+    "image_id": "B033",
+    "resolved_issues": [
+      "B033-06 roda depan diperiksa terpisah dalam lajur. Membership diubah dari unknown ke inside.",
+      "B033-08 titik yang tidak terisolasi dihapus dan alasan oklusi lokal dicatat."
+    ]
+  },
+  {
+    "image_id": "B036",
+    "resolved_issues": [
+      "B036-03 kotak diperpanjang ke dasar ban depan dan tapak ditambahkan."
+    ]
+  },
+  {
+    "image_id": "B042",
+    "resolved_issues": [
+      "B042-02 sepeda di garis pembagi diberi boundary_review."
+    ]
+  },
+  {
+    "image_id": "B043",
+    "resolved_issues": [
+      "B043-06 titik pada aspal tanpa roda dihapus. Motor tetap terlihat terpisah, tapak tertutup."
+    ]
+  },
+  {
+    "image_id": "B045",
+    "resolved_issues": [
+      "B045-09 titik kini berada di dasar roda belakang kendaraan gelap.",
+      "B045-10 titik pada aspal dilepas. Tapak pikap di bawah bak gelap tidak terisolasi pada sumber."
+    ]
+  },
+  {
+    "image_id": "B046",
+    "resolved_issues": [
+      "B046-03 dipindahkan ke boundary_review setelah posisi ban terhadap pembagi diperiksa.",
+      "B046-05 tapak belakang dikoreksi mendekati ban yang terbaca. Sumbu depan B046-01 terletak di sisi zebra cross dan status boundary dipertahankan."
+    ]
+  },
+  {
+    "image_id": "B047",
+    "resolved_issues": [
+      "B047-01 extent bawah bumper disesuaikan hingga y435."
+    ]
+  },
+  {
+    "image_id": "B049",
+    "resolved_issues": [
+      "B049 bak abu diberi ignore lokal berdasarkan source dan cuplikan waktu, sementara truk merah tetap satu instance.",
+      "B049-01 tapak depan dekat kabin diverifikasi pada [1003,379]. Pada B049-06 ban depan bertumpang tindih dengan pengendara lebih dekat dan ujung gelap tidak dapat dipisah dengan mantap."
+    ]
+  },
+  {
+    "image_id": "B054",
+    "resolved_issues": [
+      "B054-02 kontak roda depan berada pada sisi marka henti, kini boundary_review."
+    ]
+  },
+  {
+    "image_id": "B055",
+    "resolved_issues": [
+      "B055-02 diberi boundary_review; B055-07 dipersempit dan motor terpisah B055-11 ditambah."
+    ]
+  },
+  {
+    "image_id": "B058",
+    "resolved_issues": [
+      "B058-01 dan B058-03 diberi boundary_review di pembagi; titik B058-03 dipindah ke roda belakang."
+    ]
+  },
+  {
+    "image_id": "B061",
+    "resolved_issues": [
+      "B061-01 ditandai boundary_review di titik pertemuan garis pendekat."
+    ]
+  },
+  {
+    "image_id": "B063",
+    "resolved_issues": [
+      "B063-03 extent kiri x630 sama dengan batas ban pada sumber penuh; tidak memotong objek."
+    ]
+  },
+  {
+    "image_id": "S002",
+    "resolved_issues": [
+      "S002-15: kotak akhir memasukkan seluruh ujung batang muatan di kanan sampai x sekitar 1494, diperiksa pada source+overlay baru.",
+      "Overlay akhir menunjukkan muatan batang S002-15 tercakup dan penumpang/rider tetap terpisah dari motor lain."
+    ]
+  },
+  {
+    "image_id": "S004",
+    "resolved_issues": [
+      "S004-12: tapak roda tertutup. Titik yang jatuh di helm motor depan dihilangkan dan kontak kini null.",
+      "Pada overlay akhir dot di helm objek lain hilang. S004-12 memiliki occlusion partial yang sesuai skuter putih tertutup helm penumpang."
+    ]
+  },
+  {
+    "image_id": "S007",
+    "resolved_issues": [
+      "S007-06: status ban depan persis tepi garis henti menjadi boundary_review, sesuai overlay akhir.",
+      "Ban depan S007-06 tepat dekat marka henti dan status batas konsisten dengan overlay akhir."
+    ]
+  },
+  {
+    "image_id": "S009",
+    "resolved_issues": [
+      "S009-10 sebagian tertutup motor depan pada bagian dasar, sesuai revisi occlusion partial."
+    ]
+  },
+  {
+    "image_id": "S018",
+    "resolved_issues": [
+      "Box/catatan kontak kendaraan jauh dicek ulang. Detail roda motor yang tertutup daun dan kendaraan yang bertumpuk di hulu tidak dibaca sebagai kontak presisi."
+    ]
+  },
+  {
+    "image_id": "S021",
+    "resolved_issues": [
+      "S021-16 berstatus boundary_review. Overlay akhir menempatkan dot pada ban depan di sisi marka henti."
+    ]
+  },
+  {
+    "image_id": "S027",
+    "resolved_issues": [
+      "S027-06 mencakup ujung batang yang dibawa. Bak pikap S027-02 sebagian tertutup MPV depan."
+    ]
+  },
+  {
+    "image_id": "S030",
+    "resolved_issues": [
+      "Siluet helm/bahu terlindung dengan ignore lokal possible_target_in_roi dan bbox mobil mengikuti atap. Kelas serta keanggotaan target tidak dipaksakan."
+    ]
+  },
+  {
+    "image_id": "S031",
+    "resolved_issues": [
+      "Konteks motor dan mobil jauh dicek dengan alasan jarak; posisi tapak presisi yang tidak terbaca tidak dipaksakan."
+    ]
+  },
+  {
+    "image_id": "S032",
+    "resolved_issues": [
+      "Jarak kendaraan jauh dan terhalangnya tapak motor sisi median dicocokkan ke catatan visi yang direvisi."
+    ]
+  },
+  {
+    "image_id": "S033",
+    "resolved_issues": [
+      "Mobil merah S033-03 tertutup sebagian oleh bus dan motor di depan, sesuai revisi occlusion partial. Bentuk kedua bus konsisten pada overlay akhir."
+    ]
+  },
+  {
+    "image_id": "S034",
+    "resolved_issues": [
+      "Helm terisolasi tetap ignore ketat di atas atap. roi_relevance=possible_target_in_roi menahan referensi hitung penuh walau proyeksi kotak berada di luar poligon."
+    ]
+  },
+  {
+    "image_id": "S052",
+    "resolved_issues": [
+      "S052-08 diperbarui menjadi boundary_review setelah pengecekan tapak dekat median. Becak diberi subtype becak."
+    ]
+  },
+  {
+    "image_id": "S053",
+    "resolved_issues": [
+      "Becak merah muda diberi subtype becak setelah melihat kanopi serta konfigurasi roda."
+    ]
+  },
+  {
+    "image_id": "S054",
+    "resolved_issues": [
+      "Dua becak di depan diberi subtype becak dan tetap dua objek terpisah."
+    ]
+  },
+  {
+    "image_id": "S063",
+    "resolved_issues": [
+      "S063-12 diperbarui ke boundary_review setelah pengecekan tapak median."
+    ]
+  },
+  {
+    "image_id": "S064",
+    "resolved_issues": [
+      "Becak jauh diberi subtype becak; tetap di luar batas hulu."
+    ]
+  },
+  {
+    "image_id": "S071",
+    "resolved_issues": [
+      "S071-11 tetap unknown dengan possible_cargo_vehicle, karena sambungan kendaraan dan sumbu tertutup."
+    ]
+  },
+  {
+    "image_id": "S076",
+    "resolved_issues": [
+      "S076-09 diperbarui ke boundary_review setelah pengecekan tapak dekat median."
+    ]
+  }
+]
