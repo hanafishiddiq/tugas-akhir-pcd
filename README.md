@@ -21,4 +21,6 @@ Tugas akhir mata kuliah **Pengolahan Citra Digital (PCD)**.
 
 ## Dataset Bantul
 
-[Kurasi CCTV Bantul v3](data/bantul-curated-v3/README.md) berisi 222 gambar pilihan untuk anotasi, beserta metadata dan tautan pratinjau Drive. [Arsip sumber CCTV Bantul 15 November 2026](data/bantul-20261115/README.md) memuat paket akuisisi, checksum, dan panduan pemulihan. Gambar disimpan di Drive. Anotasi baru dan split belum tersedia.
+[Bantul Pilot v1](data/bantul-pilot-v1/README.md) adalah paket aktif untuk pilot deteksi empat kelas. Metadata, anotasi, split terkunci, audit, dan kode verifikasi tersedia di repositori. Gambar sumber dan overlay tersedia di Drive. Training dan evaluasi model merupakan tahap berikutnya.
+
+[Anotasi Bantul 222](data/bantul-annotations-v1/README.md) menyimpan anotasi sumber sebelum revisi pilot. [Kurasi CCTV Bantul v3](data/bantul-curated-v3/README.md) mendokumentasikan 222 gambar pilihan. [Arsip sumber CCTV Bantul 15 November 2026](data/bantul-20261115/README.md) memuat paket akuisisi, checksum, dan panduan pemulihan.

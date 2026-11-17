@@ -1,0 +1,41 @@
+{
+  "manifest_sha256": "a8a6fd1d7a1593dbd0c272870d2e45975c8e0f001b5dc345afe17703f272b0e2",
+  "files": {
+    "Bantul_Pilot_v1_Bukti_01_of_06.zip": {
+      "bytes": 91683192,
+      "sha256": "28cc88e2cf26fa478dfc1296e573eccffaad3fada1573eafe113e62a94ae8821",
+      "entries": 86,
+      "zip_crc_passed": true
+    },
+    "Bantul_Pilot_v1_Bukti_02_of_06.zip": {
+      "bytes": 91444731,
+      "sha256": "74ffab0049d23bc05185570af5afd037d5541e94fb3366d405cb62d33756a9d9",
+      "entries": 98,
+      "zip_crc_passed": true
+    },
+    "Bantul_Pilot_v1_Bukti_03_of_06.zip": {
+      "bytes": 92209613,
+      "sha256": "fd3fb21d780b571e576208966f46cb8f7eab053cbfca234aba8bb9ffcb2d1e40",
+      "entries": 119,
+      "zip_crc_passed": true
+    },
+    "Bantul_Pilot_v1_Bukti_04_of_06.zip": {
+      "bytes": 92175409,
+      "sha256": "c4c58755bd7461582e3dc14ae85076a75a6bcd22e9140f4491e9d9303254add1",
+      "entries": 167,
+      "zip_crc_passed": true
+    },
+    "Bantul_Pilot_v1_Bukti_05_of_06.zip": {
+      "bytes": 91935981,
+      "sha256": "1352adfb4a5f0fc95d521abce294defa0a67aab7b7edbdfb8733697a6993a45c",
+      "entries": 192,
+      "zip_crc_passed": true
+    },
+    "Bantul_Pilot_v1_Bukti_06_of_06.zip": {
+      "bytes": 52836818,
+      "sha256": "9cd81cd136073e9ab2f1b3a2f44fe8ebb159bd3d6e01d246cb390989f8e313be",
+      "entries": 225,
+      "zip_crc_passed": true
+    }
+  }
+}

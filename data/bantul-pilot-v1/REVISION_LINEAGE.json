@@ -1,0 +1,274 @@
+[
+  {
+    "image_id": "S071",
+    "object_id": "S071-11",
+    "previous_sha256": "d6c242de48aa21fe2efdb0006d2f6d8cbf7aa5b4febf47457594e1710a569833",
+    "new_sha256": "e0369bc046b7e92a3d5a4898aa1bc34679e68188894a5c232bdc290683aa61e6",
+    "field_delta": {
+      "class_name": "truk",
+      "subtype": "tanker_truck",
+      "confidence": "high",
+      "classification_note": "Tiga cuplikan menunjukkan kabin kuning dan tangki abu berbentuk silinder dengan tulangan melingkar dan pipa baja menyatu di belakang kabin.",
+      "road_contact_note": "Roda depan dan belakang tertutup oleh dua SUV di depan. Tidak ada titik tapak yang terlihat.",
+      "membership_reason": "Truk berada pada sisi target dekat median, mengikuti MPV di depan. Posisi stabil antara 1852 dan 1854 dengan tangki berakhir di sisi hilir garis hulu; kontak roda tertutup.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "image_id": "S071",
+      "object_id": "S071-11",
+      "annotation_sha256": "d6c242de48aa21fe2efdb0006d2f6d8cbf7aa5b4febf47457594e1710a569833",
+      "proposal_sha256": "26d9f42d62ad0bdeb6cd01c0cb42feceae45f557c711f47924070b0fc504d150",
+      "decision": "endorse_for_versioned_revision",
+      "issue": null,
+      "review_notes": "Kabin kuning, tangki bulat beralur, siku dan rangka/tabung atas muncul sebagai satu kendaraan pada tiga cuplikan. Tangki berada di lajur median target dan masih di hilir batas hulu. Kedua titik kontak tertutup, sehingga null tetap tepat.",
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001852.jpg",
+        "Data/Anotasi/Bantul_222_v1/overlays/S071.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/last_coaches_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/detail_1852.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/media/m001851.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/media/m001852.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/media/m001853.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "S053",
+    "object_id": "S053-02",
+    "previous_sha256": "e3f0e37340ad0ff0344a5ef932f8ee155147188b5e9a9453bad4ee0dc296d613",
+    "new_sha256": "c875a76ef776bd6adb1aa05ca9933bf52ff109fa827e10ec9d9e043b5f831ba3",
+    "field_delta": {
+      "class_name": "bus",
+      "subtype": "mini_coach",
+      "confidence": "high",
+      "classification_note": "Bodi tinggi modifikasi coach dengan pola merah-kuning dan jendela belakangnya cocok dengan Hertansa Jetbus yang terlihat jelas pada 1302 dan 1312 dalam susunan mobil yang sama.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "image_id": "S053",
+      "object_id": "S053-02",
+      "annotation_sha256": "e3f0e37340ad0ff0344a5ef932f8ee155147188b5e9a9453bad4ee0dc296d613",
+      "proposal_sha256": "65a802dde8b95c9bf4143853763d25798c4692b08ee74e21866c60ff6e44b4cf",
+      "decision": "endorse_for_versioned_revision",
+      "issue": null,
+      "review_notes": "Bodi tinggi dengan kaca penumpang panjang, fasia, dan warna merah-kuning menunjukkan minicoach. Pembanding 1302/1312 cocok livery Hertansa Jetbus dan urutan kendaraan. Ban yang terlihat di sisi dalam lajur target; bukan tambahan episode dari S054.",
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_001293.jpg",
+        "Data/Anotasi/Bantul_222_v1/overlays/S053.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/middle_coaches_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/detail_1293.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "B062",
+    "object_id": "B062-01",
+    "previous_sha256": "d6574d85ebbbfba785f3c38c01e9f71bd89ecf37fea116aae1a81ab01ec62e04",
+    "new_sha256": "dc81ddc8250ed8561eb20ffe3572644d927fc52adad1c68a438581ca3b9d647e",
+    "field_delta": {
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "classification_note": "Kabin dan roda kecil, fascia/pembagian grille dan lampu persegi, serta proporsi roda terhadap panel pintu sesuai pikap mini L300 berboks pada sampel Selatan 44–46. Bodi Bejen beraksen putih pada kaca samping sehingga kesamaan tipe tidak cukup menentukan unit fisik yang sama.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "object_id": "B062-01",
+      "image_id": "B062",
+      "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002231.jpg",
+      "source_sha256": "7b5a35dd8fd00ec03aa3aaeea274d85113d2e07c4990b2359a827ef7869760dd",
+      "base_annotation_sha256": "d6574d85ebbbfba785f3c38c01e9f71bd89ecf37fea116aae1a81ab01ec62e04",
+      "result": "endorse_versioned_taxonomy_correction",
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "reason": "Kabin dan roda kecil, fascia/pembagian grille dan lampu persegi, serta proporsi roda terhadap panel pintu sesuai pikap mini L300 berboks pada sampel Selatan 44–46. Bodi Bejen beraksen putih pada kaca samping sehingga kesamaan tipe tidak cukup menentukan unit fisik yang sama.",
+      "visual_evidence": [
+        ".scratch/bantul-readiness-20261117/rare_bejen/taxonomy_l300_comparison.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "B063",
+    "object_id": "B063-01",
+    "previous_sha256": "e54ed35ebd5ccd152a7a300be1ecd81a1de1b4e2bbd6073dc4a2414351bd2b62",
+    "new_sha256": "7b82501ebddfdd391907c0e2effaea92bb8e6573af3e748cfd6fbebfd3b3504b",
+    "field_delta": {
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "classification_note": "Kabin dan roda kecil, fascia/pembagian grille dan lampu persegi, serta proporsi roda terhadap panel pintu sesuai pikap mini L300 berboks pada sampel Selatan 44–46. Bodi Bejen beraksen putih pada kaca samping sehingga kesamaan tipe tidak cukup menentukan unit fisik yang sama.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "object_id": "B063-01",
+      "image_id": "B063",
+      "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_002242.jpg",
+      "source_sha256": "233dbf693e4bd2c5a0032520629fb41b31b1f3d7c241bb8db44dc492e5276544",
+      "base_annotation_sha256": "e54ed35ebd5ccd152a7a300be1ecd81a1de1b4e2bbd6073dc4a2414351bd2b62",
+      "result": "endorse_versioned_taxonomy_correction",
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "reason": "Kabin dan roda kecil, fascia/pembagian grille dan lampu persegi, serta proporsi roda terhadap panel pintu sesuai pikap mini L300 berboks pada sampel Selatan 44–46. Bodi Bejen beraksen putih pada kaca samping sehingga kesamaan tipe tidak cukup menentukan unit fisik yang sama.",
+      "visual_evidence": [
+        ".scratch/bantul-readiness-20261117/rare_bejen/taxonomy_l300_comparison.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "B007",
+    "object_id": "B007-03",
+    "previous_sha256": "881aca034c4a32c1fb5b4a9e2a6311746ac613a3d9747d13a8143a55adcf215d",
+    "new_sha256": "10c6c9ba6e33c0df609a485ecb11a16de6de2dd96ef5017fb8b73d05ea4d7d88",
+    "field_delta": {
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "classification_note": "Kabin putih sempit, wheelbase pendek, roda kecil dan boks sebatas lebar kabin mendukung boks berbasis pikap mini; merek tepat tidak dapat diverifikasi dari crop ini. Pola visual kendaraan B007–B008 konsisten dalam satu antrean.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "object_id": "B007-03",
+      "image_id": "B007",
+      "source_image": "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0066.png",
+      "source_sha256": "282f10c88328c3efa2813cfd28d17742d1b1bedf3ef3b752d20978d551f70857",
+      "base_annotation_sha256": "881aca034c4a32c1fb5b4a9e2a6311746ac613a3d9747d13a8143a55adcf215d",
+      "result": "endorse_versioned_taxonomy_correction",
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "reason": "Kabin putih sempit, wheelbase pendek, roda kecil dan boks sebatas lebar kabin mendukung boks berbasis pikap mini; merek tepat tidak dapat diverifikasi dari crop ini. Pola visual kendaraan B007–B008 konsisten dalam satu antrean.",
+      "visual_evidence": [
+        ".scratch/bantul-readiness-20261117/rare_bejen/taxonomy_small_boxes.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "B008",
+    "object_id": "B008-03",
+    "previous_sha256": "76930f1fbb7377b99660ed750c8f3b3643693d298e33378d8819afb08ecf7235",
+    "new_sha256": "72e3bccfdb820d734d5f0f60d9506d0153b3d593fa3507c5aee222172b752291",
+    "field_delta": {
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "classification_note": "Kabin putih sempit, wheelbase pendek, roda kecil dan boks sebatas lebar kabin mendukung boks berbasis pikap mini; merek tepat tidak dapat diverifikasi dari crop ini. Pola visual kendaraan B007–B008 konsisten dalam satu antrean.",
+      "ignore_reason": null
+    },
+    "independent_endorsement": {
+      "object_id": "B008-03",
+      "image_id": "B008",
+      "source_image": "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/04_bejen_barat/frames/frame_0068.png",
+      "source_sha256": "d9d9bed305cbf5bbbf23909fb60a1e327054324b03df5f6918984bdde692825a",
+      "base_annotation_sha256": "76930f1fbb7377b99660ed750c8f3b3643693d298e33378d8819afb08ecf7235",
+      "result": "endorse_versioned_taxonomy_correction",
+      "class_name": "other",
+      "subtype": "pickup_based_box_body",
+      "reason": "Kabin putih sempit, wheelbase pendek, roda kecil dan boks sebatas lebar kabin mendukung boks berbasis pikap mini; merek tepat tidak dapat diverifikasi dari crop ini. Pola visual kendaraan B007–B008 konsisten dalam satu antrean.",
+      "visual_evidence": [
+        ".scratch/bantul-readiness-20261117/rare_bejen/taxonomy_small_boxes.jpg"
+      ]
+    }
+  },
+  {
+    "image_id": "S077",
+    "object_id": "S077-01",
+    "previous_sha256": "02428bd3c4935c655a45b5404ff1d65c680a427de9cd0b294a7b719ff07a1a28",
+    "new_sha256": "879489d9e1989d5b27fcbde63aad48c174015812fdcb17b1be492dbc6eab3aa2",
+    "kind": "visible_extent_consistency",
+    "independent_endorsement": {
+      "image_id": "S077",
+      "annotation_sha256": "879489d9e1989d5b27fcbde63aad48c174015812fdcb17b1be492dbc6eab3aa2",
+      "original_annotation_sha256": "02428bd3c4935c655a45b5404ff1d65c680a427de9cd0b294a7b719ff07a1a28",
+      "source_sha256": "79209ec2f35ca36dc753face982fd9b4dd004b84f2be8a2e0e986d7f0b4225d7",
+      "reviewer": "parent_independent_visual_review",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "temporal_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [
+        "Removed inconsistent roof-only ignore; original visible bbox and truncated=true retained."
+      ],
+      "review_notes": [
+        "Inspected native S077, revised overlay, six temporal panels from segments2027-2029, and fleet comparison. Bus and two motorcycles are stationary; both bus axles and vehicle bases clearly inside ROI. Far white car is outside upstream boundary.",
+        "Truncation only affects roof at y0, outside native road ROI whose minimum y189. Existing protocol measures visible bbox, not amodal body, and frozen S033-01 already accepts analogous roof truncation. Removing solely roof-based ignore corrects inconsistent labels; membership rules and readiness thresholds unchanged.",
+        "S077 displays06 on windshield and side; S059 windshield04 and S07005 are visually distinct. Confirmed units06 and04 may count as separate physical vehicles while fleet-related images remain in same TEST split component. S026 identity unresolved must remain quarantined; NS009 only provisional."
+      ],
+      "qa_flags_reviewed": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002028.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/S077_revision_overlay.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/old_bus_clips_2027.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/transjogja_identity.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/bus_units_detail.jpg",
+        "Data/Anotasi/Bantul_222_v1/overlays/S033.jpg"
+      ],
+      "reviewed_at_utc": "2026-11-17T02:49:32.847655+00:00"
+    },
+    "proposal_provenance": {
+      "image_id": "S077",
+      "object_id": "S077-01",
+      "original_annotation_sha256": "02428bd3c4935c655a45b5404ff1d65c680a427de9cd0b294a7b719ff07a1a28",
+      "proposed_annotation_sha256": "879489d9e1989d5b27fcbde63aad48c174015812fdcb17b1be492dbc6eab3aa2",
+      "proposed_annotation_path": ".scratch/bantul-readiness-20261117/rare_bejen/S077_REVISION.json",
+      "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_002028.jpg",
+      "source_sha256": "79209ec2f35ca36dc753face982fd9b4dd004b84f2be8a2e0e986d7f0b4225d7",
+      "expected_ignore_reason": "Atap bus terpotong tepi atas gambar.",
+      "proposed_ignore_reason": null,
+      "retains_bbox": true,
+      "retains_truncated_true": true,
+      "roof_at_y0_roi_min_y": 189,
+      "recomputed_metrics": {
+        "accepted_object_ids": [
+          "S077-01",
+          "S077-02",
+          "S077-03"
+        ],
+        "pending_object_ids": [],
+        "count_reference_available": true,
+        "counts_reference": {
+          "mobil": 0,
+          "motor": 2,
+          "bus": 1,
+          "truk": 0
+        },
+        "total_count_reference": 3,
+        "coverage_reference_percent": 23.970741154398453,
+        "counts_resolved_lower_bound": {
+          "mobil": 0,
+          "motor": 2,
+          "bus": 1,
+          "truk": 0
+        },
+        "total_count_lower_bound": 3,
+        "count_upper_bound_by_class": {
+          "mobil": 0,
+          "motor": 2,
+          "bus": 1,
+          "truk": 0
+        },
+        "total_count_upper_bound": 3,
+        "covered_area_lower_px": 174274,
+        "covered_area_upper_px": 174274,
+        "observed_envelope_area_px": 174274,
+        "roi_area_px": 727028,
+        "coverage_lower_percent": 23.970741154398453,
+        "coverage_upper_percent": 23.970741154398453,
+        "coverage_observed_envelope_percent": 23.970741154398453,
+        "upper_count_semantics": "Per-class bounds are marginal, not simultaneously additive; object instances across photos are not unique vehicles.",
+        "coverage_upper_semantics": "Union of recorded identifiable object bboxes; null when a relevant ignore region cannot bound a vehicle extent. Observed rectangle envelope is diagnostic only.",
+        "incomplete_region_count": 0
+      },
+      "identity_review": {
+        "unit_display": "06",
+        "relative_match": {
+          "S059": "unit 04, visually distinct",
+          "S070": "unit 05, visually distinct",
+          "S026": "unresolved: grouped/quarantined conservatively",
+          "NS009": "most likely S059 unit 04; remain conservative"
+        }
+      },
+      "temporal_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/segments/segment_002027.ts",
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/segments/segment_002028.ts",
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/segments/segment_002029.ts"
+      ],
+      "independent_audit": "pending"
+    }
+  }
+]

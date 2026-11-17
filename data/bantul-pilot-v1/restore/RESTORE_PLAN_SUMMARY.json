@@ -1,0 +1,64 @@
+{
+  "locked": true,
+  "exact_legacy_absolute_alias_count": 60,
+  "validator_assets": 1151,
+  "all_logical_project_paths": 1403,
+  "all_unique_payloads": 1401,
+  "all_unique_bytes": 897053184,
+  "support_archive_count": 6,
+  "support_payloads": 887,
+  "support_payload_bytes": 512090472,
+  "publication_dependencies": {
+    "existing_audit_overlay": {
+      "files": 6,
+      "bytes": 3138242
+    },
+    "existing_core_original": {
+      "files": 222,
+      "bytes": 191480862
+    },
+    "existing_core_overlay": {
+      "files": 215,
+      "bytes": 159294191
+    },
+    "new_aux_crop": {
+      "files": 12,
+      "bytes": 542016
+    },
+    "new_core_original": {
+      "files": 26,
+      "bytes": 11081507
+    },
+    "new_or_revised_core_overlay": {
+      "files": 33,
+      "bytes": 19425894
+    }
+  },
+  "archives": {
+    "Bantul_Pilot_v1_Bukti_01_of_06.zip": {
+      "payloads": 86,
+      "payload_bytes": 91664250
+    },
+    "Bantul_Pilot_v1_Bukti_02_of_06.zip": {
+      "payloads": 98,
+      "payload_bytes": 91423149
+    },
+    "Bantul_Pilot_v1_Bukti_03_of_06.zip": {
+      "payloads": 119,
+      "payload_bytes": 92183411
+    },
+    "Bantul_Pilot_v1_Bukti_04_of_06.zip": {
+      "payloads": 167,
+      "payload_bytes": 92138647
+    },
+    "Bantul_Pilot_v1_Bukti_05_of_06.zip": {
+      "payloads": 192,
+      "payload_bytes": 91893719
+    },
+    "Bantul_Pilot_v1_Bukti_06_of_06.zip": {
+      "payloads": 225,
+      "payload_bytes": 52787296
+    }
+  },
+  "full_raw_video_archives": 0
+}

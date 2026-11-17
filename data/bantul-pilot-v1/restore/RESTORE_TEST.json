@@ -1,0 +1,28 @@
+{
+  "ready": true,
+  "inputs_match_locked_hash": 7,
+  "assets_match_locked_hash": 1151,
+  "code_matches_locked_hash": 8,
+  "aliases_exercised": 60,
+  "assignments_match": true,
+  "locked_split_sha256": "95dc662cfd2b02e0132b75716e3cf149e36274757b175ffd476abdbe2c84efb3",
+  "tests": {
+    "run": true,
+    "passed": 25
+  },
+  "restore_mode": "Real local support ZIPs and same-SHA local stand-ins for Drive file downloads",
+  "drive_downloaded": false,
+  "logical_paths_restored": 1403,
+  "new_and_existing_download_groups_simulated": {
+    "existing_core_original": 222,
+    "existing_audit_overlay": 6,
+    "new_or_revised_core_overlay": 33,
+    "new_core_original": 26,
+    "existing_core_overlay": 215,
+    "new_aux_crop": 12
+  },
+  "support_archive_count": 6,
+  "verified_gallery_links": 782,
+  "verify_subcommand_passed": true,
+  "temporary_restored_tree_cleaned": true
+}

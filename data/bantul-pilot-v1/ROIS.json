@@ -1,0 +1,255 @@
+{
+  "01_paseban_selatan": {
+    "polygon_xy": [
+      [
+        210,
+        307
+      ],
+      [
+        582,
+        238
+      ],
+      [
+        1045,
+        192
+      ],
+      [
+        1540,
+        189
+      ],
+      [
+        1735,
+        491
+      ],
+      [
+        1564,
+        774
+      ],
+      [
+        1294,
+        1048
+      ]
+    ],
+    "width": 1920,
+    "height": 1080,
+    "raster_area_px": 727028,
+    "geometry_valid": true,
+    "version": "bantul_road_roi_v1_20261116",
+    "previous_version": "audit_20261115_draft_v1",
+    "status": "locked_for_annotation",
+    "coordinate_system": "native pixels; x right y down; raster pixel center x+0.5 y+0.5",
+    "boundary_review_tolerance_px": 4.5,
+    "annotation_membership": "manual_physical_evidence_with_explicit_uncertainty",
+    "automatic_membership_validated": false,
+    "change": "unchanged_road_polygon",
+    "road_boundary_types": {
+      "stop": [
+        6,
+        0
+      ],
+      "median": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "upstream_virtual": [
+        3,
+        4
+      ],
+      "curb": [
+        4,
+        5,
+        6
+      ]
+    },
+    "reference_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/01_paseban_selatan/review_samples/frame_000085.jpg",
+    "valid_for": "listed38 and diagnostic26 with same camera dimensions/framing; revalidate after camera move, crop, zoom or new session",
+    "vector_area_px": 727025.0,
+    "boundary_band_px": 33508,
+    "boundary_band_not_removed_from_denominator": true,
+    "mask_sha256": "59af1d481c730312d46f82407f0b1b278b8171e0f0099bd7ecc84730db685ce3"
+  },
+  "02_paseban_barat": {
+    "polygon_xy": [
+      [
+        1677,
+        710
+      ],
+      [
+        1306,
+        597
+      ],
+      [
+        1008,
+        515
+      ],
+      [
+        842,
+        470
+      ],
+      [
+        740,
+        545
+      ],
+      [
+        1018,
+        671
+      ],
+      [
+        1297,
+        774
+      ],
+      [
+        1574,
+        854
+      ]
+    ],
+    "width": 1920,
+    "height": 1080,
+    "raster_area_px": 134972,
+    "geometry_valid": true,
+    "version": "bantul_road_roi_v1_20261116",
+    "previous_version": "audit_20261115_draft_v1",
+    "status": "locked_for_annotation",
+    "coordinate_system": "native pixels; x right y down; raster pixel center x+0.5 y+0.5",
+    "boundary_review_tolerance_px": 4.5,
+    "annotation_membership": "manual_physical_evidence_with_explicit_uncertainty",
+    "automatic_membership_validated": false,
+    "change": "unchanged_road_polygon",
+    "road_boundary_types": {
+      "stop": [
+        7,
+        0
+      ],
+      "curb": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "upstream_virtual": [
+        3,
+        4
+      ],
+      "lane_divider": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "reference_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/02_paseban_barat/review_samples/frame_000175.jpg",
+    "valid_for": "listed38 and diagnostic26 with same camera dimensions/framing; revalidate after camera move, crop, zoom or new session",
+    "vector_area_px": 134969.0,
+    "boundary_band_px": 18543,
+    "boundary_band_not_removed_from_denominator": true,
+    "mask_sha256": "90412bf8b828570122f3a0fb8bcb213e6e091578da2c26a2d64e2957fc9e548c"
+  },
+  "04_bejen_barat": {
+    "polygon_xy": [
+      [
+        685,
+        391
+      ],
+      [
+        825,
+        358
+      ],
+      [
+        950,
+        327
+      ],
+      [
+        1100,
+        286
+      ],
+      [
+        1196,
+        255
+      ],
+      [
+        1225,
+        244
+      ],
+      [
+        1257,
+        315
+      ],
+      [
+        1232,
+        367
+      ],
+      [
+        1220,
+        413
+      ],
+      [
+        1244,
+        469
+      ],
+      [
+        1146,
+        532
+      ],
+      [
+        1086,
+        563
+      ],
+      [
+        1016,
+        595
+      ],
+      [
+        973,
+        628
+      ]
+    ],
+    "width": 1280,
+    "height": 720,
+    "raster_area_px": 114721,
+    "geometry_valid": true,
+    "version": "bantul_road_roi_v1_20261116",
+    "previous_version": "audit_20261115_draft_v1",
+    "status": "locked_for_annotation",
+    "coordinate_system": "native pixels; x right y down; raster pixel center x+0.5 y+0.5",
+    "boundary_review_tolerance_px": 3.0,
+    "annotation_membership": "manual_physical_evidence_with_explicit_uncertainty",
+    "automatic_membership_validated": false,
+    "change": "adopt_divider_following_marking_correction",
+    "road_boundary_types": {
+      "lane_divider": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "upstream_virtual": [
+        5,
+        6
+      ],
+      "curb": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "stop_virtual_extension": [
+        13,
+        0
+      ]
+    },
+    "reference_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/04_bejen_barat/review_samples/frame_000010.jpg",
+    "valid_for": "listed38 and diagnostic26 with same camera dimensions/framing; revalidate after camera move, crop, zoom or new session",
+    "vector_area_px": 114715.5,
+    "boundary_band_px": 8943,
+    "boundary_band_not_removed_from_denominator": true,
+    "mask_sha256": "1be40921e0813e7288300f1aeb9000ca5162f8f4e626b07fa640e93e2a411394"
+  }
+}

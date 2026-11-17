@@ -1,0 +1,14 @@
+{
+  "evaluation_claim": "fixed_camera_temporal_holdout",
+  "gates": {
+    "train_instances_per_class": 10,
+    "train_encounters_per_class": 5,
+    "eval_encounters_per_class": 2,
+    "eval_full_count_frames": 10,
+    "eval_empty_controls": 2,
+    "eval_full_count_encounters_per_class": 2,
+    "temporal_embargo_each_side_seconds": 120
+  },
+  "status": "proposed_unlocked",
+  "fixed_gates_source": ".scratch/bantul-readiness-20261117/DATA_CONTRACT.md"
+}

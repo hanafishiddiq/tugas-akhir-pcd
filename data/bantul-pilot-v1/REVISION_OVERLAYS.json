@@ -1,0 +1,30 @@
+{
+  "S053": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/S053.jpg",
+    "sha256": "fb3e2d4f112d22e930559722995fd95be1c0f77da3abce70afc7b81fd0b456c4"
+  },
+  "S071": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/S071.jpg",
+    "sha256": "48a38c713799f8076a9ef80ddd659d2da452abf4d54188b88fb391adf2860007"
+  },
+  "S077": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/S077.jpg",
+    "sha256": "e8fef8fe7e5578c61476ad8bf5ddf4a291d253bf09f7216153b8c44ded7c71b6"
+  },
+  "B007": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/B007.jpg",
+    "sha256": "a80ac8e5e4b78887caa00d0ad4ec9b712cae8c3d534bdf9fd384573fbbb058fd"
+  },
+  "B008": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/B008.jpg",
+    "sha256": "0ddf1aa32da517eb7f74f7141d1382544343a7854ade13ae50c6deaf0058c8d1"
+  },
+  "B062": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/B062.jpg",
+    "sha256": "1a900a221de02e15cb997e171a53b6aec268b707888ecdeca764fbf56891737d"
+  },
+  "B063": {
+    "path": "Data/Eksperimen/Bantul_Pilot_v1/revision_overlays/B063.jpg",
+    "sha256": "54db2a120b32373ae1c9a32baaa12ab6f097b102da93e0d512a6d4b73651a403"
+  }
+}

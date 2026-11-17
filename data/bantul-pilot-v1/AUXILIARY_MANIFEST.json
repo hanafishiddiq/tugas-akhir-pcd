@@ -1,0 +1,1030 @@
+[
+  {
+    "image_id": "PA001",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0023.png",
+    "source_sha256": "4048c86c68c18ff9e6fb0754c46ae12a23535def4819671952f649ed1be30e7a",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": null,
+    "timestamp_camera_wib": "2026-11-15T11:45:00+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_114313_WIB",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA001_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA001.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA001-01",
+        "class_name": "bus",
+        "bbox_xyxy": [
+          361,
+          247,
+          799,
+          530
+        ],
+        "confidence": "high",
+        "reason": "Coach silver hijau gelombang kuning, kaca penumpang memanjang dan dua gandar."
+      }
+    ],
+    "annotation_sha256": "9c113e0e98166497a96c0924ed19e43706e4b43d3df1a2a77c606a26c8721474",
+    "cross_audit": {
+      "image_id": "PA001",
+      "annotation_sha256": "9c113e0e98166497a96c0924ed19e43706e4b43d3df1a2a77c606a26c8721474",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0023.png",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA001_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA001.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Coach silver-hijau dengan pola kuning dan kaca penumpang panjang, unik dalam komparasi kandidat. Tangkap bodi utuh; motor kecil hanya mengenai sudut crop.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/FRAME_MANIFEST.json."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "6b0f9e80263a30d60776fdf89b75a3610c1003e1f998c4d8712a552d88672d5d",
+    "source_pts_seconds": 115.052,
+    "encounter_group": "palbapang-20261115-A0023",
+    "vehicle_identity": "palbapang-bus-A0023",
+    "original_audit": {
+      "id": "PA001-01",
+      "image_id": "PA001",
+      "annotation_sha256": "6b0f9e80263a30d60776fdf89b75a3610c1003e1f998c4d8712a552d88672d5d",
+      "source_sha256": "4048c86c68c18ff9e6fb0754c46ae12a23535def4819671952f649ed1be30e7a",
+      "crop_sha256": "120ddc79d16ec9f70ca43d03b274ff47b1ab45d90781bc870dd33f1b93c609b5",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Coach silver-hijau dengan pola kuning dan kaca penumpang panjang, unik dalam komparasi kandidat. Tangkap bodi utuh; motor kecil hanya mengenai sudut crop.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0023.png",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA001.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA002",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001012.jpg",
+    "source_sha256": "1232c507f47e0dcb79d2bffc0a5e0cbd490c5241900ab0647478d56bd5860506",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T06:53:31.527+0000",
+    "timestamp_camera_wib": "2026-11-15T13:53:29+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA002_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA002.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA002-01",
+        "class_name": "bus",
+        "bbox_xyxy": [
+          257,
+          247,
+          498,
+          411
+        ],
+        "confidence": "high",
+        "reason": "Bus putih biru RENY, pintu penumpang dan kaca samping panjang."
+      }
+    ],
+    "annotation_sha256": "49e0660a6eb8953e93c497e6904e6c7f1abc0db1d5d53b981c1da47b88df0fce",
+    "cross_audit": {
+      "image_id": "PA002",
+      "annotation_sha256": "49e0660a6eb8953e93c497e6904e6c7f1abc0db1d5d53b981c1da47b88df0fce",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001012.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA002_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA002.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Coach medium putih-biru RENY; lampu dan livery berbeda dari coach biru-putih S010 dan biru-ungu S033. Positif bus utuh dengan oklusi kecil di muka.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "827f40e857ba7e9a6ea85868694bd927d111e32bf4d68a8c9fd0362276e50307",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D001012",
+    "vehicle_identity": "palbapang-bus-D001012",
+    "original_audit": {
+      "id": "PA002-01",
+      "image_id": "PA002",
+      "annotation_sha256": "827f40e857ba7e9a6ea85868694bd927d111e32bf4d68a8c9fd0362276e50307",
+      "source_sha256": "1232c507f47e0dcb79d2bffc0a5e0cbd490c5241900ab0647478d56bd5860506",
+      "crop_sha256": "56a38af7c758ab5e24b4a9e968c0d4574d873b6e35583b74106a4ea2c95b4ad4",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Coach medium putih-biru RENY; lampu dan livery berbeda dari coach biru-putih S010 dan biru-ungu S033. Positif bus utuh dengan oklusi kecil di muka.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001012.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA002.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA003",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002082.jpg",
+    "source_sha256": "dda6908ec2f3e592be47ccf7465da635d25dc750b946ae2a9d1660af128901a6",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T07:29:11.693+0000",
+    "timestamp_camera_wib": "2026-11-15T14:29:10+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA003_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA003.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA003-01",
+        "class_name": "bus",
+        "bbox_xyxy": [
+          133,
+          290,
+          426,
+          572
+        ],
+        "confidence": "high",
+        "reason": "Coach putih tampak belakang, aksen merah hitam dan unit 005."
+      }
+    ],
+    "annotation_sha256": "659fe99fe79519a1dbca814d4f956b03319ec2ded2b8d6bad03e56f0c656bc3f",
+    "cross_audit": {
+      "image_id": "PA003",
+      "annotation_sha256": "659fe99fe79519a1dbca814d4f956b03319ec2ded2b8d6bad03e56f0c656bc3f",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002082.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA003_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA003.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Coach putih dari belakang bertanda 005. Pola buritan dan merek armada berbeda dari bus putih-merah S076 dan coach putih S039; bagian belakang terbaca jelas.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "a92469fe2272d1a8a713f90d5f6bdfbfc467afd93f1b58a7a6c64279ee509f4d",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D002082",
+    "vehicle_identity": "palbapang-bus-D002082",
+    "original_audit": {
+      "id": "PA003-01",
+      "image_id": "PA003",
+      "annotation_sha256": "a92469fe2272d1a8a713f90d5f6bdfbfc467afd93f1b58a7a6c64279ee509f4d",
+      "source_sha256": "dda6908ec2f3e592be47ccf7465da635d25dc750b946ae2a9d1660af128901a6",
+      "crop_sha256": "d66521fe58ff2fe055a031ac1a80e8565994d19be13634081648291f7c86b171",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Coach putih dari belakang bertanda 005. Pola buritan dan merek armada berbeda dari bus putih-merah S076 dan coach putih S039; bagian belakang terbaca jelas.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002082.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA003.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA004",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002227.jpg",
+    "source_sha256": "2e14ecd8c4bbfb13cffc80c82c536a817dda8c0e7bf3e121c4891c69bca400c7",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T07:34:17.865+0000",
+    "timestamp_camera_wib": "2026-11-15T14:34:15+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA004_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA004.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA004-01",
+        "class_name": "bus",
+        "bbox_xyxy": [
+          150,
+          263,
+          427,
+          517
+        ],
+        "confidence": "high",
+        "reason": "Coach oranye tampak belakang, teks PARIWISATA serta grafis lengkung putih kelabu, berbeda dari bus oranye hijau S068."
+      }
+    ],
+    "annotation_sha256": "68f1b9d6576ebf8c0099b5bf63ec85c6e327523c7b8b82b13e165496f82bb9ba",
+    "cross_audit": {
+      "image_id": "PA004",
+      "annotation_sha256": "68f1b9d6576ebf8c0099b5bf63ec85c6e327523c7b8b82b13e165496f82bb9ba",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002227.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA004_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA004.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Coach oranye grafis putih/abu melengkung; berbeda dari S068 dan Palbapang D002803 yang bergrafis segitiga serta bertrim hijau. Coach hijau di pojok kanan adalah kendaraan konteks berbeda di luar crop.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "894c2ce27d2343aa9706ec64ad0ab6c65321495d94b0da38d09a4cf768419a51",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D002227",
+    "vehicle_identity": "palbapang-bus-D002227",
+    "original_audit": {
+      "id": "PA004-01",
+      "image_id": "PA004",
+      "annotation_sha256": "894c2ce27d2343aa9706ec64ad0ab6c65321495d94b0da38d09a4cf768419a51",
+      "source_sha256": "2e14ecd8c4bbfb13cffc80c82c536a817dda8c0e7bf3e121c4891c69bca400c7",
+      "crop_sha256": "d1955bb38b38543c99f7b1c5179773844790f75fbd21f21ab63e01726ec89555",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Coach oranye grafis putih/abu melengkung; berbeda dari S068 dan Palbapang D002803 yang bergrafis segitiga serta bertrim hijau. Coach hijau di pojok kanan adalah kendaraan konteks berbeda di luar crop.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002227.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA004.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA005",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000232.jpg",
+    "source_sha256": "6c3b588091225de88e6ea0df7e9260ec2d3902d792284f419912a7a3b7fc9bd2",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T06:27:09.560+0000",
+    "timestamp_camera_wib": "2026-11-15T13:27:07+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA005_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA005.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA005-01",
+        "class_name": "bus",
+        "bbox_xyxy": [
+          493,
+          258,
+          1173,
+          655
+        ],
+        "confidence": "high",
+        "reason": "Coach kuning hitam bertuliskan MILLENIAL COACH dan SRI MULIH, dua gandar terlihat."
+      }
+    ],
+    "annotation_sha256": "1ecada6bdac9980e1d9726ed6b15f96afb46c6b701e8867021d3c33ac5bfc214",
+    "cross_audit": {
+      "image_id": "PA005",
+      "annotation_sha256": "1ecada6bdac9980e1d9726ed6b15f96afb46c6b701e8867021d3c33ac5bfc214",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000232.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA005_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA005.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Coach SRI MULIH kuning legap dan aksen perak, berbeda dari coach merah Tiga Putra S043 walau keduanya memakai tulisan MILLENIAL COACH.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "de42e02fef62c780795b6814a7584e9dc66bfa8f0fdcea85929e2fbbc2cde258",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D000232",
+    "vehicle_identity": "palbapang-bus-D000232",
+    "original_audit": {
+      "id": "PA005-01",
+      "image_id": "PA005",
+      "annotation_sha256": "de42e02fef62c780795b6814a7584e9dc66bfa8f0fdcea85929e2fbbc2cde258",
+      "source_sha256": "6c3b588091225de88e6ea0df7e9260ec2d3902d792284f419912a7a3b7fc9bd2",
+      "crop_sha256": "6151fff58fdf80c9d2f8fec316f82733fecafe1ab99a37b47db8a246e1480dbf",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Coach SRI MULIH kuning legap dan aksen perak, berbeda dari coach merah Tiga Putra S043 walau keduanya memakai tulisan MILLENIAL COACH.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000232.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA005.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA006",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0111.png",
+    "source_sha256": "6059cb00b0c0aa7df7036db8fd6621a6620e1746d377d60a6bc29c7a610988ca",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": null,
+    "timestamp_camera_wib": "2026-11-15T11:52:21+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_114313_WIB",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA006_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA006.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA006-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          220,
+          252,
+          407,
+          416
+        ],
+        "confidence": "high",
+        "reason": "Kabin kuning dan bak tinggi hijau rangka berat, terlihat roda pintu serta spion."
+      }
+    ],
+    "annotation_sha256": "1038cffafce25df7c65797a3b01054944456aa9adc3fd6aa7727b6fa95399472",
+    "cross_audit": {
+      "image_id": "PA006",
+      "annotation_sha256": "1038cffafce25df7c65797a3b01054944456aa9adc3fd6aa7727b6fa95399472",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0111.png",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA006_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA006.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Truk bak berdinding tinggi dengan kabin kuning-hijau, berbeda dari truk boks hijau S056. Perbaikan crop kini mencakup dinding belakang, terpal, cermin dan tapak depan.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/FRAME_MANIFEST.json."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "67efe9ce753228da4e3a0d9a4a6404e89417b399daa2d592a3dda381af6ae928",
+    "source_pts_seconds": 555.433,
+    "encounter_group": "palbapang-20261115-A0111",
+    "vehicle_identity": "palbapang-truk-A0111",
+    "original_audit": {
+      "id": "PA006-01",
+      "image_id": "PA006",
+      "annotation_sha256": "67efe9ce753228da4e3a0d9a4a6404e89417b399daa2d592a3dda381af6ae928",
+      "source_sha256": "6059cb00b0c0aa7df7036db8fd6621a6620e1746d377d60a6bc29c7a610988ca",
+      "crop_sha256": "c3e51ce3c5eba1663d837c2978e154ba8737e22538c019f9366963f046110d2a",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [
+        "Bbox diperluas, crop diperiksa ulang."
+      ],
+      "review_notes": [
+        "Truk bak berdinding tinggi dengan kabin kuning-hijau, berbeda dari truk boks hijau S056. Perbaikan crop kini mencakup dinding belakang, terpal, cermin dan tapak depan.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_114313_WIB/05_palbapang_selatan/frames/frame_0111.png",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA006.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA007",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002508.jpg",
+    "source_sha256": "21296ff2b94fc063be85df1ae7f828f41848eac0e30beeb77ffc2e126312a730",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T07:43:40.205+0000",
+    "timestamp_camera_wib": "2026-11-15T14:43:38+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA007_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA007.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA007-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          337,
+          282,
+          559,
+          442
+        ],
+        "confidence": "high",
+        "reason": "Kabin kuning dan putih merah, bak terbuka berpagar logam dengan rangka berjarak."
+      }
+    ],
+    "annotation_sha256": "1333610d1c4ba5c8cfcd5c41d66d95b3eb8cf12af335540f33d96058094a9c9d",
+    "cross_audit": {
+      "image_id": "PA007",
+      "annotation_sha256": "1333610d1c4ba5c8cfcd5c41d66d95b3eb8cf12af335540f33d96058094a9c9d",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002508.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA007_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA007.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Truk bak berpagar putih-merah-kuning, bukan RS002 yang bermuatan krat jingga atau RB001 dengan dinding slat kuning. Kendaraan lengkap.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "b4c909105bf787fce685e4a7ded1d6b9f68e7f9637c5809b7c3173f6cea6cfe3",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D002508",
+    "vehicle_identity": "palbapang-truk-D002508",
+    "original_audit": {
+      "id": "PA007-01",
+      "image_id": "PA007",
+      "annotation_sha256": "b4c909105bf787fce685e4a7ded1d6b9f68e7f9637c5809b7c3173f6cea6cfe3",
+      "source_sha256": "21296ff2b94fc063be85df1ae7f828f41848eac0e30beeb77ffc2e126312a730",
+      "crop_sha256": "5230435d45c14a6ba24044f4f106ec8a52885fb07ab8ef40d9e7aaf79d28c7e6",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Truk bak berpagar putih-merah-kuning, bukan RS002 yang bermuatan krat jingga atau RB001 dengan dinding slat kuning. Kendaraan lengkap.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002508.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA007.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA008",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_003379.jpg",
+    "source_sha256": "59ac16a3695b21146d77fcabfdb25b7f766b015b21733f31662aec196e64bf5b",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T08:12:41.821+0000",
+    "timestamp_camera_wib": "2026-11-15T15:12:39+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA008_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA008.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA008-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          218,
+          218,
+          379,
+          391
+        ],
+        "confidence": "high",
+        "reason": "Kabin merah serta bak pembawa beban mesin putih, terpisah dari pickup terpal biru."
+      }
+    ],
+    "annotation_sha256": "99b792c462e2eb872091da8111448a5f5d4dfed677d9a1eaabbd681c6d547123",
+    "cross_audit": {
+      "image_id": "PA008",
+      "annotation_sha256": "99b792c462e2eb872091da8111448a5f5d4dfed677d9a1eaabbd681c6d547123",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_003379.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA008_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA008.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Truk rangka merah dan unit mesin terikat di atas bak, berbeda dari truck tebu B049 dan dump PA010. Perbaikan crop menyisakan puncak muatan.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "e74164dc4f507eb057002ee07804eab1004eca273b9668e73f71df305f9f28b7",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D003379",
+    "vehicle_identity": "palbapang-truk-D003379",
+    "original_audit": {
+      "id": "PA008-01",
+      "image_id": "PA008",
+      "annotation_sha256": "e74164dc4f507eb057002ee07804eab1004eca273b9668e73f71df305f9f28b7",
+      "source_sha256": "59ac16a3695b21146d77fcabfdb25b7f766b015b21733f31662aec196e64bf5b",
+      "crop_sha256": "e274207fb45c96b8426ec8ea03e8dc62307d80bbf613e42a9c5f0841c80d3530",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [
+        "Bbox diperluas, crop diperiksa ulang."
+      ],
+      "review_notes": [
+        "Truk rangka merah dan unit mesin terikat di atas bak, berbeda dari truck tebu B049 dan dump PA010. Perbaikan crop menyisakan puncak muatan.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_003379.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA008.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA009",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001285.jpg",
+    "source_sha256": "3dcfb6752a84325853923db1538a2a006b091a62e56daefd15d0695a236c625e",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T07:02:37.616+0000",
+    "timestamp_camera_wib": "2026-11-15T14:02:35+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA009_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA009.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA009-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          217,
+          231,
+          342,
+          368
+        ],
+        "confidence": "high",
+        "reason": "Kabin putih dengan bumper merah, bak muatan dinding cokelat dan terpal gelap."
+      }
+    ],
+    "annotation_sha256": "95f089fcd34f886da09851b01a263837570057b1b8cf2ccac61a7a4cc1c400c0",
+    "cross_audit": {
+      "image_id": "PA009",
+      "annotation_sha256": "95f089fcd34f886da09851b01a263837570057b1b8cf2ccac61a7a4cc1c400c0",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001285.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA009_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA009.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Truk kabin putih dengan bumper merah dan terpal seperti tenda. Berbeda dari B007/B008 (boks metal persegi) dan RB003 (Isuzu Fargo putih/boks cokelat datar).",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "1b17280a3164e9e2d059c7c2fb41371a902866ec25244268a564d69656773e8c",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D001285",
+    "vehicle_identity": "palbapang-truk-D001285",
+    "original_audit": {
+      "id": "PA009-01",
+      "image_id": "PA009",
+      "annotation_sha256": "1b17280a3164e9e2d059c7c2fb41371a902866ec25244268a564d69656773e8c",
+      "source_sha256": "3dcfb6752a84325853923db1538a2a006b091a62e56daefd15d0695a236c625e",
+      "crop_sha256": "78c6f90732d6d2608399d521aebdda1d7876afb7ea26c464f68cbb4547c68e0b",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Truk kabin putih dengan bumper merah dan terpal seperti tenda. Berbeda dari B007/B008 (boks metal persegi) dan RB003 (Isuzu Fargo putih/boks cokelat datar).",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_001285.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA009.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA010",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000554.jpg",
+    "source_sha256": "eb946c5287db41b9758cafef5467fa67948011ec9800b06aaeb4d6e77ae61c05",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T06:37:53.702+0000",
+    "timestamp_camera_wib": "2026-11-15T13:37:51+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA010_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA010.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA010-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          458,
+          181,
+          864,
+          382
+        ],
+        "confidence": "high",
+        "reason": "Dump truck kabin merah, bak tinggi cokelat putih dengan strip diagonal dan roda belakang besar."
+      }
+    ],
+    "annotation_sha256": "eb732443977a15327215add6c50cf6d14bfae2a85af363c720b432f73df7a8be",
+    "cross_audit": {
+      "image_id": "PA010",
+      "annotation_sha256": "eb732443977a15327215add6c50cf6d14bfae2a85af363c720b432f73df7a8be",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000554.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA010_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA010.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_timestamp_review.jpg"
+      ],
+      "review_notes": [
+        "Dump berat kabin merah dengan bak cokelat-putih dan diagonal biru, sasis dan ban terlihat utuh. D000000 memperlihatkan pola, panel dan bentuk kabin identik.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung.",
+        "Waktu kamera pada piksel asli cocok dengan metadata. PDT HLS atau PTS, sesuai keberadaan di sumber, dan hash sumber dicocokkan ke manifest Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/REVIEW_SAMPLES.jsonl."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "ec1dbbcee7b3b166b17a28c6c4116a09099f04b52d4da8009a53016032ba4660",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D000554",
+    "vehicle_identity": "palbapang-truk-D000554",
+    "original_audit": {
+      "id": "PA010-01",
+      "image_id": "PA010",
+      "annotation_sha256": "ec1dbbcee7b3b166b17a28c6c4116a09099f04b52d4da8009a53016032ba4660",
+      "source_sha256": "eb946c5287db41b9758cafef5467fa67948011ec9800b06aaeb4d6e77ae61c05",
+      "crop_sha256": "0831c027136c90ef64177e87f6f6112055437d191f2599d2fd37570950ca7b8f",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [
+        "Bbox diperluas, crop diperiksa ulang."
+      ],
+      "review_notes": [
+        "Dump berat kabin merah dengan bak cokelat-putih dan diagonal biru, sasis dan ban terlihat utuh. D000000 memperlihatkan pola, panel dan bentuk kabin identik.",
+        "Penggunaan hanya positif klasifikasi training, tanpa ROI antrean Palbapang atau acuan hitung."
+      ],
+      "likely_identity_links": [
+        {
+          "source_ref": "D000000",
+          "status": "likely_same_vehicle_holdout",
+          "basis": "Kabin merah, garis diagonal biru gelap di bak cokelat dan sekat putih, tipe rangka sama. Tidak dipilih."
+        }
+      ],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000554.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA010.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_D000000.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": [
+      {
+        "source_ref": "D000000",
+        "status": "likely_same_vehicle_holdout",
+        "basis": "Kabin merah, garis diagonal biru gelap di bak cokelat dan sekat putih, tipe rangka sama. Tidak dipilih."
+      }
+    ]
+  },
+  {
+    "image_id": "PA011",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002247.jpg",
+    "source_sha256": "e3b6f4f9b344d7318ad2c559123294c4fd1f9927676714f669113f1f3e61c43e",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T07:34:57.968+0000",
+    "timestamp_camera_wib": "2026-11-15T14:34:55+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA011-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          280,
+          348,
+          772,
+          714
+        ],
+        "confidence": "high",
+        "reason": "Truk rigid bak tinggi dengan dinding merah-hijau bergrafis, terpal biru lebar, kolong rangka kaki serta roda ukuran medium; sisi kabin dan spion terlihat. Berbeda dari truk B049 bermuatan batang terbuka."
+      }
+    ],
+    "annotation_sha256": "36fe2219fe07ff14f60eb7dd425a39f3d8bab0c1ba767ac3cc4e930586303219",
+    "cross_audit": {
+      "image_id": "PA011",
+      "annotation_sha256": "36fe2219fe07ff14f60eb7dd425a39f3d8bab0c1ba767ac3cc4e930586303219",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002247.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011.jpg"
+      ],
+      "review_notes": [
+        "Truk bak tinggi terpal biru, panel belakang merah dan ornamen hijau, dengan roda dan spion terlihat. Beda dengan truk B049 yang bermuatan batang tanpa terpal, serta kandidat sendi lainnya.",
+        "Stamp kamera native dan PDT manifest diverifikasi. Train-only; tidak ada hitung ROI dari crop."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "2559b961850f44714d469f03f1cccba8ccebc9fe9d74af05413e7c1e18aac3cd",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D002247",
+    "vehicle_identity": "palbapang-truk-D002247",
+    "original_audit": {
+      "id": "PA011-01",
+      "image_id": "PA011",
+      "annotation_sha256": "2559b961850f44714d469f03f1cccba8ccebc9fe9d74af05413e7c1e18aac3cd",
+      "source_sha256": "e3b6f4f9b344d7318ad2c559123294c4fd1f9927676714f669113f1f3e61c43e",
+      "crop_sha256": "7fc23c4fcbe40522b8816bb2af3e21dda3d6783893ce3e981e494b116faacdfe",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [],
+      "review_notes": [
+        "Truk bak tinggi terpal biru, panel belakang merah dan ornamen hijau, dengan roda dan spion terlihat. Beda dengan truk B049 yang bermuatan batang tanpa terpal, serta kandidat sendi lainnya.",
+        "Stamp kamera native dan PDT manifest diverifikasi. Train-only; tidak ada hitung ROI dari crop."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_002247.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA011.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  },
+  {
+    "image_id": "PA012",
+    "camera_id": "05_palbapang_selatan",
+    "source_image": "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000423.jpg",
+    "source_sha256": "b7ec35d638a981d574bf7c35cc61aea6201e83ded23c9b9bf1657dc2cdde7376",
+    "width": 1280,
+    "height": 720,
+    "source_program_date_time": "2026-11-15T06:33:32.361+0000",
+    "timestamp_camera_wib": "2026-11-15T13:33:30+07:00",
+    "timestamp_evidence": "native_camera_overlay",
+    "session_id": "20261115_131932_WIB_120min",
+    "visual_evidence": [
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012_source_box.jpg",
+      ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012.jpg"
+    ],
+    "sample_role": "auxiliary_classification_train_only",
+    "location_group": "palbapang",
+    "reviewer": "bejen",
+    "objects": [
+      {
+        "id": "PA012-01",
+        "class_name": "truk",
+        "bbox_xyxy": [
+          225,
+          198,
+          427,
+          312
+        ],
+        "confidence": "high",
+        "reason": "Truk dump besar, kabin putih berlogo UD dan bak rigid coklat panjang berusuk; terpal biru di bawah merupakan muatan pickup hitam terpisah. Roda dan sisi bawah kabin terhalang."
+      }
+    ],
+    "annotation_sha256": "3c210068964b8b5db338f871eb2b9bcdc9006b0b0a98676ee5cbb5f6b57f49c3",
+    "cross_audit": {
+      "image_id": "PA012",
+      "annotation_sha256": "3c210068964b8b5db338f871eb2b9bcdc9006b0b0a98676ee5cbb5f6b57f49c3",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "overlay_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000423.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012.jpg"
+      ],
+      "review_notes": [
+        "Truk berat UD kabin putih dan bak dump abu-cokelat, berbeda dari pickup hitam terpal biru di depannya. Batas bawah direvisi mengikuti sasis tampak hingga y=312, pikap tetap dicatat sebagai occluder.",
+        "Stamp kamera native dan PDT manifest diverifikasi. Train-only; tidak ada hitung ROI dari crop."
+      ]
+    },
+    "cross_audit_status": "passed",
+    "source_candidate_sha256": "1f71660454e891e8a3816d4aef2b03dd0952ebc21e740e68a5544f986bd8b13c",
+    "source_pts_seconds": null,
+    "encounter_group": "palbapang-20261115-D000423",
+    "vehicle_identity": "palbapang-truk-D000423",
+    "original_audit": {
+      "id": "PA012-01",
+      "image_id": "PA012",
+      "annotation_sha256": "1f71660454e891e8a3816d4aef2b03dd0952ebc21e740e68a5544f986bd8b13c",
+      "source_sha256": "b7ec35d638a981d574bf7c35cc61aea6201e83ded23c9b9bf1657dc2cdde7376",
+      "crop_sha256": "beaf5d877520d8d63562aab7a0d93df1dea71031062e3b2860770412933ae13f",
+      "reviewer": "selatan",
+      "source_reviewed": true,
+      "crop_reviewed": true,
+      "status": "pass",
+      "open_issues": [],
+      "resolved_issues": [
+        "Ketinggian bbox asli 299 memotong bagian sasis tampak. Sudah dinaikkan cakupannya menjadi y2=312 dan ditinjau ulang."
+      ],
+      "review_notes": [
+        "Truk berat UD kabin putih dan bak dump abu-cokelat, berbeda dari pickup hitam terpal biru di depannya. Batas bawah direvisi mengikuti sasis tampak hingga y=312, pikap tetap dicatat sebagai occluder.",
+        "Stamp kamera native dan PDT manifest diverifikasi. Train-only; tidak ada hitung ROI dari crop."
+      ],
+      "likely_identity_links": [],
+      "visual_evidence": [
+        "Data/Sumber/Bantul_CCTV/20261115_131932_WIB_120min/05_palbapang_selatan/review_samples/frame_000423.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012_source_box.jpg",
+        ".scratch/bantul-readiness-20261117/rare_bejen/aux_crops/PA012.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_0.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/aux_context_1.jpg",
+        ".scratch/bantul-readiness-20261117/rare_selatan/PA012_review_detail.jpg"
+      ]
+    },
+    "known_nonactive_identity_links": []
+  }
+]
