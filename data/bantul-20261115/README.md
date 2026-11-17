@@ -1,5 +1,13 @@
 # Arsip sumber CCTV Bantul 15 November 2026
 
+**Status penyimpanan 17 November 2026:** 82 ZIP/part (7.500.124.695 byte) dan 38 JPEG duplikat v2 (20.998.592 byte) telah dipindahkan ke Sampah Drive, total 7,52 GB. Ini belum penghapusan permanen; antarmuka Drive menyatakan item Sampah dihapus selamanya setelah 30 hari. Tidak ada klaim kuota sudah bebas.
+
+Dataset aktif tetap 222 gambar v3 dan 222 overlay anotasi. Seluruh 791 video bukti lokal lolos hash dan arsip sumbernya tetap dipertahankan. Sebanyak 86 paket lama (7.538.401.919 byte) masih disimpan: 83 memuat bukti video aktif, dua menyimpan snapshot metadata yang berubah, dan satu memuat laporan. ZIP kecil label/audit terbaru juga tetap tersedia.
+
+Rilis awal tidak lagi tersedia sebagai 168 paket di folder aktif. CHECKSUMS.json, PACKAGE_MANIFEST.json, restore_dataset.py dan peta pemulihan lama merupakan bukti historis; pemulihan penuh memerlukan item dari Sampah dan tidak dijamin setelah retensi berakhir. Gunakan paket v3 serta anotasi terbaru untuk pekerjaan aktif.
+
+[Daftar status arsip](STORAGE_STATUS_20261117.json). Bagian berikut merekam rilis historis 15 November.
+
 Arsip akuisisi untuk PoC analisis jumlah mobil, motor, bus dan truk serta persentase cakupan ROI pada satu gambar CCTV persimpangan. Paket gambar yang kini dipilih untuk anotasi dan pratinjau tersedia melalui [Kurasi CCTV Bantul v3](../bantul-curated-v3/README.md). Label percobaan dalam arsip ini masih perlu revisi.
 
 ## Isi paket
