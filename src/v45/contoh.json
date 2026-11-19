@@ -1,0 +1,22 @@
+{
+  "S033": {
+    "camera_id": "01_paseban_selatan",
+    "source_image": "contoh/S033.jpg",
+    "source_sha256": "b9c5b2d366d73144428d6d62be77b98f04dde8f3ef05193d592a92abacf3c6cd"
+  },
+  "W046": {
+    "camera_id": "02_paseban_barat",
+    "source_image": "contoh/W046.jpg",
+    "source_sha256": "31ac882001963992cdb58cb044b89c375df8c7305a583e969baf74816aad4f08"
+  },
+  "NB006": {
+    "camera_id": "04_bejen_barat",
+    "source_image": "contoh/NB006.jpg",
+    "source_sha256": "ba35b6c0dead604dc49cc98c69c98c7e6a42781ba2aa6fcb7ccabf30a999222d"
+  },
+  "W041": {
+    "camera_id": "02_paseban_barat",
+    "source_image": "contoh/W041.jpg",
+    "source_sha256": "21e2256979ca0c7e153957708a7d0ed3e13828d0f9b903cb59b3ed2559d31c92"
+  }
+}

@@ -1,0 +1,7 @@
+Demo ini menganalisis satu foto CCTV dari Paseban Selatan, Paseban Barat, atau Bejen Barat. Model v45 menghitung mobil, motor, bus, dan truk serta mengukur persentase area jalan yang tertutup gabungan kotak kendaraan.
+
+**Untuk Mac Apple Silicon**, unduh `PoC_Bantul_v45_macOS_arm64.zip` pada lampiran rilis (317 MiB), ekstrak seluruh isinya, lalu buka `Jalankan.command`. Python dan pustakanya sudah disertakan. Pada contoh awal S033, hasil acuan adalah 16 kendaraan dan cakupan 59,42%. Untuk mencoba keempat foto, jalankan `./Jalankan.command --uji` di folder ekstraksi.
+
+SHA-256 ZIP adalah `6a7390db45d2c288ef2901549b0d62872f943500508c01ec50426120931b0a85`. Model beku memiliki ID `9bb33935eec4e5c174b3`. Macro-F1 uji empat kelas mencapai 59,11% pada 76 gambar. Pada 31 gambar beracuan lengkap, galat absolut rata-rata jumlah adalah 0,45 kendaraan dan galat cakupan 3,32 poin persentase. [Evaluasi dan batas penerapan](https://github.com/hanafishiddiq/tugas-akhir-pcd/blob/v45/evaluasi/README.md) · [Draf paper IEEE](https://github.com/hanafishiddiq/tugas-akhir-pcd/blob/v45/paper/paper.pdf)
+
+Sumber foto adalah Pemerintah Kabupaten Bantul / Diskominfo Bantul, kamera Paseban Selatan, Paseban Barat, dan Bejen Barat. Metadata pemutar mencantumkan lisensi CC BY 4.0. Tim menambahkan anotasi, ROI, dan overlay serta membuat potongan untuk panel evaluasi. [Portal CCTV Bantul](https://bantulkab.go.id/cctv.html) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

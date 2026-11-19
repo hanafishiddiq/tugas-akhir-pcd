@@ -1,5 +1,5 @@
-# Dataset aktif
+# Dataset CCTV Bantul
 
-[Kurasi CCTV Bantul v3](bantul-curated-v3/README.md) menyediakan 222 gambar untuk anotasi: 187 inti dan 35 tantangan. Gambar dapat dilihat langsung di Drive; repo menyimpan manifest, checksum, ROI dan protokol. Belum ada split terkunci atau training.
+Paket aktif untuk v45 adalah [Bantul Pilot v1](bantul-pilot-v1/README.md). Di sana tersedia anotasi empat kelas, ROI, pembagian data terkunci, dan petunjuk pemulihan. Foto serta overlay dapat dilihat di [folder dataset tim](https://drive.google.com/drive/folders/1dL_hXMOnOQvsBkwFW4IsZBJYo-ulJcR5).
 
-[Arsip sumber](bantul-20261115/README.md) memuat dua sesi akuisisi lima kamera dan cara pemulihan. Media besar dan ZIP tetap di Drive; salinan lokal yang tidak dipakai telah dibersihkan.
+Data pilot dikembangkan dari [kurasi 222 gambar](bantul-curated-v3/README.md) dan [anotasi sumber](bantul-annotations-v1/README.md). Riwayat dua sesi pengambilan dari lima kamera tersedia di [arsip akuisisi](bantul-20261115/README.md). Hasil model yang memakai paket pilot dilaporkan pada [evaluasi v45](../evaluasi/README.md).

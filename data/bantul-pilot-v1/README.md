@@ -1,6 +1,6 @@
 # Bantul Pilot v1
 
-Paket pilot empat kelas untuk CCTV tetap, dikunci pada 17 November 2026 sebelum training. Paket mencakup 248 gambar utama, termasuk 10 embargo dan 2 karantina, serta 12 crop Palbapang khusus pelatihan classifier. Pembagian aktif berisi 99 gambar train, 61 validation, dan 76 test. Evaluasi dirancang sebagai holdout temporal pada kamera tetap. Tahap ini memverifikasi kesiapan data dan kontrak evaluasi. Hasil training belum tersedia.
+Paket pilot empat kelas untuk CCTV tetap, dikunci pada 17 November 2026 sebelum training. Paket mencakup 248 gambar utama, termasuk 10 embargo dan 2 karantina, serta 12 crop Palbapang khusus pelatihan classifier. Pembagian aktif berisi 99 gambar train, 61 validation, dan 76 test. Evaluasi dirancang sebagai holdout temporal pada kamera tetap. Tahap ini memverifikasi kesiapan data dan kontrak evaluasi. Evaluasi model v45 yang memakai pembagian ini tersedia di [hasil pengujian](../../evaluasi/README.md).
 
 - [Kartu dataset](DATASET_CARD.md) dan [kontrak penggunaan](DATA_CONTRACT.md)
 - [Pembagian terkunci](SPLIT_LOCK.json) dan [laporan kesiapan](READINESS_REPORT.json)

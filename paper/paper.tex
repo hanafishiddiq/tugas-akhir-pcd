@@ -1,0 +1,137 @@
+\documentclass[conference,a4paper]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{url}
+\renewcommand{\abstractname}{Abstrak}
+\renewcommand{\IEEEkeywordsname}{Kata kunci}
+\renewcommand{\figurename}{Gambar}
+\renewcommand{\tablename}{Tabel}
+\renewcommand{\refname}{Referensi}
+\title{Penghitungan Kendaraan dan Estimasi Kepadatan Visual pada Citra CCTV Persimpangan Bantul}
+\author{\IEEEauthorblockN{\begin{tabular}{@{}c@{\hspace{6mm}}c@{\hspace{6mm}}c@{}}
+Hanafi Khairul Shiddiq & Naila Syakira & Helena Koronka Innarmastia
+\end{tabular}\\[3pt]
+\begin{tabular}{@{}c@{\hspace{6mm}}c@{}}
+Gilbard Kinan Nangwaya & Tenno Cahyo Berliantoko
+\end{tabular}}
+\IEEEauthorblockA{Program Studi Ilmu Komputer, Fakultas Matematika dan Ilmu Pengetahuan Alam\\Universitas Gadjah Mada, Yogyakarta, Indonesia}}
+\begin{document}
+\raggedbottom
+\maketitle
+
+\begin{abstract}
+Satu foto antrean pada persimpangan dapat digunakan untuk menghitung kendaraan dan memperkirakan bagian citra jalan yang tertutup kendaraan. Kami mengembangkan purwarupa tanpa pembelajaran mendalam untuk tiga kamera CCTV tetap di Kabupaten Bantul. Model memindai jendela multiskala, mengklasifikasikan kandidat berdasarkan fitur visual dan geometri, lalu menghitung luas gabungan kotak di dalam poligon jalan. Pada 76 gambar uji dari 55 kelompok, macro-F1 deteksi empat kelas mencapai 59,11\%. F1 mobil dan motor masing-masing 86,09\% dan 83,95\%, sedangkan F1 bus dan truk 42,86\% dan 23,53\%. Pada 31 gambar beracuan lengkap, galat absolut rata-rata mencapai 0,45 kendaraan per gambar dan 3,32 poin persentase untuk cakupan visual. Jumlah total tepat pada 22 gambar, tetapi empat di antaranya masih memuat deteksi berlebih dan kendaraan terlewat. Hasil ini menunjukkan perlunya menilai lokasi objek, hitungan, dan cakupan secara terpisah. Kesimpulan berlaku untuk tiga sudut kamera yang diuji.
+\end{abstract}
+\begin{IEEEkeywords}
+CCTV, deteksi kendaraan, kepadatan visual, histogram gradien, persimpangan
+\end{IEEEkeywords}
+
+\section{Pendahuluan}
+Pada pendekat bersinyal, motor dapat menunggu berdampingan di depan mobil. Dua antrean dengan hitungan sama dapat menutup bagian jalan yang berbeda. Sebaliknya, satu bus yang terdeteksi berulang dapat menambah hitungan dengan sedikit perubahan pada luas yang tertutup. Kami menguji hubungan antara ketepatan deteksi kendaraan, hitungan per jenis, dan cakupan visual jalan pada tiga kamera Bantul.
+
+Survei CCTV oleh Chen \textit{dkk.} menggabungkan segmentasi latar, ciri bentuk, klasifikasi SVM, dan pelacakan beberapa frame~\cite{chen}. Purwarupa ini menerima satu foto. Untuk mengenali kendaraan yang dapat berhenti atau saling menutupi, sistem menggunakan histogram gradien berorientasi (HOG) sebagai deskriptor struktur tepi~\cite{hog}, \textit{support vector machine} (SVM) sebagai pengklasifikasi~\cite{svm}, serta geometri kamera tetap.
+
+\section{Data dan metode}
+\subsection{Akuisisi dan pemisahan data}
+Foto berasal dari portal CCTV Pemerintah Kabupaten Bantul~\cite{bantul}. Pengambilan awal setiap lima detik selama sepuluh menit menghasilkan tampilan berulang dari antrean yang sama. Pada 15 November 2026, pengumpulan dilanjutkan dalam jendela 120 menit pada lima arah kamera. Sebanyak 1.550 JPEG pratinjau dihasilkan dengan interval sasaran sekitar 20 detik. Ketersediaan video berbeda antarkamera. Akuisisi terarah berikutnya menambah contoh kendaraan yang jarang terlihat.
+
+Kurasi memprioritaskan pendekat dengan batas jalan dan area henti yang dapat diperiksa pada sudut kamera asli. Tiga kamera dipakai untuk eksperimen gambar utuh, yaitu Paseban Selatan, Paseban Barat, dan Bejen Barat. Dua sudut Paseban mengamati lokasi yang sama. Klodran dijadikan cadangan, sedangkan contoh tambahan dari Palbapang digunakan pada pelatihan klasifikasi. Citra dengan kendaraan atau area ambigu diberi label parsial. Anotasi memuat kotak, kelas, dan keanggotaan area jalan. Anotasi serta peninjauan silang melibatkan bantuan AI.
+
+Paket inti terdiri dari 248 gambar. Sebelum pelatihan, 99 gambar dialokasikan untuk latih, 61 untuk validasi, dan 76 untuk uji. Sepuluh gambar berada dalam interval penyangga waktu dan dua lainnya dikarantina. Kelompok adegan dan kemunculan kendaraan yang mungkin sama diikat agar tidak melintasi pembagian. Data tambahan untuk klasifikasi, termasuk potongan kendaraan dan variasi kotaknya, digunakan di sisi pelatihan. Satu potongan tambahan tidak dihitung sebagai satu gambar uji atau satu kendaraan independen.
+
+\subsection{Deteksi dan klasifikasi dalam ROI}
+Setiap kamera memiliki poligon jalan atau \textit{region of interest} (ROI) pada resolusi asli. Program membentuk kandidat kotak dengan delapan tinggi jendela dan lima rasio aspek di sekitar ROI. Konfigurasi HOG menggunakan jendela $64\times64$ piksel, sel $8\times8$, blok $16\times16$, dan sembilan bin orientasi. Warna, tekstur, geometri dan selisih terhadap latar median kamera dari data latih melengkapi HOG.
+
+Model menerapkan SVM, penilaian kualitas dan regresi kotak. Penekanan kotak bertumpang tindih dan konsensus antarkandidat mengurangi duplikasi. Konfigurasi akhir, v45, menambahkan regresi Ridge untuk koreksi kotak motor dan pemeriksa fragmen berbasis SVM pada konfigurasi pembanding v35. Ambang dan cabang model dipilih pada validasi. Prediksi diterima untuk penghitungan jika titik kontak jalan berada di dalam ROI menurut aturan kamera. Dua kamera Paseban memakai perpindahan titik kontak yang dipelajari, sedangkan Bejen memakai aturan berbasis bagian bawah kotak.
+
+\subsection{Penghitungan dan definisi kepadatan}
+Misalkan $A$ adalah himpunan deteksi yang diterima, $c_i$ kelas deteksi ke-$i$, $B_i$ himpunan piksel kotaknya, dan $R$ masker jalan. Hitungan jenis $c$ dan cakupan visual $D$ didefinisikan sebagai
+\begin{align}
+ N_c &= \sum_{i\in A} \mathbf{1}[c_i=c], \\
+ D &= 100\,\frac{\left|R \cap \bigcup_{i\in A} B_i\right|}{|R|}.
+\end{align}
+Irisan dengan $R$ membatasi pengukuran pada area jalan. Operasi gabungan menghitung piksel yang tumpang tindih satu kali. Foto dengan ROI kosong menghasilkan $N_c=0$ untuk semua kelas dan $D=0$. Persentase ini berada pada bidang citra sehingga dipengaruhi perspektif dan ruang kosong di dalam kotak. Satuan seperti kendaraan per kilometer memerlukan pengukuran geometris lain.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=0.76\textwidth]{gambar/W065.jpg}
+\caption{Paseban Barat, gambar W065. Acuan di kiri dan prediksi di kanan memberi hitungan yang sama. Kotak prediksi mobil hanya mencakup sebagian badan kendaraan. Garis biru menunjukkan batas ROI. Kotak hijau memiliki pasangan, sedangkan warna jingga menunjukkan kotak acuan atau prediksi yang gagal berpasangan.}
+\label{fig:area}
+\end{figure*}
+
+\section{Rancangan evaluasi}
+Setelah v45 dibekukan, deteksi dan anotasi dipasangkan bila kelasnya sama dan \textit{intersection over union} (IoU) mencapai 0,50. Pencocokan satu lawan satu mengikuti urutan skor, sesuai prinsip evaluasi deteksi objek~\cite{voc}. Prediksi duplikat dihitung berlebih. Pada gambar parsial, prediksi yang memenuhi aturan zona ambigu dapat diberi status netral. Presisi, recall, dan F1 dihitung per kelas pada 76 gambar. Macro-F1 memberi bobot sama pada empat kelas. Interval bootstrap deskriptif dihitung dengan 2.000 pengambilan ulang atas 55 kelompok adegan.
+
+Galat absolut rata-rata (MAE) jumlah dihitung dari selisih total prediksi dan acuan per gambar. MAE cakupan memakai selisih absolut $D$ dalam poin persentase. Kedua ukuran terakhir dinilai pada 31 gambar dengan anotasi lengkap, termasuk lima ROI kosong. Target yang dibekukan adalah MAE jumlah paling banyak satu kendaraan, MAE cakupan paling banyak lima poin persentase, macro-F1 minimal 85\%, serta F1 setiap kelas minimal 75\%.
+
+\section{Hasil dan pembahasan}
+\subsection{Deteksi pada gambar utuh}
+Macro-F1 mencapai 85,50\% pada validasi dan 59,11\% pada uji. Validasi dipakai berulang untuk memilih model selama pengembangan. Interval bootstrap 95\% untuk macro-F1 uji adalah 45,81--66,30\%. Pada pembanding v35 yang juga dibekukan, macro-F1 uji sebesar 58,28\%. Koreksi akhir memberi kenaikan sekitar 0,83 poin persentase.
+
+\begin{table}[tb]
+\caption{Deteksi kendaraan pada 76 gambar uji}
+\label{tab:det}
+\centering\footnotesize\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{lrrrrrr}\toprule
+Kelas & Acuan & TP & FP & Presisi (\%) & Recall (\%) & F1 (\%)\\\midrule
+Mobil & 148 & 130 & 24 & 84,42 & 87,84 & 86,09\\
+Motor & 439 & 361 & 60 & 85,75 & 82,23 & 83,95\\
+Bus & 8 & 3 & 3 & 50,00 & 37,50 & 42,86\\
+Truk & 6 & 2 & 9 & 18,18 & 33,33 & 23,53\\\bottomrule
+\end{tabular}
+\end{table}
+
+Sebanyak 587 dari 601 objek acuan berupa mobil atau motor (Tabel~\ref{tab:det}). Penggabungan seluruh objek menghasilkan micro-F1 83,15\%. Untuk bus, tiga dari delapan objek ditemukan. Untuk truk, dua dari enam objek ditemukan dan sembilan prediksi truk tercatat berlebih. Percobaan lanjutan pada data pengembangan meninjau kandidat truk yang kehilangan skor saat seleksi. Melonggarkan seleksi dapat memulihkan truk tertentu, tetapi juga menerima bagian badan bus atau pikap boks. Percobaan tersebut dicatat sebagai diagnosis dan v45 tetap menjadi model yang dilaporkan. Sedikitnya contoh kelas berat membatasi presisi estimasi untuk kelas tersebut.
+
+\begin{figure}[tb]
+\centering
+\includegraphics[width=\columnwidth]{gambar/S059.jpg}
+\caption{Paseban Selatan, gambar S059. Lima kotak prediksi berlebih terutama bertumpang tindih dengan kotak yang sudah cocok. Satu mobil acuan terlewat.}
+\label{fig:over}
+\end{figure}
+
+\subsection{Hitungan dan cakupan jalan}
+Model menghasilkan total yang tepat pada 22 dari 31 gambar. Pada 21 gambar, hitungan untuk keempat kelas sekaligus tepat. MAE hitungan per gambar adalah 0,13 mobil, 0,32 motor, 0,06 bus, dan 0,06 truk. Nilai kecil untuk kelas berat perlu dibaca bersama jumlah kasusnya. Dalam 31 gambar lengkap, hanya dua gambar memuat bus dan dua memuat truk.
+
+\begin{table}[tb]
+\caption{Hitungan dan cakupan pada gambar beracuan lengkap}
+\label{tab:area}
+\centering\footnotesize\setlength{\tabcolsep}{3.2pt}
+\begin{tabular}{lrrrr}\toprule
+Kamera & Gambar & Total tepat & MAE $N$ & MAE $D$\\
+ & & & (unit) & (poin pers.)\\\midrule
+Paseban Selatan & 12 & 8 & 0,67 & 1,86\\
+Paseban Barat & 11 & 8 & 0,27 & 6,63\\
+Bejen Barat & 8 & 6 & 0,38 & 0,93\\\midrule
+Gabungan & 31 & 22 & 0,45 & 3,32\\\bottomrule
+\end{tabular}
+\end{table}
+
+Pada lima ROI kosong, model menghasilkan hitungan dan cakupan nol. Jika hanya 26 gambar berisi yang dihitung, MAE menjadi 0,54 kendaraan dan 3,95 poin persentase. Cakupan v45 berada di bawah acuan pada 23 gambar dan di atas acuan pada tiga gambar. Selisih bertanda rata-rata adalah $-3{,}21$ poin persentase. Paseban Barat memiliki MAE cakupan tertinggi, meskipun hitungan total tepat pada delapan dari sebelas gambar (Tabel~\ref{tab:area}).
+
+
+
+W065 memperlihatkan galat cakupan terbesar (Gambar~\ref{fig:area}). Acuan dan prediksi sama-sama memuat satu mobil dan dua motor. Kotak mobil memiliki IoU 0,463. Pada ambang pencocokan, satu mobil tercatat terlewat dan satu prediksi berlebih. Area tertutup turun dari 68,27\% pada acuan menjadi 49,10\% pada prediksi, selisih 19,17 poin persentase. Pada W061, ketiga kendaraan terdeteksi dan cocok, tetapi kotak prediksi yang lebih kecil tetap mengurangi cakupan sebesar 9,88 poin. Perbedaan ini menunjukkan bahwa lolos ambang IoU belum menjamin galat cakupan kecil.
+
+
+
+Pada S059 (Gambar~\ref{fig:over}), prediksi mencapai 23 kendaraan terhadap 19 kendaraan acuan. Tiga motor, satu mobil dan satu truk tercatat berlebih, sementara satu mobil terlewat. Dari 121.518 piksel ROI yang tercakup gabungan kelima kotak berlebih, hanya 3.844 piksel berada di luar kotak deteksi yang cocok. Karena itu, penambahan empat kendaraan pada hitungan total hanya disertai selisih cakupan sebesar 1,67 poin persentase. Contoh gambar dipilih sesudah evaluasi untuk menjelaskan kesalahan terbesar pada cakupan dan hitungan.
+
+\subsection{Waktu inferensi dan reproduksi}
+Pada 76 foto uji, median inferensi adalah 8,10 detik per gambar, rata-rata 11,80 detik, dan persentil ke-90 sebesar 20,94 detik. Pengukuran berlangsung pada macOS arm64 dengan satu thread komputasi untuk OpenCV dan pustaka numerik. Pengukur mencakup deteksi hingga ringkasan keluaran serta penyalinan hasil pembanding dalam uji berpasangan. Pemuatan model, pembacaan foto dan penyimpanan gambar keluaran berada di luar interval ini.
+
+Untuk memeriksa kemudahan reproduksi, arsip model diekstrak ke lokasi baru dan dependensi dipasang pada lingkungan Python baru di Mac yang sama. Akses ke direktori proyek asal diblokir saat inferensi. Empat foto validasi dari tiga kamera, termasuk satu foto dengan ROI kosong, menghasilkan kotak, kelas, jumlah, dan piksel masker yang cocok dengan acuan v45.
+
+\section{Kesimpulan}
+Pada tiga kamera yang telah dikenal, purwarupa klasik memenuhi target galat rata-rata hitungan dan cakupan visual. Model paling andal mengenali mobil dan motor. Kinerja untuk bus dan truk masih membatasi macro-F1 empat kelas. Kesalahan lokasi kotak dapat mengubah cakupan meskipun hitungan benar, sementara kotak berlebih yang saling menutupi dapat mengubah hitungan dengan sedikit perubahan luas. Untuk penggunaan pada kamera atau kondisi pencahayaan baru, pengujian berikutnya perlu memakai kelompok rekaman terpisah, contoh kendaraan berat yang lebih beragam, serta peninjauan anotasi oleh penilai manusia independen.
+
+\begin{thebibliography}{00}
+\bibitem{chen} Z. Chen, T. Ellis, and S. A. Velastin, ``Vision-based traffic surveys in urban environments,'' \textit{J. Electron. Imaging}, vol. 25, no. 5, Art. no. 051206, 2016, doi: 10.1117/1.JEI.25.5.051206.
+\bibitem{hog} N. Dalal and B. Triggs, ``Histograms of oriented gradients for human detection,'' in \textit{Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit.}, 2005, pp. 886--893, doi: 10.1109/CVPR.2005.177.
+\bibitem{svm} C. Cortes and V. Vapnik, ``Support-vector networks,'' \textit{Mach. Learn.}, vol. 20, pp. 273--297, 1995, doi: 10.1007/BF00994018.
+\bibitem{bantul} Pemerintah Kabupaten Bantul, ``CCTV Bantul.'' [Daring]. Tersedia pada \url{https://bantulkab.go.id/cctv.html}. Diakses 19 November 2026.
+\bibitem{voc} M. Everingham, L. Van Gool, C. K. I. Williams, J. Winn, and A. Zisserman, ``The PASCAL Visual Object Classes (VOC) Challenge,'' \textit{Int. J. Comput. Vis.}, vol. 88, pp. 303--338, 2010, doi: 10.1007/s11263-009-0275-4.
+\end{thebibliography}
+\end{document}

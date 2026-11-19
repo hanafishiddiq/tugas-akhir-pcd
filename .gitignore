@@ -30,3 +30,7 @@ runs/
 
 # Preserve tiny manifests and documentation
 !data/README.md
+
+# Demo v45 yang diekstrak dan keluaran inferensi lokal
+/.paket/
+/src/v45/hasil/

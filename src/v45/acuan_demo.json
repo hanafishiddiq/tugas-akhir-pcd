@@ -1,0 +1,845 @@
+{
+  "S033": {
+    "model_id": "9bb33935eec4e5c174b3",
+    "model_provenance": {
+      "selection_sha256": "b6d0838648e9bcbf24802086f9e52bb8a2e33b1cae3e314570cdf5c28c3d72e5",
+      "transform_sha256": "cdcc0770f2db1579637917ee3d1e7ad15feab3b1bfbb13a80402af2cc218c4af",
+      "quality_sha256": "6ae1af055e4b7e729a03c05a3307491387003bb6327a194522bdb4fc12e8c2ae",
+      "crop_sha256": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
+      "wide_regression_sha256": "3861b0358023ae8aebb719e1fc9540abb3723de125c7e255383a67acb77b2a20",
+      "new_classifier_sha256": "68d834d6b1412436794ff3e2c2e8c5a6f854c457f6a16e03d2b95675f5b54025",
+      "background_sha256": "faa404ab1902013f8b89a064f8ae666c00374bc38cf4574b92ca9637f493fbec",
+      "lock_sha256": "95dc662cfd2b02e0132b75716e3cf149e36274757b175ffd476abdbe2c84efb3",
+      "assembly_sha256": "ec4adc330c08637c22c6f37d94cfe95f2e05910002add2bffc87cd06f27ec869",
+      "roi_sha256": "2a4fc44722cae403222b8afbb9ccc1fa7126a55f21a0c1ae38fb5c11cd0cecd8",
+      "forest_sha256": "4b5e6cafdd173334b5abc3f9ccb2907bee62ce5a83f99dfcfc0ee58a320a9586",
+      "custom_quality_localization_20261117_v35": "21fb2235237ca44a1f8233c347cb1526732737578be3b86d389f41cdd23a2e8c",
+      "01_paseban_selatan_regression_sha256": "a76c4e4049cf6ad1ee46b492341e23f6ddfe5a39c45a26eb5fa5cfbf89eaee29",
+      "02_paseban_barat_regression_sha256": "05ee51c9554c2d9893c442778a84b28bc25bb52b67b092c6af4127ff2c48eb59",
+      "04_bejen_barat_regression_sha256": "8dc0d7bf604490c77d5590624311aec8b6e40fa27eeb8b637fab4c405feda0a1",
+      "v29_combined_sha256": "d22715fdd3d0c848236fb789a838a3ffd8e8afe097ddf3f738db119aaa4dee20",
+      "pipeline_sha256": "34931e28b9c5707eb0b002363522c21b3a087bc1db2a2ead3b86330bd16d0dcc"
+    },
+    "status": "ok",
+    "camera_id": "01_paseban_selatan",
+    "image_sha256": "b9c5b2d366d73144428d6d62be77b98f04dde8f3ef05193d592a92abacf3c6cd",
+    "roi": [
+      [
+        210,
+        307
+      ],
+      [
+        582,
+        238
+      ],
+      [
+        1045,
+        192
+      ],
+      [
+        1540,
+        189
+      ],
+      [
+        1735,
+        491
+      ],
+      [
+        1564,
+        774
+      ],
+      [
+        1294,
+        1048
+      ]
+    ],
+    "summary": {
+      "count_by_class": {
+        "mobil": 1,
+        "motor": 13,
+        "bus": 2,
+        "truk": 0
+      },
+      "vehicle_count": 16,
+      "roi_area_px": 727028,
+      "covered_area_px": 431966,
+      "coverage_percent": 59.41531825459267
+    },
+    "predictions": [
+      {
+        "id": "mobil_0000",
+        "bbox_xyxy": [
+          970,
+          195,
+          1244,
+          400
+        ],
+        "class_name": "mobil",
+        "confidence": 0.6906781658567714,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1109.0104821802934,
+          389.0178571428571
+        ]
+      },
+      {
+        "id": "motor_0000",
+        "bbox_xyxy": [
+          1012,
+          544,
+          1230,
+          849
+        ],
+        "class_name": "motor",
+        "confidence": 0.7888805380758669,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1043.0202474690664,
+          834.801241977161
+        ]
+      },
+      {
+        "id": "motor_0001",
+        "bbox_xyxy": [
+          876,
+          448,
+          1082,
+          726
+        ],
+        "class_name": "motor",
+        "confidence": 0.75663625912511,
+        "roi_membership": "inside",
+        "contact_xy": [
+          905.3127109111362,
+          713.0581812119697
+        ]
+      },
+      {
+        "id": "motor_0002",
+        "bbox_xyxy": [
+          723,
+          352,
+          895,
+          614
+        ],
+        "class_name": "motor",
+        "confidence": 0.7417578833151639,
+        "roi_membership": "inside",
+        "contact_xy": [
+          747.474690663667,
+          601.8030340918563
+        ]
+      },
+      {
+        "id": "motor_0003",
+        "bbox_xyxy": [
+          1282,
+          557,
+          1462,
+          846
+        ],
+        "class_name": "motor",
+        "confidence": 0.7360710660835791,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1307.613048368954,
+          832.5460948570476
+        ]
+      },
+      {
+        "id": "motor_0004",
+        "bbox_xyxy": [
+          794,
+          276,
+          948,
+          488
+        ],
+        "class_name": "motor",
+        "confidence": 0.7155316032019514,
+        "roi_membership": "inside",
+        "contact_xy": [
+          815.9133858267717,
+          478.130699341502
+        ]
+      },
+      {
+        "id": "motor_0005",
+        "bbox_xyxy": [
+          990,
+          326,
+          1137,
+          553
+        ],
+        "class_name": "motor",
+        "confidence": 0.7146076962406206,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1010.9173228346457,
+          542.4323997666083
+        ]
+      },
+      {
+        "id": "motor_0006",
+        "bbox_xyxy": [
+          520,
+          245,
+          693,
+          459
+        ],
+        "class_name": "motor",
+        "confidence": 0.6943979804650735,
+        "roi_membership": "inside",
+        "contact_xy": [
+          544.6169853768279,
+          449.0375927315162
+        ]
+      },
+      {
+        "id": "motor_0007",
+        "bbox_xyxy": [
+          1123,
+          375,
+          1266,
+          567
+        ],
+        "class_name": "motor",
+        "confidence": 0.6913006035500223,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1143.3481439820023,
+          558.0617654413603
+        ]
+      },
+      {
+        "id": "motor_0008",
+        "bbox_xyxy": [
+          1371,
+          348,
+          1477,
+          527
+        ],
+        "class_name": "motor",
+        "confidence": 0.6748669919345044,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1386.0832395950506,
+          518.6669584062682
+        ]
+      },
+      {
+        "id": "motor_0009",
+        "bbox_xyxy": [
+          1138,
+          260,
+          1255,
+          425
+        ],
+        "class_name": "motor",
+        "confidence": 0.6643866451424597,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1154.64848143982,
+          417.31870467616903
+        ]
+      },
+      {
+        "id": "motor_0010",
+        "bbox_xyxy": [
+          853,
+          214,
+          984,
+          407
+        ],
+        "class_name": "motor",
+        "confidence": 0.6477820430833152,
+        "roi_membership": "inside",
+        "contact_xy": [
+          871.640607424072,
+          398.01521213636744
+        ]
+      },
+      {
+        "id": "motor_0011",
+        "bbox_xyxy": [
+          1126,
+          457,
+          1286,
+          703
+        ],
+        "class_name": "motor",
+        "confidence": 0.6062369665058309,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1148.7671541057368,
+          691.547886971743
+        ]
+      },
+      {
+        "id": "motor_0012",
+        "bbox_xyxy": [
+          1048,
+          273,
+          1175,
+          445
+        ],
+        "class_name": "motor",
+        "confidence": 0.5899793411948322,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1066.0714285714287,
+          436.9928315412186
+        ]
+      },
+      {
+        "id": "bus_0001",
+        "bbox_xyxy": [
+          1008,
+          49,
+          1293,
+          237
+        ],
+        "class_name": "bus",
+        "confidence": 0.7173447520514354,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1150.5,
+          237.0
+        ]
+      },
+      {
+        "id": "bus_0002",
+        "bbox_xyxy": [
+          328,
+          33,
+          823,
+          395
+        ],
+        "class_name": "bus",
+        "confidence": 0.7109043652850218,
+        "roi_membership": "inside",
+        "contact_xy": [
+          575.5,
+          395.0
+        ]
+      }
+    ],
+    "mask_pixels_sha256": "072092070a66c61505ad05eaea0eb7f3628635dd91955e3b804e4902cb8e2069",
+    "overlay_size": [
+      1920,
+      1287
+    ]
+  },
+  "W046": {
+    "model_id": "9bb33935eec4e5c174b3",
+    "model_provenance": {
+      "selection_sha256": "b6d0838648e9bcbf24802086f9e52bb8a2e33b1cae3e314570cdf5c28c3d72e5",
+      "transform_sha256": "cdcc0770f2db1579637917ee3d1e7ad15feab3b1bfbb13a80402af2cc218c4af",
+      "quality_sha256": "6ae1af055e4b7e729a03c05a3307491387003bb6327a194522bdb4fc12e8c2ae",
+      "crop_sha256": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
+      "wide_regression_sha256": "3861b0358023ae8aebb719e1fc9540abb3723de125c7e255383a67acb77b2a20",
+      "new_classifier_sha256": "68d834d6b1412436794ff3e2c2e8c5a6f854c457f6a16e03d2b95675f5b54025",
+      "background_sha256": "faa404ab1902013f8b89a064f8ae666c00374bc38cf4574b92ca9637f493fbec",
+      "lock_sha256": "95dc662cfd2b02e0132b75716e3cf149e36274757b175ffd476abdbe2c84efb3",
+      "assembly_sha256": "ec4adc330c08637c22c6f37d94cfe95f2e05910002add2bffc87cd06f27ec869",
+      "roi_sha256": "2a4fc44722cae403222b8afbb9ccc1fa7126a55f21a0c1ae38fb5c11cd0cecd8",
+      "forest_sha256": "4b5e6cafdd173334b5abc3f9ccb2907bee62ce5a83f99dfcfc0ee58a320a9586",
+      "custom_quality_localization_20261117_v35": "21fb2235237ca44a1f8233c347cb1526732737578be3b86d389f41cdd23a2e8c",
+      "01_paseban_selatan_regression_sha256": "a76c4e4049cf6ad1ee46b492341e23f6ddfe5a39c45a26eb5fa5cfbf89eaee29",
+      "02_paseban_barat_regression_sha256": "05ee51c9554c2d9893c442778a84b28bc25bb52b67b092c6af4127ff2c48eb59",
+      "04_bejen_barat_regression_sha256": "8dc0d7bf604490c77d5590624311aec8b6e40fa27eeb8b637fab4c405feda0a1",
+      "v29_combined_sha256": "d22715fdd3d0c848236fb789a838a3ffd8e8afe097ddf3f738db119aaa4dee20",
+      "pipeline_sha256": "34931e28b9c5707eb0b002363522c21b3a087bc1db2a2ead3b86330bd16d0dcc"
+    },
+    "status": "ok",
+    "camera_id": "02_paseban_barat",
+    "image_sha256": "31ac882001963992cdb58cb044b89c375df8c7305a583e969baf74816aad4f08",
+    "roi": [
+      [
+        1677,
+        710
+      ],
+      [
+        1306,
+        597
+      ],
+      [
+        1008,
+        515
+      ],
+      [
+        842,
+        470
+      ],
+      [
+        740,
+        545
+      ],
+      [
+        1018,
+        671
+      ],
+      [
+        1297,
+        774
+      ],
+      [
+        1574,
+        854
+      ]
+    ],
+    "summary": {
+      "count_by_class": {
+        "mobil": 0,
+        "motor": 3,
+        "bus": 0,
+        "truk": 0
+      },
+      "vehicle_count": 3,
+      "roi_area_px": 134972,
+      "covered_area_px": 44662,
+      "coverage_percent": 33.08982603799306
+    },
+    "predictions": [
+      {
+        "id": "motor_0000",
+        "bbox_xyxy": [
+          1319,
+          558,
+          1447,
+          711
+        ],
+        "class_name": "motor",
+        "confidence": 0.9999000843674793,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1426.28649742768,
+          707.6280735838747
+        ]
+      },
+      {
+        "id": "motor_0001",
+        "bbox_xyxy": [
+          1395,
+          649,
+          1539,
+          817
+        ],
+        "class_name": "motor",
+        "confidence": 0.9458426775115738,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1515.69730960614,
+          813.2974925626859
+        ]
+      },
+      {
+        "id": "motor_0002",
+        "bbox_xyxy": [
+          1157,
+          545,
+          1268,
+          689
+        ],
+        "class_name": "motor",
+        "confidence": 0.9297928198613833,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1250.037509488066,
+          685.8264221965879
+        ]
+      }
+    ],
+    "mask_pixels_sha256": "34ad8d5fa583e87cb7cf27c08815e9b8896092a7e8c012b841dfb2f67b886e83",
+    "overlay_size": [
+      1920,
+      1287
+    ]
+  },
+  "NB006": {
+    "model_id": "9bb33935eec4e5c174b3",
+    "model_provenance": {
+      "selection_sha256": "b6d0838648e9bcbf24802086f9e52bb8a2e33b1cae3e314570cdf5c28c3d72e5",
+      "transform_sha256": "cdcc0770f2db1579637917ee3d1e7ad15feab3b1bfbb13a80402af2cc218c4af",
+      "quality_sha256": "6ae1af055e4b7e729a03c05a3307491387003bb6327a194522bdb4fc12e8c2ae",
+      "crop_sha256": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
+      "wide_regression_sha256": "3861b0358023ae8aebb719e1fc9540abb3723de125c7e255383a67acb77b2a20",
+      "new_classifier_sha256": "68d834d6b1412436794ff3e2c2e8c5a6f854c457f6a16e03d2b95675f5b54025",
+      "background_sha256": "faa404ab1902013f8b89a064f8ae666c00374bc38cf4574b92ca9637f493fbec",
+      "lock_sha256": "95dc662cfd2b02e0132b75716e3cf149e36274757b175ffd476abdbe2c84efb3",
+      "assembly_sha256": "ec4adc330c08637c22c6f37d94cfe95f2e05910002add2bffc87cd06f27ec869",
+      "roi_sha256": "2a4fc44722cae403222b8afbb9ccc1fa7126a55f21a0c1ae38fb5c11cd0cecd8",
+      "forest_sha256": "4b5e6cafdd173334b5abc3f9ccb2907bee62ce5a83f99dfcfc0ee58a320a9586",
+      "custom_quality_localization_20261117_v35": "21fb2235237ca44a1f8233c347cb1526732737578be3b86d389f41cdd23a2e8c",
+      "01_paseban_selatan_regression_sha256": "a76c4e4049cf6ad1ee46b492341e23f6ddfe5a39c45a26eb5fa5cfbf89eaee29",
+      "02_paseban_barat_regression_sha256": "05ee51c9554c2d9893c442778a84b28bc25bb52b67b092c6af4127ff2c48eb59",
+      "04_bejen_barat_regression_sha256": "8dc0d7bf604490c77d5590624311aec8b6e40fa27eeb8b637fab4c405feda0a1",
+      "v29_combined_sha256": "d22715fdd3d0c848236fb789a838a3ffd8e8afe097ddf3f738db119aaa4dee20",
+      "pipeline_sha256": "34931e28b9c5707eb0b002363522c21b3a087bc1db2a2ead3b86330bd16d0dcc"
+    },
+    "status": "ok",
+    "camera_id": "04_bejen_barat",
+    "image_sha256": "ba35b6c0dead604dc49cc98c69c98c7e6a42781ba2aa6fcb7ccabf30a999222d",
+    "roi": [
+      [
+        685,
+        391
+      ],
+      [
+        825,
+        358
+      ],
+      [
+        950,
+        327
+      ],
+      [
+        1100,
+        286
+      ],
+      [
+        1196,
+        255
+      ],
+      [
+        1225,
+        244
+      ],
+      [
+        1257,
+        315
+      ],
+      [
+        1232,
+        367
+      ],
+      [
+        1220,
+        413
+      ],
+      [
+        1244,
+        469
+      ],
+      [
+        1146,
+        532
+      ],
+      [
+        1086,
+        563
+      ],
+      [
+        1016,
+        595
+      ],
+      [
+        973,
+        628
+      ]
+    ],
+    "summary": {
+      "count_by_class": {
+        "mobil": 2,
+        "motor": 10,
+        "bus": 0,
+        "truk": 1
+      },
+      "vehicle_count": 13,
+      "roi_area_px": 114721,
+      "covered_area_px": 53657,
+      "coverage_percent": 46.77173316132181
+    },
+    "predictions": [
+      {
+        "id": "mobil_0001",
+        "bbox_xyxy": [
+          1129,
+          234,
+          1195,
+          305
+        ],
+        "class_name": "mobil",
+        "confidence": 0.6350405660180208,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1162.0,
+          305.0
+        ]
+      },
+      {
+        "id": "mobil_0002",
+        "bbox_xyxy": [
+          1000,
+          247,
+          1135,
+          387
+        ],
+        "class_name": "mobil",
+        "confidence": 0.6173651424968518,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1067.5,
+          387.0
+        ]
+      },
+      {
+        "id": "motor_0000",
+        "bbox_xyxy": [
+          848,
+          275,
+          914,
+          363
+        ],
+        "class_name": "motor",
+        "confidence": 0.9994256004896264,
+        "roi_membership": "inside",
+        "contact_xy": [
+          881.0,
+          363.0
+        ]
+      },
+      {
+        "id": "motor_0001",
+        "bbox_xyxy": [
+          944,
+          272,
+          1010,
+          365
+        ],
+        "class_name": "motor",
+        "confidence": 0.997849701163007,
+        "roi_membership": "inside",
+        "contact_xy": [
+          977.0,
+          365.0
+        ]
+      },
+      {
+        "id": "motor_0002",
+        "bbox_xyxy": [
+          1000,
+          346,
+          1070,
+          438
+        ],
+        "class_name": "motor",
+        "confidence": 0.9958824105988257,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1035.0,
+          438.0
+        ]
+      },
+      {
+        "id": "motor_0003",
+        "bbox_xyxy": [
+          712,
+          301,
+          807,
+          402
+        ],
+        "class_name": "motor",
+        "confidence": 0.9957202748542094,
+        "roi_membership": "inside",
+        "contact_xy": [
+          759.5,
+          402.0
+        ]
+      },
+      {
+        "id": "motor_0004",
+        "bbox_xyxy": [
+          899,
+          294,
+          967,
+          380
+        ],
+        "class_name": "motor",
+        "confidence": 0.9781491867272284,
+        "roi_membership": "inside",
+        "contact_xy": [
+          933.0,
+          380.0
+        ]
+      },
+      {
+        "id": "motor_0005",
+        "bbox_xyxy": [
+          1018,
+          381,
+          1086,
+          487
+        ],
+        "class_name": "motor",
+        "confidence": 0.9726494751662288,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1052.0,
+          487.0
+        ]
+      },
+      {
+        "id": "motor_0006",
+        "bbox_xyxy": [
+          782,
+          332,
+          872,
+          448
+        ],
+        "class_name": "motor",
+        "confidence": 0.9715682992508116,
+        "roi_membership": "inside",
+        "contact_xy": [
+          827.0,
+          448.0
+        ]
+      },
+      {
+        "id": "motor_0007",
+        "bbox_xyxy": [
+          887,
+          354,
+          964,
+          457
+        ],
+        "class_name": "motor",
+        "confidence": 0.9663197223231225,
+        "roi_membership": "inside",
+        "contact_xy": [
+          925.5,
+          457.0
+        ]
+      },
+      {
+        "id": "motor_0008",
+        "bbox_xyxy": [
+          970,
+          431,
+          1058,
+          554
+        ],
+        "class_name": "motor",
+        "confidence": 0.9246635435655927,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1014.0,
+          554.0
+        ]
+      },
+      {
+        "id": "motor_0009",
+        "bbox_xyxy": [
+          1084,
+          297,
+          1144,
+          388
+        ],
+        "class_name": "motor",
+        "confidence": 0.8821024660172782,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1114.0,
+          388.0
+        ]
+      },
+      {
+        "id": "truk_0000",
+        "bbox_xyxy": [
+          1005,
+          227,
+          1152,
+          345
+        ],
+        "class_name": "truk",
+        "confidence": 0.629253606679366,
+        "roi_membership": "inside",
+        "contact_xy": [
+          1078.5,
+          345.0
+        ]
+      }
+    ],
+    "mask_pixels_sha256": "3bcbcd89cb46f1ab2344eaa417cdd29e567ad7387a7b575f41053a44902cfef4",
+    "overlay_size": [
+      1280,
+      858
+    ]
+  },
+  "W041": {
+    "model_id": "9bb33935eec4e5c174b3",
+    "model_provenance": {
+      "selection_sha256": "b6d0838648e9bcbf24802086f9e52bb8a2e33b1cae3e314570cdf5c28c3d72e5",
+      "transform_sha256": "cdcc0770f2db1579637917ee3d1e7ad15feab3b1bfbb13a80402af2cc218c4af",
+      "quality_sha256": "6ae1af055e4b7e729a03c05a3307491387003bb6327a194522bdb4fc12e8c2ae",
+      "crop_sha256": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
+      "wide_regression_sha256": "3861b0358023ae8aebb719e1fc9540abb3723de125c7e255383a67acb77b2a20",
+      "new_classifier_sha256": "68d834d6b1412436794ff3e2c2e8c5a6f854c457f6a16e03d2b95675f5b54025",
+      "background_sha256": "faa404ab1902013f8b89a064f8ae666c00374bc38cf4574b92ca9637f493fbec",
+      "lock_sha256": "95dc662cfd2b02e0132b75716e3cf149e36274757b175ffd476abdbe2c84efb3",
+      "assembly_sha256": "ec4adc330c08637c22c6f37d94cfe95f2e05910002add2bffc87cd06f27ec869",
+      "roi_sha256": "2a4fc44722cae403222b8afbb9ccc1fa7126a55f21a0c1ae38fb5c11cd0cecd8",
+      "forest_sha256": "4b5e6cafdd173334b5abc3f9ccb2907bee62ce5a83f99dfcfc0ee58a320a9586",
+      "custom_quality_localization_20261117_v35": "21fb2235237ca44a1f8233c347cb1526732737578be3b86d389f41cdd23a2e8c",
+      "01_paseban_selatan_regression_sha256": "a76c4e4049cf6ad1ee46b492341e23f6ddfe5a39c45a26eb5fa5cfbf89eaee29",
+      "02_paseban_barat_regression_sha256": "05ee51c9554c2d9893c442778a84b28bc25bb52b67b092c6af4127ff2c48eb59",
+      "04_bejen_barat_regression_sha256": "8dc0d7bf604490c77d5590624311aec8b6e40fa27eeb8b637fab4c405feda0a1",
+      "v29_combined_sha256": "d22715fdd3d0c848236fb789a838a3ffd8e8afe097ddf3f738db119aaa4dee20",
+      "pipeline_sha256": "34931e28b9c5707eb0b002363522c21b3a087bc1db2a2ead3b86330bd16d0dcc"
+    },
+    "status": "ok",
+    "camera_id": "02_paseban_barat",
+    "image_sha256": "21e2256979ca0c7e153957708a7d0ed3e13828d0f9b903cb59b3ed2559d31c92",
+    "roi": [
+      [
+        1677,
+        710
+      ],
+      [
+        1306,
+        597
+      ],
+      [
+        1008,
+        515
+      ],
+      [
+        842,
+        470
+      ],
+      [
+        740,
+        545
+      ],
+      [
+        1018,
+        671
+      ],
+      [
+        1297,
+        774
+      ],
+      [
+        1574,
+        854
+      ]
+    ],
+    "summary": {
+      "count_by_class": {
+        "mobil": 0,
+        "motor": 0,
+        "bus": 0,
+        "truk": 0
+      },
+      "vehicle_count": 0,
+      "roi_area_px": 134972,
+      "covered_area_px": 0,
+      "coverage_percent": 0.0
+    },
+    "predictions": [],
+    "mask_pixels_sha256": "11283ef755895422e6f28b93f3d78cad7539891cf2893c9fdccefb923c5bf70b",
+    "overlay_size": [
+      1920,
+      1287
+    ]
+  }
+}
