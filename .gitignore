@@ -34,3 +34,4 @@ runs/
 # Demo v45 yang diekstrak dan keluaran inferensi lokal
 /.paket/
 /src/v45/hasil/
+/src/v45/runs
