@@ -1,4 +1,4 @@
-# Penghitungan kendaraan dan kepadatan visual CCTV Bantul
+# Analisis Kepadatan dan Klasifikasi Kendaraan pada Lalu Lintas
 
 Dari satu foto persimpangan, demo v45 menghitung mobil, motor, bus, dan truk. Persentase kepadatan visual menunjukkan berapa bagian area jalan yang tertutup gabungan kotak kendaraan. Model memakai pengolahan citra klasik dan machine learning tanpa deep learning.
 
