@@ -2,6 +2,8 @@
 
 Untuk tugas akhir Pengolahan Citra Digital, kami mencoba menghitung kendaraan yang mengantre di Simpang Paseban dan Simpang Bejen, Bantul. Masukannya satu foto CCTV. Program menandai mobil, motor, bus, dan truk, lalu menghitung berapa persen area jalan di foto yang tertutup kotak-kotak kendaraan.
 
+[Buka notebook tugas akhir](notebooks/analisis_kepadatan_bantul.ipynb) untuk mengikuti satu foto dari anotasi sampai perhitungan kepadatan, lalu melihat hasil uji pada tiga sudut kamera. Semua tabel dan gambar sudah tersimpan. Untuk membaca tanpa Jupyter, [unduh versi HTML](https://github.com/hanafishiddiq/tugas-akhir-pcd/raw/refs/heads/main/notebooks/analisis_kepadatan_bantul.html).
+
 ![Antrean di Paseban Selatan dengan batas area jalan dan kotak hasil deteksi](docs/rilis-v45/S033.jpg)
 
 Pada foto Paseban Selatan ini (S033), program menemukan 13 motor, 1 mobil, dan 2 bus. Totalnya 16 kendaraan, sama dengan hitungan pada anotasi. Kotak hasil deteksi menutupi 59,42% area jalan yang kami tandai, sedangkan kotak pada anotasi menutupi 60,78%. Bagian kotak yang bertumpuk dihitung sekali. Foto berasal dari CCTV Diskominfo Bantul. Garis batas dan kotak kendaraan kami tambahkan untuk analisis. [Sumber gambar dan lisensi](docs/rilis-v45/README.md#sumber-gambar)
