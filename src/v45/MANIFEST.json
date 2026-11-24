@@ -9,7 +9,7 @@
     "contoh/S033.jpg": "b9c5b2d366d73144428d6d62be77b98f04dde8f3ef05193d592a92abacf3c6cd",
     "contoh/W041.jpg": "21e2256979ca0c7e153957708a7d0ed3e13828d0f9b903cb59b3ed2559d31c92",
     "contoh/W046.jpg": "31ac882001963992cdb58cb044b89c375df8c7305a583e969baf74816aad4f08",
-    "demo.py": "251b6ea37046203d17f5a93846e6d7dc7ebb3132ac9917cf07b045ee711b5673",
+    "demo.py": "0a5ecda2c1dcfa7c1de2e94062cf947d4d9fc0ccaf97186ecc44ca87d281f530",
     "kode/assembled_inference.py": "9ca45d0f90796120653da17311709a996cd82b8fa9a23de286c978bfb31506ce",
     "kode/calibrate_v7.py": "e277063d71b0e2556cb8010ea44b9a1396d837a78f7dc65fee292f273b9c947e",
     "kode/classifier_v18.py": "f110bd954edbb2c201921db17ae82ec38c10e52ac9bb7d68962eadef0cf630d7",
@@ -59,7 +59,7 @@
     "runs/localization_20261117_v8/models/100/weights.npz": "3861b0358023ae8aebb719e1fc9540abb3723de125c7e255383a67acb77b2a20",
     "runs/pilot_20261117_v2/models/initial/MODEL.json": "6ccf701d989071e36c8858d0da27ee45d20f7b335ccb0e5dee9b90296e3e6b7e",
     "runs/pilot_20261117_v2/models/initial/weights.npz": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
-    "tampilan.py": "f53d9da8b4a23ed6cdc9db61b4ec74fc9fdad5980e0b073c4a62a87df38ce954",
+    "tampilan.py": "f21d6d66e8144f08a30e1e06e1f1c7a9acb2819e205b5115ca5587233053e2b6",
     "uji_contoh.py": "622076915686de4273572e3dfea40b81faccb6b94a2858b85fe78d685bd41304"
   }
 }

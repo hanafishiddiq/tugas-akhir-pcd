@@ -73,6 +73,8 @@ def run(args):
     camera = EXAMPLES[key]["camera_id"] if key else args.kamera
     rois = json.loads((PROJECT/"ROIS.json").read_text())
     rgb, digest = load_frame(path, camera, rois[camera], key)
+    if not PIPELINE.is_file():
+        raise ValueError("Siapkan model lebih dahulu dengan python src/v45/siapkan_model.py.")
     if sha(PIPELINE) != PIPELINE_HASH:
         raise ValueError("Checksum konfigurasi tidak cocok dengan v45.")
     target = args.hasil.expanduser().resolve()

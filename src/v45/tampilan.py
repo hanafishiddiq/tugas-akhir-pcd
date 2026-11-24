@@ -1,6 +1,4 @@
 """Create the native-size annotation and the exact binary coverage mask."""
-from pathlib import Path
-
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
@@ -13,12 +11,6 @@ def angka(n):
 
 def persen(value):
     return f"{value:.2f}".replace(".", ",") + "%"
-
-
-def font(size, bold=False):
-    name = "Arial Bold.ttf" if bold else "Arial.ttf"
-    path = Path("/System/Library/Fonts/Supplemental") / name
-    return ImageFont.truetype(str(path), size) if path.exists() else ImageFont.load_default(size=size)
 
 
 def simpan(rgb, result, roi, camera_name, out):
@@ -42,7 +34,7 @@ def simpan(rgb, result, roi, camera_name, out):
     canvas = Image.new("RGB", (width, height + round(138 * scale)), "#15282e")
     canvas.paste(Image.fromarray(tinted), (0, 0))
     draw = ImageDraw.Draw(canvas)
-    label_font = font(round(14 * scale), True)
+    label_font = ImageFont.load_default(size=round(14 * scale))
     polygon = [tuple(v) for v in roi["polygon_xy"]]
     draw.line(polygon + [polygon[0]], fill="#43eeef", width=round(3 * scale))
     for p in inside:
@@ -57,14 +49,14 @@ def simpan(rgb, result, roi, camera_name, out):
         draw.rectangle((left, top, left+label_width, top+label_height), fill="#19282b")
         draw.text((left+4, top+2-box[1]), label, fill="white", font=label_font)
 
-    draw.text((pad, height + round(9*scale)), camera_name + "  /  v45", font=font(round(15*scale)), fill="#acd8d8")
+    draw.text((pad, height + round(9*scale)), camera_name + "  /  v45", font=ImageFont.load_default(size=round(15*scale)), fill="#acd8d8")
     draw.text((pad, height + round(32*scale)), "Kepadatan visual  " + persen(summary["coverage_percent"]),
-              font=font(round(34*scale), True), fill="white")
+              font=ImageFont.load_default(size=round(34*scale)), fill="white")
     counts = summary["count_by_class"]
     parts = [f"{c.capitalize()} {counts[c]}" for c in CLASSES]
     draw.text((pad, height + round(80*scale)), "     ".join(parts) + f"     |     Total {summary['vehicle_count']}",
-              font=font(round(20*scale), True), fill="#ffcf79")
+              font=ImageFont.load_default(size=round(20*scale)), fill="#ffcf79")
     area = f"{angka(summary['covered_area_px'])} / {angka(summary['roi_area_px'])} piksel"
     draw.text((pad, height + round(108*scale)), f"Garis biru muda: ROI jalan.   Arsiran emas: cakupan kotak yang dihitung ({area}).",
-              font=font(round(16*scale)), fill="white")
+              font=ImageFont.load_default(size=round(16*scale)), fill="white")
     canvas.save(out / "hasil.jpg", quality=94, subsampling=0)
