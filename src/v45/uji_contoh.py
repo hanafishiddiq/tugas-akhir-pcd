@@ -31,6 +31,7 @@ def check():
     reference = json.loads((HERE/"acuan_demo.json").read_text())
     checks = []
     max_score_difference = 0.0
+    changed_scores = []
     with tempfile.TemporaryDirectory(prefix="cek-hasil-v45-") as tmp:
         for ident, example in examples.items():
             out = Path(tmp)/ident
@@ -55,7 +56,10 @@ def check():
                         # HOG and floating-point kernels can differ slightly between CPU builds.
                         difference = abs(actual[key] - target[key])
                         max_score_difference = max(max_score_difference, difference)
-                        np.testing.assert_allclose(actual[key], target[key], rtol=0, atol=1e-6)
+                        if not np.isfinite(actual[key]):
+                            raise ValueError(f"{ident}: skor deteksi tidak valid")
+                        if difference > 1e-6:
+                            changed_scores.append((ident, actual["class_name"], actual["bbox_xyxy"], target[key], actual[key]))
                     elif key == "contact_xy":
                         np.testing.assert_allclose(actual[key], target[key], rtol=0, atol=1e-9)
                     elif actual[key] != target[key]:
@@ -71,6 +75,8 @@ def check():
     report = dict(lulus=True, jumlah_berkas=len(manifest["sha256"]), model_id=value["model_id"], hasil=checks)
     report["selisih_skor_maksimum"] = max_score_difference
     print(f"Selisih skor maksimum: {max_score_difference:.3g}")
+    if changed_scores:
+        raise ValueError(f"Skor di luar acuan: {changed_scores}")
     if args.laporan:
         args.laporan.write_text(json.dumps(report, indent=2)+"\n")
     print("Keempat contoh cocok dengan keluaran v45 yang dibekukan.")
