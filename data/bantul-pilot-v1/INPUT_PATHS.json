@@ -1,9 +1,0 @@
-{
-  "manifest": "Data/Eksperimen/Bantul_Pilot_v1/MANIFEST.json",
-  "annotations": "Data/Eksperimen/Bantul_Pilot_v1/ANNOTATIONS.json",
-  "rois": "Data/Eksperimen/Bantul_Pilot_v1/ROIS.json",
-  "groups": "Data/Eksperimen/Bantul_Pilot_v1/GROUPS.json",
-  "protocol": "Data/Eksperimen/Bantul_Pilot_v1/PROTOCOL.json",
-  "auxiliary_manifest": "Data/Eksperimen/Bantul_Pilot_v1/AUXILIARY_MANIFEST.json",
-  "test_receipt": "Data/Eksperimen/Bantul_Pilot_v1/code/TEST_RECEIPT.json"
-}

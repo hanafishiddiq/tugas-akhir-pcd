@@ -10,4 +10,4 @@ Untuk menghasilkan prediksi baru di Mac Apple Silicon, ekstrak [paket v45](https
 
 Pada S033, periksa 1 mobil, 13 motor, 2 bus, 0 truk dan cakupan 59,42%. Pada W041, periksa jumlah nol dan cakupan 0,00%. Sel evaluasi membaca kembali rekap deteksi per kelas untuk 76 foto, 76 catatan waktu dan 31 acuan lengkap untuk jumlah serta cakupan. Metrik deteksi dihitung dari jumlah TP, FP dan FN per kelas. Waktu yang ditampilkan berasal dari pengukuran uji resmi.
 
-Sel riwayat memuat 45 iterasi. Ubah `SEMUA_ITERASI` untuk melihat rinciannya. Opsi `ULANG_BASELINE` memerlukan workspace pengembangan dan hanya menjalankan baseline awal pada folder keluaran baru. [Verifikasi berkas dan dua mode eksekusi](VERIFIKASI.json).
+Sel riwayat memuat 45 iterasi. Ubah `SEMUA_ITERASI` untuk melihat rinciannya. Opsi `ULANG_BASELINE` memerlukan workspace pengembangan dan hanya menjalankan baseline awal pada folder keluaran baru. [Verifikasi berkas dan dua mode eksekusi](https://github.com/hanafishiddiq/tugas-akhir-pcd/blob/cf8ae4305b281a209861c754f5d259f4bc38a13c/notebooks/VERIFIKASI.json).

@@ -1,8 +1,8 @@
 # Analisis Kepadatan dan Klasifikasi Kendaraan pada Lalu Lintas
 
-Untuk tugas akhir Pengolahan Citra Digital, kami mencoba menghitung kendaraan yang mengantre di Simpang Paseban dan Simpang Bejen, Bantul. Masukannya satu foto CCTV. Program menandai mobil, motor, bus, dan truk, lalu menghitung berapa persen area jalan di foto yang tertutup kotak-kotak kendaraan.
+[Paper IEEE (PDF)](paper/paper.pdf) · [Notebook dengan hasil](notebooks/analisis_kepadatan_bantul.ipynb) · [Demo untuk Mac Apple Silicon](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/PoC_Bantul_v45_macOS_arm64.zip)
 
-[Buka notebook tugas akhir](notebooks/analisis_kepadatan_bantul.ipynb) untuk mengikuti satu foto dari anotasi sampai perhitungan kepadatan, lalu melihat hasil uji pada tiga sudut kamera. Semua tabel dan gambar sudah tersimpan. Untuk membaca tanpa Jupyter, [unduh versi HTML](https://github.com/hanafishiddiq/tugas-akhir-pcd/raw/refs/heads/main/notebooks/analisis_kepadatan_bantul.html).
+Untuk tugas akhir Pengolahan Citra Digital, kami mencoba menghitung kendaraan yang mengantre di Simpang Paseban dan Simpang Bejen, Bantul. Masukannya satu foto CCTV. Program menandai mobil, motor, bus, dan truk, lalu menghitung berapa persen area jalan di foto yang tertutup kotak-kotak kendaraan.
 
 ![Antrean di Paseban Selatan dengan batas area jalan dan kotak hasil deteksi](docs/rilis-v45/S033.jpg)
 
@@ -28,4 +28,4 @@ Model ini memakai pengolahan citra klasik, termasuk HOG untuk membaca pola tepi 
 
 Untuk menilai jumlah dan kepadatan, kami memakai 31 gambar uji yang anotasinya lengkap. Rata-rata selisih absolut terhadap anotasi adalah 0,45 kendaraan per gambar untuk jumlah dan 3,32 poin persentase untuk cakupan jalan. [Tabel hasil per kelas dan contoh kesalahan deteksi](evaluasi/README.md)
 
-Paper tugas akhir tersedia dalam [PDF](paper/paper.pdf) dan [sumber LaTeX](paper/paper.tex). Kode model ada di [src/v45](src/v45/). Untuk menelusuri data yang kami pakai, lihat [kartu dataset Bantul](data/bantul-pilot-v1/README.md) dan [foto beserta anotasinya di Google Drive](https://drive.google.com/drive/folders/1dL_hXMOnOQvsBkwFW4IsZBJYo-ulJcR5).
+[Data dan anotasi](data/README.md) · [Kode model](src/v45/) · [Sumber LaTeX](paper/paper.tex) · [Unduh notebook sebagai HTML](https://github.com/hanafishiddiq/tugas-akhir-pcd/raw/refs/heads/main/notebooks/analisis_kepadatan_bantul.html)
