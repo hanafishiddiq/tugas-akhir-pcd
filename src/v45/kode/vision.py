@@ -22,7 +22,7 @@ def canonical(x):
 def save_json(path, x):
     path=Path(path);path.parent.mkdir(parents=True,exist_ok=True)
     temporary=path.with_suffix(path.suffix+'.partial')
-    temporary.write_text(json.dumps(x,ensure_ascii=False,indent=2,allow_nan=False)+'\n')
+    temporary.write_text(json.dumps(x,ensure_ascii=False,indent=2,allow_nan=False)+'\n', encoding='utf-8')
     temporary.replace(path)
 
 def rgb_read(path):
@@ -140,8 +140,7 @@ def summarize(predictions, spec):
 
 def render(rgb, result, spec, path, title='HOG + SVM prediction', score_label='margin SVM'):
     image=Image.fromarray(rgb);d=ImageDraw.Draw(image)
-    font_path='/System/Library/Fonts/Supplemental/Arial.ttf'
-    font=ImageFont.truetype(font_path,16) if Path(font_path).exists() else ImageFont.load_default(size=16)
+    font=ImageFont.load_default(size=16)
     d.line([tuple(p) for p in spec['polygon_xy']]+[tuple(spec['polygon_xy'][0])],fill='#00d4e8',width=3)
     for p in result['predictions']:
         color={'inside':'#18ed66','outside':'#a8a8a8','uncertain':'#ffad18'}[p['roi_membership']]

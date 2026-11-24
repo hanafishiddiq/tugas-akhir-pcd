@@ -28,7 +28,7 @@
     "kode/residual_v42.py": "df963938afe27266c7a572bdc34e4b64d25f16810d882715df7b5342cdfd7916",
     "kode/training.py": "720ba8ada873fa7aeb1fd9ab2c0bb293f14629dcd7c7b97edad1f52e30a9b7ca",
     "kode/verifier_v43.py": "7dc22c5c767a9a2b31bc207e4146a00c316c1800f4e2fde94f3fe660ec5f4360",
-    "kode/vision.py": "8fffb4b32ca854e3b59995b158ea2aa704ff2c5c3bb23a9154e7abcf085fffa4",
+    "kode/vision.py": "704a791db3b19785839ef366a6e0e1de04648323a2cd5295648ee58eee404969",
     "runs/localization_20261117_v14/CLASSIFIER_TRIALS.json": "07f2ac12860b6fe104efc847aafe7e19029cf1402e90492cadee3b24f94fb3eb",
     "runs/localization_20261117_v14/models/linear_c0.1_extra1.0/MODEL.json": "ab0596a1d99c0ecac88bd3c30e45c71d4c667b95bcbe8c3839ec69b54f464def",
     "runs/localization_20261117_v14/models/linear_c0.1_extra1.0/fitted.joblib": "68d834d6b1412436794ff3e2c2e8c5a6f854c457f6a16e03d2b95675f5b54025",
@@ -60,6 +60,6 @@
     "runs/pilot_20261117_v2/models/initial/MODEL.json": "6ccf701d989071e36c8858d0da27ee45d20f7b335ccb0e5dee9b90296e3e6b7e",
     "runs/pilot_20261117_v2/models/initial/weights.npz": "c911eb37ce8dc70f0ef4aeda6b182aac09bdb9f60d8ecd166387cccf108ff429",
     "tampilan.py": "f21d6d66e8144f08a30e1e06e1f1c7a9acb2819e205b5115ca5587233053e2b6",
-    "uji_contoh.py": "622076915686de4273572e3dfea40b81faccb6b94a2858b85fe78d685bd41304"
+    "uji_contoh.py": "8d24b31752567fb56779e91e2d001bcfd38f1389e4ecd7ee062ae9c977500e6c"
   }
 }

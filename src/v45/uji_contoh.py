@@ -30,6 +30,7 @@ def check():
     examples = json.loads((HERE/"contoh.json").read_text())
     reference = json.loads((HERE/"acuan_demo.json").read_text())
     checks = []
+    max_score_difference = 0.0
     with tempfile.TemporaryDirectory(prefix="cek-hasil-v45-") as tmp:
         for ident, example in examples.items():
             out = Path(tmp)/ident
@@ -41,7 +42,7 @@ def check():
                 command += ["--contoh", ident]
             subprocess.run(command, check=True)
             (record,) = out.glob("*/hasil.json")
-            value = json.loads(record.read_text())
+            value = json.loads(record.read_bytes())
             expected = reference[ident]
             for key in ("model_id", "model_provenance", "status", "camera_id", "image_sha256", "roi", "summary"):
                 if value[key] != expected[key]:
@@ -50,7 +51,12 @@ def check():
                 if actual.keys() != target.keys():
                     raise ValueError(f"{ident}: struktur prediksi berbeda")
                 for key in actual:
-                    if key in ("confidence", "contact_xy"):
+                    if key == "confidence":
+                        # HOG and floating-point kernels can differ slightly between CPU builds.
+                        difference = abs(actual[key] - target[key])
+                        max_score_difference = max(max_score_difference, difference)
+                        np.testing.assert_allclose(actual[key], target[key], rtol=0, atol=1e-6)
+                    elif key == "contact_xy":
                         np.testing.assert_allclose(actual[key], target[key], rtol=0, atol=1e-9)
                     elif actual[key] != target[key]:
                         raise ValueError(f"{ident}: {key} berbeda")
@@ -63,6 +69,8 @@ def check():
                     raise ValueError(f"{ident}: ukuran gambar hasil berbeda")
             checks.append(dict(contoh=ident, kamera=value["camera_id"], **value["summary"]))
     report = dict(lulus=True, jumlah_berkas=len(manifest["sha256"]), model_id=value["model_id"], hasil=checks)
+    report["selisih_skor_maksimum"] = max_score_difference
+    print(f"Selisih skor maksimum: {max_score_difference:.3g}")
     if args.laporan:
         args.laporan.write_text(json.dumps(report, indent=2)+"\n")
     print("Keempat contoh cocok dengan keluaran v45 yang dibekukan.")
