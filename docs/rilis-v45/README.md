@@ -26,7 +26,7 @@ python src/v45/siapkan_model.py
 python src/v45/demo.py --contoh S033
 ```
 
-Pengunduh memeriksa SHA-256 setiap berkas sebelum menempatkannya di `src/v45/runs`. Untuk membawa bobot dari komputer lain, salin [model-v45.zip](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/model-v45.zip) ke folder proyek dan jalankan `python src/v45/siapkan_model.py --arsip model-v45.zip`. Setelah pustaka dan model terpasang, demo dapat dijalankan tanpa internet. [SHA-256 arsip model](SHA256SUMS).
+Pengunduh memeriksa SHA-256 setiap berkas sebelum menempatkannya di `src/v45/runs`. Untuk membawa bobot dari komputer lain, salin [model-v45.zip](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45.1/model-v45.zip) ke folder proyek dan jalankan `python src/v45/siapkan_model.py --arsip model-v45.zip`. Setelah pustaka dan model terpasang, demo dapat dijalankan tanpa internet. [SHA-256 arsip model](SHA256SUMS).
 
 ## Foto sendiri dan pemeriksaan hasil
 

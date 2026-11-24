@@ -10,7 +10,7 @@ from pathlib import Path
 
 
 HERE = Path(__file__).resolve().parent
-URL = "https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/model-v45.zip"
+URL = "https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45.1/model-v45.zip"
 
 
 def periksa_model(root, expected):
