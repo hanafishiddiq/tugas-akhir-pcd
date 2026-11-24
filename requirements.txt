@@ -1,4 +1,4 @@
-# Lingkungan referensi untuk inferensi v45 · Python 3.12.13
+# Lingkungan referensi untuk inferensi v45 · Python 3.12
 numpy==2.3.5
 pillow==13.0.0
 opencv-contrib-python-headless==5.0.0.93

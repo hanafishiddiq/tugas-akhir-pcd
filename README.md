@@ -1,6 +1,6 @@
 # Analisis Kepadatan dan Klasifikasi Kendaraan pada Lalu Lintas
 
-[Paper IEEE (PDF)](paper/paper.pdf) · [Notebook dengan hasil](notebooks/analisis_kepadatan_bantul.ipynb) · [Demo untuk Mac Apple Silicon](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/PoC_Bantul_v45_macOS_arm64.zip)
+[Paper IEEE (PDF)](paper/paper.pdf) · [Notebook dengan hasil](notebooks/analisis_kepadatan_bantul.ipynb) · [Jalankan demo Python](docs/rilis-v45/README.md)
 
 Untuk tugas akhir Pengolahan Citra Digital, kami mencoba menghitung kendaraan yang mengantre di Simpang Paseban dan Simpang Bejen, Bantul. Masukannya satu foto CCTV. Program menandai mobil, motor, bus, dan truk, lalu menghitung berapa persen area jalan di foto yang tertutup kotak-kotak kendaraan.
 
@@ -10,17 +10,15 @@ Pada foto Paseban Selatan ini (S033), program menemukan 13 motor, 1 mobil, dan 2
 
 ## Menjalankan demo
 
-Di Mac Apple Silicon, unduh [paket demo v45](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/PoC_Bantul_v45_macOS_arm64.zip), ekstrak, lalu klik dua kali `Jalankan.command`. Paket ini sudah berisi Python, model, dan empat foto contoh. Demo akan membuka Terminal dan memproses foto Paseban Selatan di atas.
-
-Untuk mencoba foto lain, buka Terminal di folder hasil ekstraksi. Contoh berikut memakai foto bawaan dari Bejen Barat.
+Buka terminal di folder proyek dan aktifkan lingkungan virtual Python 3.12. Langkahnya tersedia di [panduan Windows, Linux, dan macOS](docs/rilis-v45/README.md#pemasangan). Kemudian jalankan:
 
 ```sh
-./Jalankan.command --foto contoh/NB006.jpg --kamera 04_bejen_barat
+python -m pip install -r requirements.txt
+python src/v45/siapkan_model.py
+python src/v45/demo.py --contoh S033
 ```
 
-Ganti `contoh/NB006.jpg` dengan foto JPG atau PNG yang ingin diperiksa. Pilih kode kamera sesuai asal fotonya (`01_paseban_selatan`, `02_paseban_barat`, atau `04_bejen_barat`). Gunakan foto dengan sudut dan resolusi asli karena tiap kamera punya batas area jalan sendiri.
-
-Terminal akan menampilkan lokasi folder hasil. Buka `hasil.jpg` untuk melihat kotak kendaraan, `cakupan.png` untuk melihat piksel yang dihitung, atau `hasil.json` untuk mengambil angkanya. Untuk memeriksa keempat contoh sekaligus, jalankan `./Jalankan.command --uji`. [Panduan menjalankan kode dari clone](docs/rilis-v45/README.md)
+Perintah kedua mengunduh bobot model satu kali. Pada S033, hasilnya 1 mobil, 13 motor, 2 bus, dan cakupan 59,42%. Program menampilkan folder yang berisi gambar beranotasi, masker cakupan, dan angka dalam JSON. [Contoh foto sendiri, pemasangan luring, dan uji empat foto](docs/rilis-v45/README.md).
 
 ## Hasil pengujian
 

@@ -9,32 +9,35 @@
 | NB006 | Bejen Barat | 13 | 46,77% |
 | W041 | Paseban Barat | 0 | 0,00% |
 
-Dari folder hasil ekstraksi ZIP Mac, jalankan `./Jalankan.command --contoh W041` untuk mencoba jalan kosong. Perintah `./Jalankan.command --uji --laporan verifikasi.json` menjalankan ulang empat gambar. Pemeriksa membandingkan kelas, kotak, hitungan, ROI, piksel masker, dan identitas model. Empat foto berasal dari validasi. Hasil uji resmi tersedia di [laporan evaluasi](../../evaluasi/README.md).
+## Pemasangan
 
-## Menjalankan sumber dari clone
+Unduh [kode proyek (ZIP)](https://github.com/hanafishiddiq/tugas-akhir-pcd/archive/refs/heads/main.zip) dan ekstrak, atau clone repositori. Buka terminal di folder yang memuat `requirements.txt`. Buat lingkungan virtual dengan Python 3.12 64-bit.
 
-Langkah berikut untuk Mac Apple Silicon. Mulai dari root clone, dengan berkas ZIP rilis di folder Downloads. Periksa sidik jarinya sebelum memuat model. Lanjutkan ke ekstraksi setelah `shasum` menampilkan `OK`.
+| Sistem | Buat lingkungan | Aktifkan |
+|---|---|---|
+| Windows (Command Prompt) | `py -3.12 -m venv .venv` | `.venv\Scripts\activate.bat` |
+| Linux atau macOS (bash/zsh) | `python3.12 -m venv .venv` | `source .venv/bin/activate` |
 
-```sh
-zip_file="$HOME/Downloads/PoC_Bantul_v45_macOS_arm64.zip"
-(cd "$(dirname "$zip_file")" && shasum -a 256 -c -) < docs/rilis-v45/SHA256SUMS
-```
-
-```sh
-mkdir -p .paket
-ditto -x -k "$zip_file" .paket
-```
-
-Hubungkan bobot dengan kode sumber satu kali pada clone baru. Sesudahnya, gunakan interpreter paket untuk menjalankan sumber yang ada di repositori. Kode, definisi ROI, dan foto acuan yang dipakai perintah berikut berasal dari checkout.
+Jalankan perintah berikut di terminal yang sama:
 
 ```sh
-ln -s ../../.paket/PoC_Bantul_v45_macOS_arm64/runs src/v45/runs
-python_paket=".paket/PoC_Bantul_v45_macOS_arm64/runtime/bin/python3.12"
-"$python_paket" -EsB src/v45/demo.py --contoh S033
-"$python_paket" -EsB src/v45/uji_contoh.py
+python -m pip install -r requirements.txt
+python src/v45/siapkan_model.py
+python src/v45/demo.py --contoh S033
 ```
 
-Pada Mac yang sudah memiliki paket hasil ekstraksi, pengguna demo cukup menjalankan `Jalankan.command` dari paket itu. Berkas [requirements.txt](../../requirements.txt) mencatat versi pustaka inferensi untuk pengembang. Pengujian paket dilakukan pada macOS arm64 dengan Python 3.12.13.
+Pengunduh memeriksa SHA-256 setiap berkas sebelum menempatkannya di `src/v45/runs`. Untuk membawa bobot dari komputer lain, salin [model-v45.zip](https://github.com/hanafishiddiq/tugas-akhir-pcd/releases/download/v45/model-v45.zip) ke folder proyek dan jalankan `python src/v45/siapkan_model.py --arsip model-v45.zip`. Setelah pustaka dan model terpasang, demo dapat dijalankan tanpa internet. [SHA-256 arsip model](SHA256SUMS).
+
+## Foto sendiri dan pemeriksaan hasil
+
+```sh
+python src/v45/demo.py --foto "foto saya.jpg" --kamera 04_bejen_barat
+python src/v45/uji_contoh.py --laporan verifikasi.json
+```
+
+Pilih kamera asal foto: `01_paseban_selatan`, `02_paseban_barat`, atau `04_bejen_barat`. Pakai foto JPG atau PNG pada resolusi dan sudut kamera asli. Setiap proses menghasilkan `hasil.jpg` (kotak kendaraan dan ROI), `cakupan.png` (piksel jalan yang dihitung), dan `hasil.json` (rincian prediksi). Tambahkan `--hasil nama_folder` untuk memilih folder keluaran.
+
+Perintah pemeriksaan menjalankan keempat foto validasi pada tabel di atas. Kotak, kelas, hitungan dan piksel masker dibandingkan dengan acuan yang sama pada setiap sistem. Untuk satu motor pada NB006, pengujian menghasilkan dua skor keyakinan, 0,882102 dan 0,877629. Kedua skor memberi kelas dan kotak yang sama. Pemeriksa menerima kedua nilai itu hanya pada deteksi tersebut. Untuk skor lain, toleransi absolut terhadap acuan adalah 0,000001. [Hasil uji deteksi dan kepadatan pada data uji](../../evaluasi/README.md).
 
 ## Sumber gambar
 

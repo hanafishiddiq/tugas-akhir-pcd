@@ -50,7 +50,7 @@ Gambar 2. Pada W061, satu mobil dan dua motor semuanya terdeteksi dengan kelas b
 | Bejen Barat | 26 | 4,66 | 4,22 | 6,60 |
 | Gabungan | 76 | 11,80 | 8,10 | 20,94 |
 
-Waktu tercatat berkisar 1,94–50,60 detik pada macOS arm64 dengan batas satu thread untuk OpenCV dan pustaka numerik. Pengukur waktu dimulai setelah gambar RGB dan model tersedia, lalu mencakup deteksi, salinan hasil pembanding pada uji berpasangan, koreksi kotak, verifikasi kandidat, dan perhitungan cakupan. Waktu memuat model, membaca berkas, menggambar overlay, serta menulis hasil berada di luar pengukuran. P90 adalah persentil ke-90 dari waktu yang tercatat.
+Waktu tercatat berkisar 1,94–50,60 detik pada mesin uji dengan batas satu thread untuk OpenCV dan pustaka numerik. Pengukur waktu dimulai setelah gambar RGB dan model tersedia, lalu mencakup deteksi, salinan hasil pembanding pada uji berpasangan, koreksi kotak, verifikasi kandidat, dan perhitungan cakupan. Waktu memuat model, membaca berkas, menggambar overlay, serta menulis hasil berada di luar pengukuran. P90 adalah persentil ke-90 dari waktu yang tercatat.
 
 <!-- pagebreak -->
 ## Kesalahan lokasi dan hitungan pada antrean
